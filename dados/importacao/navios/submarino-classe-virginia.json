@@ -1,0 +1,60 @@
+{
+  "slug": "submarino-classe-virginia",
+  "nome": "Submarino de ataque classe Virginia",
+  "pais": "USA",
+  "forca": "MARINHA",
+  "categoria": "NAVIO",
+  "fabricante": "General Dynamics Electric Boat / HII Newport News",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Submarino nuclear de ataque (SSN) da Marinha dos EUA",
+  "curiosidade": "Reator com núcleo estimado para 33 anos: nunca precisa reabastecer durante a vida útil do casco.",
+  "operadores": [
+    "USA"
+  ],
+  "especificacoes": {
+    "subtipo": "submarino",
+    "classe": "Virginia",
+    "deslocamento_t": 7900,
+    "comprimento_m": 115,
+    "boca_m": 10.4,
+    "calado_m": 9.8,
+    "propulsao": "Nuclear (reator S9G, hélice de jato de bomba)",
+    "velocidade_max_kmh": 46,
+    "tripulacao": 135,
+    "armamento": [
+      {
+        "tipo": "torpedo",
+        "descricao": "Tubos de torpedo de 533 mm (Mk 48)",
+        "quantidade": 4
+      },
+      {
+        "tipo": "míssil",
+        "descricao": "Células VLS para Tomahawk (12 na versão base)",
+        "quantidade": 12
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-virginia-class",
+      "tipo": "SITE",
+      "titulo": "Virginia-class submarine — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Virginia-class_submarine",
+      "provisoria": false
+    },
+    {
+      "slug": "wikipedia-uss-virginia",
+      "tipo": "SITE",
+      "titulo": "USS Virginia (SSN-774) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/USS_Virginia_(SSN-774)",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "dados dos Blocks I–IV (7.900 t submerso, 115 m); o Block V é maior (10.200 t, 140 m) e carrega 40 armas com o módulo VPM",
+    "velocidade de 25 nós ou mais é o valor oficial; a fonte cita até 35 nós como não confirmado",
+    "calado 9,8 m vem da página do USS Virginia",
+    "sem ano de entrada em serviço nem número de unidades: não estavam nas fontes consultadas"
+  ]
+}

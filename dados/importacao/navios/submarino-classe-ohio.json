@@ -1,0 +1,62 @@
+{
+  "slug": "submarino-classe-ohio",
+  "nome": "Submarino classe Ohio",
+  "pais": "USA",
+  "forca": "MARINHA",
+  "categoria": "NAVIO",
+  "fabricante": "General Dynamics Electric Boat",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Submarino nuclear de mísseis balísticos (SSBN) e de mísseis de cruzeiro (SSGN)",
+  "curiosidade": "Cada submarino tem duas tripulações completas, Azul e Dourada, que se revezam em patrulhas de 70 a 90 dias.",
+  "operadores": [
+    "USA"
+  ],
+  "unidades_produzidas": 18,
+  "especificacoes": {
+    "subtipo": "submarino",
+    "classe": "Ohio",
+    "deslocamento_t": 18750,
+    "comprimento_m": 170,
+    "boca_m": 13,
+    "calado_m": 10.8,
+    "propulsao": "Nuclear",
+    "velocidade_max_kmh": 37,
+    "tripulacao": 155,
+    "armamento": [
+      {
+        "tipo": "míssil",
+        "descricao": "Mísseis balísticos Trident II D5 (versão SSBN)",
+        "quantidade": 20
+      },
+      {
+        "tipo": "torpedo",
+        "descricao": "Tubos de torpedo de 533 mm",
+        "quantidade": 4
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-ohio-class",
+      "tipo": "SITE",
+      "titulo": "Ohio-class submarine — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ohio-class_submarine",
+      "provisoria": false
+    },
+    {
+      "slug": "wikipedia-uss-florida",
+      "tipo": "SITE",
+      "titulo": "USS Florida (SSGN-728) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/USS_Florida_(SSGN-728)",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "18 unidades = 14 SSBN + 4 SSGN; os 4 SSGN carregam até 154 Tomahawk (22 tubos de 7) em vez de Trident",
+    "velocidade 37 km/h (20 nós) é o valor oficial submerso; a fonte cita 25 nós (46 km/h) como reportado",
+    "tripulação 155 = 15 oficiais + 140 praças",
+    "armamento mostrado é o da versão SSBN: o Trident II D5 na fonte do infobox aparece com 20 tubos (a página principal fala em 24 mísseis); revisar",
+    "sem ano de entrada em serviço: não estava nas fontes consultadas"
+  ]
+}
