@@ -1,0 +1,44 @@
+{
+  "slug": "vbtp-mr-guarani",
+  "nome": "VBTP-MR Guarani",
+  "pais": "BRA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Iveco Defence Vehicles",
+  "ano_entrada_servico": 2014,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Blindado de transporte 6×6 do Exército Brasileiro",
+  "curiosidade": "Principal programa de blindados do Exército Brasileiro, substituindo veículos da era da Guerra Fria.",
+  "operadores": [
+    "BRA"
+  ],
+  "especificacoes": {
+    "subtipo": "veiculo_blindado_de_combate",
+    "motor_modelo": "Iveco FPT Cursor 9",
+    "potencia_hp": 383,
+    "velocidade_max_kmh": 100,
+    "peso_kg": 18000,
+    "tripulacao": 2,
+    "alcance_km": 600,
+    "armamento_principal": {
+      "calibre_mm": 12.7,
+      "modelo": "Estação de armas remota (versão típica)"
+    }
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-vbtp-mr-guarani",
+      "tipo": "SITE",
+      "titulo": "VBTP-MR Guarani — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VBTP-MR_Guarani",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "armamento varia por versão; 12,7 mm é a configuração típica",
+    "tripulação 2 + 9 soldados",
+    "massa e potência variam por versão",
+    "veículo de rodas 6×6, não de esteiras"
+  ]
+}

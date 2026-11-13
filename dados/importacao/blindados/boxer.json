@@ -1,0 +1,42 @@
+{
+  "slug": "boxer",
+  "nome": "Boxer",
+  "pais": "DEU",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "ARTEC (KNDS / Rheinmetall)",
+  "ano_entrada_servico": 2011,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Blindado modular 8×8 multinacional",
+  "curiosidade": "A cabine de missão é intercambiável: transporte, comando, ambulância ou canhão de 30 mm.",
+  "operadores": [
+    "DEU",
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "veiculo_blindado_de_combate",
+    "motor_modelo": "MTU 8V199 TE20",
+    "potencia_hp": 720,
+    "velocidade_max_kmh": 103,
+    "peso_kg": 33000,
+    "tripulacao": 2,
+    "alcance_km": 1050
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-boxer",
+      "tipo": "SITE",
+      "titulo": "Boxer (armoured fighting vehicle) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boxer_(armoured_fighting_vehicle)",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "massa 33 t a 36,5 t conforme módulo",
+    "armamento_principal omitido: configurações variam",
+    "tripulação 2 + 8 soldados",
+    "operadores: também Países Baixos, Lituânia, Austrália e Catar, ausentes do cadastro",
+    "veículo de rodas 8×8"
+  ]
+}

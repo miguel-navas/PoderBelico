@@ -1,0 +1,49 @@
+{
+  "slug": "m2-bradley",
+  "nome": "M2 Bradley",
+  "pais": "USA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "BAE Systems (originalmente FMC)",
+  "ano_entrada_servico": 1981,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "IFV americano de esteiras com canhão de 25 mm e mísseis TOW",
+  "curiosidade": "Foi concebido para acompanhar o tanque M1 Abrams e combate carros de combate com seus mísseis TOW.",
+  "operadores": [
+    "USA"
+  ],
+  "especificacoes": {
+    "subtipo": "veiculo_blindado_de_combate",
+    "motor_modelo": "Cummins VTA-903T",
+    "potencia_hp": 600,
+    "velocidade_max_kmh": 66,
+    "peso_kg": 30500,
+    "tripulacao": 3,
+    "alcance_km": 483,
+    "armamento_principal": {
+      "calibre_mm": 25,
+      "modelo": "M242 Bushmaster"
+    },
+    "armamento_secundario": [
+      "Lançador de mísseis TOW",
+      "7,62 mm M240C coaxial"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-m2-bradley",
+      "tipo": "SITE",
+      "titulo": "Bradley Fighting Vehicle — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bradley_Fighting_Vehicle",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "massa: 25,0 t vs 27,6 t vs 30,5 t (M2A2); usada a do M2A2",
+    "velocidade e alcance divergem entre as páginas M2 Bradley e Bradley Fighting Vehicle",
+    "tripulação 3 + 6 soldados desembarcados",
+    "operadores: também Arábia Saudita e outros, ausentes do cadastro",
+    "unidades_produzidas omitida: contagem da família varia"
+  ]
+}

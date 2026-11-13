@@ -1,0 +1,51 @@
+{
+  "slug": "bmp-3",
+  "nome": "BMP-3",
+  "pais": "RUS",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Kurganmashzavod",
+  "ano_entrada_servico": 1987,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "IFV russo com canhão de 100 mm, canhão de 30 mm e metralhadora",
+  "curiosidade": "Combina três armas na torre: canhão lançador de 100 mm, canhão automático de 30 mm e metralhadora coaxial.",
+  "operadores": [
+    "RUS"
+  ],
+  "especificacoes": {
+    "subtipo": "veiculo_blindado_de_combate",
+    "motor_modelo": "UTD-29",
+    "potencia_hp": 500,
+    "velocidade_max_kmh": 70,
+    "peso_kg": 18700,
+    "tripulacao": 3,
+    "comprimento_m": 7.14,
+    "largura_m": 3.2,
+    "altura_m": 2.3,
+    "alcance_km": 600,
+    "armamento_principal": {
+      "calibre_mm": 100,
+      "modelo": "2A70 (canhão-lançador)"
+    },
+    "armamento_secundario": [
+      "30 mm 2A72",
+      "7,62 mm PKT coaxial"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-bmp-3",
+      "tipo": "SITE",
+      "titulo": "BMP-3 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BMP-3",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "massa 18,7 t vs até 19,7 t conforme versão",
+    "tripulação 3 + 7 soldados",
+    "entrada em serviço 1987 (URSS); operador cadastrado apenas RUS",
+    "operadores: também Emirados Árabes, Kuwait e outros, ausentes do cadastro"
+  ]
+}

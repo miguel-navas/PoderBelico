@@ -1,0 +1,47 @@
+{
+  "slug": "puma",
+  "nome": "Puma",
+  "pais": "DEU",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "PSM (Krauss-Maffei Wegmann / Rheinmetall)",
+  "ano_entrada_servico": 2015,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "IFV alemão de esteiras com proteção modular",
+  "curiosidade": "Sua proteção é modular: a massa muda de cerca de 31 t a 43 t conforme o nível de blindagem.",
+  "operadores": [
+    "DEU"
+  ],
+  "especificacoes": {
+    "subtipo": "veiculo_blindado_de_combate",
+    "motor_modelo": "MTU MT 892 Ca-501",
+    "potencia_hp": 1073,
+    "velocidade_max_kmh": 70,
+    "peso_kg": 31450,
+    "tripulacao": 3,
+    "alcance_km": 600,
+    "armamento_principal": {
+      "calibre_mm": 30,
+      "modelo": "MK30-2/ABM"
+    },
+    "armamento_secundario": [
+      "5,56 mm MG4 coaxial",
+      "Lançador de mísseis Spike"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-puma",
+      "tipo": "SITE",
+      "titulo": "Puma (infantry fighting vehicle) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Puma_(infantry_fighting_vehicle)",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "massa: 31,4 t (nível A) vs 43 t (nível C); usada a do nível A",
+    "tripulação 3 + 3 soldados",
+    "armamento secundário e míssil dependem da versão"
+  ]
+}
