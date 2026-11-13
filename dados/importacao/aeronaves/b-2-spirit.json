@@ -1,0 +1,49 @@
+{
+  "slug": "b-2-spirit",
+  "nome": "B-2 Spirit",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Northrop Grumman",
+  "ano_primeiro_uso": 1989,
+  "ano_entrada_servico": 1997,
+  "unidades_produzidas": 21,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Furtivo",
+  "curiosidade": "Asa voadora furtiva, custo de US$ 2 bilhões por unidade. Apelido Flying Dorito.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1989-07-17",
+    "comprimento_m": 21,
+    "envergadura_m": 52.4,
+    "motores": {
+      "quantidade": 4,
+      "modelo": "GE F118",
+      "empuxo_lbf": 17300
+    },
+    "velocidade_max_kmh": 1010,
+    "alcance_km": 11100,
+    "teto_m": 15240,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "Até 18.000 kg em 2 baias internas: JDAM, B61 nuclear, MOP"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

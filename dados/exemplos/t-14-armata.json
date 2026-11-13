@@ -1,0 +1,28 @@
+{
+  "_observacao": "Rascunho do formato de importação (etapa 3). Dados vindos da ficha do autor; revisar status, anos e fonte antes de publicar.",
+  "slug": "t-14-armata",
+  "nome": "T-14 Armata",
+  "pais": "RUS",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Torre sem tripulantes e uma nova geração de proteção.",
+  "curiosidade": "Primeiro tanque de série com torre totalmente não tripulada e tripulação isolada em cápsula.",
+  "operadores": ["RUS"],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "A-85-3A",
+    "potencia_hp": 1500,
+    "velocidade_max_kmh": 75,
+    "peso_kg": 55000,
+    "tripulacao": 3,
+    "armamento_principal": { "calibre_mm": 125, "modelo": "2A82" },
+    "blindagem": "Tripulação em cápsula blindada",
+    "alcance_km": 500,
+    "torre_tripulada": false
+  },
+  "fontes": [
+    { "slug": "acervo-do-autor", "tipo": "SITE", "provisoria": true, "titulo": "Ficha técnica do acervo do autor (substituir pela fonte original)" }
+  ]
+}

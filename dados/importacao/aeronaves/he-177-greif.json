@@ -1,0 +1,49 @@
+{
+  "slug": "he-177-greif",
+  "nome": "He 177 Greif",
+  "pais": "DEU",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Heinkel",
+  "ano_primeiro_uso": 1939,
+  "ano_entrada_servico": 1942,
+  "unidades_produzidas": 1169,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Pesado",
+  "curiosidade": "Único bombardeiro pesado alemão sério. Motores pegavam fogo — apelidado de isqueiro voador.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 6,
+    "data_primeiro_voo": "1939-11-19",
+    "comprimento_m": 22,
+    "envergadura_m": 31.44,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Daimler-Benz DB 606 (4 motores acoplados em pares)",
+      "potencia_hp": 2700
+    },
+    "velocidade_max_kmh": 488,
+    "alcance_km": 5500,
+    "teto_m": 8000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "6x metralhadoras/canhões + até 7.000 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

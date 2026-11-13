@@ -1,0 +1,53 @@
+{
+  "slug": "bayraktar-tb2",
+  "nome": "Bayraktar TB2",
+  "pais": "TUR",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Baykar",
+  "ano_primeiro_uso": 2014,
+  "ano_entrada_servico": 2015,
+  "unidades_produzidas": 500,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Drone de Ataque",
+  "curiosidade": "Estrela da guerra na Ucrânia.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "nao_tripulada",
+    "comprimento_m": 6.5,
+    "envergadura_m": 12,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Rotax 912",
+      "potencia_hp": 100
+    },
+    "velocidade_max_kmh": 220,
+    "alcance_km": 150,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "4x munições MAM-L / MAM-C"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "tripulação não informada (aeronave não tripulada: o schema exige tripulacao >= 1)",
+    "primeiro voo 'Ago 2014' sem dia completo; só o ano foi usado",
+    "Autonomia ('27 h') sem campo no schema",
+    "operadores não informados",
+    "unidades '500+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ],
+  "_erros_de_validacao": [
+    "'tripulacao' is a required property"
+  ]
+}

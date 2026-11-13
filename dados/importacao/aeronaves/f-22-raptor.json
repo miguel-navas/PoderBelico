@@ -1,0 +1,49 @@
+{
+  "slug": "f-22-raptor",
+  "nome": "F-22 Raptor",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Lockheed Martin",
+  "ano_primeiro_uso": 1997,
+  "ano_entrada_servico": 2005,
+  "unidades_produzidas": 195,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Furtivo 5ª Geração",
+  "curiosidade": "Stealth + supercruzeiro + supermanobrabilidade com vetorização de empuxo.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1997-09-07",
+    "comprimento_m": 18.9,
+    "envergadura_m": 13.56,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Pratt & Whitney F119",
+      "empuxo_lbf": 35000
+    },
+    "velocidade_max_kmh": 2410,
+    "alcance_km": 2960,
+    "teto_m": 19800,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão M61 Vulcan 20mm + AIM-120 AMRAAM, AIM-9 Sidewinder, JDAM"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "sbd-dauntless",
+  "nome": "SBD Dauntless",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Douglas",
+  "ano_primeiro_uso": 1940,
+  "ano_entrada_servico": 1940,
+  "unidades_produzidas": 5936,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro de Mergulho Naval",
+  "curiosidade": "Decisivo em Midway em 4 Jun 1942 — em 5 minutos afundou 3 porta-aviões japoneses.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1940-05-01",
+    "comprimento_m": 10.06,
+    "envergadura_m": 12.65,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Wright R-1820",
+      "potencia_hp": 1200
+    },
+    "velocidade_max_kmh": 410,
+    "alcance_km": 1795,
+    "teto_m": 7600,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "2x .50 dianteiras + 2x .30 traseiras + 1x bomba 1.000 lb + 2x 100 lb"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

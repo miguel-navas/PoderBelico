@@ -1,0 +1,15 @@
+[
+  { "equipamento": "sbd-dauntless", "evento": "batalha-de-midway", "pais": "USA",
+    "papel": "bombardeiro de mergulho embarcado",
+    "observacao": "Segundo o catálogo de origem, afundou três porta-aviões japoneses em minutos (dado não verificado)." },
+  { "equipamento": "f4f-wildcat", "evento": "batalha-de-midway", "pais": "USA",
+    "papel": "caça embarcado" },
+  { "equipamento": "tbf-avenger", "evento": "batalha-de-midway", "pais": "USA",
+    "papel": "bombardeiro torpedeiro", "observacao": "Estreia em combate." },
+  { "equipamento": "a6m-zero", "evento": "batalha-de-midway", "pais": "JPN",
+    "papel": "caça embarcado" },
+  { "equipamento": "d3a-val", "evento": "batalha-de-midway", "pais": "JPN",
+    "papel": "bombardeiro de mergulho embarcado" },
+  { "equipamento": "b5n-kate", "evento": "batalha-de-midway", "pais": "JPN",
+    "papel": "bombardeiro torpedeiro embarcado" }
+]

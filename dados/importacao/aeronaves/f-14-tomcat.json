@@ -1,0 +1,51 @@
+{
+  "slug": "f-14-tomcat",
+  "nome": "F-14 Tomcat",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Grumman",
+  "ano_primeiro_uso": 1970,
+  "ano_entrada_servico": 1974,
+  "unidades_produzidas": 712,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Naval",
+  "curiosidade": "Estrela de Top Gun (1986). Asas de geometria variável, único caça com o míssil Phoenix de 190 km.",
+  "operadores": [
+    "USA",
+    "IRN"
+  ],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1970-12-21",
+    "comprimento_m": 19.1,
+    "envergadura_m": 19.54,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Pratt & Whitney TF30 / GE F110",
+      "empuxo_lbf": 28000
+    },
+    "velocidade_max_kmh": 2485,
+    "alcance_km": 2960,
+    "teto_m": 16000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão M61 Vulcan 20mm + AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "envergadura variável na fonte ('19,54 m (aberta) / 11,65 m (fechada)'); usado o primeiro valor"
+  ]
+}

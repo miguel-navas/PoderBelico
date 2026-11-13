@@ -1,0 +1,42 @@
+{
+  "slug": "t-72m1",
+  "nome": "T-72M1",
+  "pais": "SUN",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "base de dezenas de exércitos",
+  "curiosidade": "",
+  "operadores": [
+    "SUN"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "potencia_hp": 780,
+    "motor_modelo": "V-46-6",
+    "velocidade_max_kmh": 60,
+    "armamento_principal": {
+      "calibre_mm": 125,
+      "modelo": "2A46"
+    },
+    "peso_kg": 41500,
+    "tripulacao": 3,
+    "alcance_km": 480
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-blindados",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status ATIVO assumido; a fonte não traz status",
+    "sem ano de entrada em serviço na fonte",
+    "sem fabricante na fonte",
+    "sem data/ano de primeiro uso na fonte",
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+  ]
+}

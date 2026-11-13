@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Especificações de AERONAVE (unidades padrão: km/h, kg, m, km)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subtipo", "tripulacao"],
+  "definitions": {
+    "armamento_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["descricao"],
+      "properties": {
+        "tipo": { "type": "string", "minLength": 1 },
+        "descricao": { "type": "string", "minLength": 1 },
+        "municao": { "type": "integer", "minimum": 1 },
+        "carga_max_kg": { "type": "number", "exclusiveMinimum": 0 },
+        "pontos": { "type": "integer", "minimum": 1 }
+      }
+    }
+  },
+  "properties": {
+    "subtipo": {
+      "type": "string",
+      "enum": [
+        "caca",
+        "interceptador",
+        "bombardeiro",
+        "ataque_ao_solo",
+        "transporte",
+        "reconhecimento",
+        "patrulha_maritima",
+        "helicoptero_de_ataque",
+        "helicoptero_utilitario",
+        "treinamento",
+        "nao_tripulada",
+        "reabastecimento",
+        "alerta_aereo_antecipado"
+      ]
+    },
+    "data_primeiro_voo": { "type": "string", "format": "date" },
+    "tripulacao": { "type": "integer", "minimum": 1 },
+    "comprimento_m": { "type": "number", "exclusiveMinimum": 0 },
+    "envergadura_m": { "type": "number", "exclusiveMinimum": 0 },
+    "altura_m": { "type": "number", "exclusiveMinimum": 0 },
+    "peso_vazio_kg": { "type": "number", "exclusiveMinimum": 0 },
+    "peso_max_decolagem_kg": { "type": "number", "exclusiveMinimum": 0 },
+    "motores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quantidade"],
+      "properties": {
+        "quantidade": { "type": "integer", "minimum": 1 },
+        "modelo": { "type": "string", "minLength": 1 },
+        "empuxo_lbf": { "type": "number", "exclusiveMinimum": 0 },
+        "potencia_hp": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "velocidade_max_kmh": { "type": "number", "exclusiveMinimum": 0 },
+    "alcance_km": { "type": "number", "exclusiveMinimum": 0 },
+    "teto_m": { "type": "number", "exclusiveMinimum": 0 },
+    "armamento": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/armamento_item" }
+    },
+    "blindagem": { "type": "string", "minLength": 1 }
+  }
+}

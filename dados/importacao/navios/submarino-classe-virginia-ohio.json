@@ -1,0 +1,41 @@
+{
+  "slug": "submarino-classe-virginia-ohio",
+  "nome": "Submarino (Classe Virginia / Ohio)",
+  "pais": "USA",
+  "forca": "MARINHA",
+  "categoria": "NAVIO",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Submarino Nuclear",
+  "curiosidade": "Fica meses submerso sem emergir.",
+  "operadores": [
+    "USA"
+  ],
+  "especificacoes": {
+    "subtipo": "submarino",
+    "classe": "Virginia / Ohio",
+    "deslocamento_t": 7800,
+    "comprimento_m": 115,
+    "propulsao": "Nuclear",
+    "velocidade_max_kmh": 46,
+    "tripulacao": 135,
+    "armamento": [
+      {
+        "descricao": "Torpedos + mísseis Tomahawk"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "velocidade informada é submersa",
+    "a fonte mistura duas classes (Virginia e Ohio); ficha precisa ser separada",
+    "equipamento cadastrado por classe; status ATIVO assumido"
+  ]
+}

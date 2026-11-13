@@ -1,0 +1,48 @@
+{
+  "slug": "f-86-sabre",
+  "nome": "F-86 Sabre",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "North American",
+  "ano_primeiro_uso": 1947,
+  "ano_entrada_servico": 1949,
+  "unidades_produzidas": 9860,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça",
+  "curiosidade": "Resposta americana ao MiG-15. Duelos lendários no MiG Alley.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1947-10-01",
+    "comprimento_m": 11.44,
+    "envergadura_m": 11.31,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "GE J47",
+      "empuxo_lbf": 5200
+    },
+    "velocidade_max_kmh": 1106,
+    "alcance_km": 2454,
+    "teto_m": 15100,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "6x metralhadoras .50 + foguetes / bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados"
+  ]
+}

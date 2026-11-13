@@ -1,0 +1,40 @@
+{
+  "slug": "k2-black-panther-pip",
+  "nome": "K2 Black Panther PIP",
+  "pais": "KOR",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "com APS coreano",
+  "curiosidade": "Suspensão hidropneumática que ajoelha o tanque.",
+  "operadores": [
+    "KOR"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "velocidade_max_kmh": 70,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "CN08"
+    },
+    "peso_kg": 56000,
+    "tripulacao": 3,
+    "alcance_km": 450
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-blindados",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status ATIVO assumido; a fonte não traz status",
+    "sem ano de entrada em serviço na fonte",
+    "sem fabricante na fonte",
+    "sem data/ano de primeiro uso na fonte",
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+  ]
+}

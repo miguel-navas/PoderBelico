@@ -1,0 +1,51 @@
+{
+  "slug": "f6f-hellcat",
+  "nome": "F6F Hellcat",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Grumman",
+  "ano_primeiro_uso": 1942,
+  "ano_entrada_servico": 1943,
+  "unidades_produzidas": 12275,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Naval",
+  "curiosidade": "75% dos abates navais americanos no Pacífico. Proporção 19:1 contra o Japão.",
+  "operadores": [
+    "USA",
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1942-06-26",
+    "comprimento_m": 10.24,
+    "envergadura_m": 13.06,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Pratt & Whitney R-2800",
+      "potencia_hp": 2000
+    },
+    "velocidade_max_kmh": 610,
+    "alcance_km": 1520,
+    "teto_m": 11400,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "6x metralhadoras .50 + bombas / foguetes"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

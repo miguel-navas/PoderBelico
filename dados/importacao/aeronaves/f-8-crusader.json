@@ -1,0 +1,48 @@
+{
+  "slug": "f-8-crusader",
+  "nome": "F-8 Crusader",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Vought",
+  "ano_primeiro_uso": 1955,
+  "ano_entrada_servico": 1957,
+  "unidades_produzidas": 1261,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Naval",
+  "curiosidade": "Apelido Last of the Gunfighters — último caça americano feito para lutar com canhão.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1955-03-25",
+    "comprimento_m": 16.53,
+    "envergadura_m": 10.87,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Pratt & Whitney J57",
+      "empuxo_lbf": 18000
+    },
+    "velocidade_max_kmh": 1975,
+    "alcance_km": 2330,
+    "teto_m": 17700,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "4x canhão Colt Mk 12 20mm + AIM-9 Sidewinder"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados"
+  ]
+}

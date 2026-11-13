@@ -1,0 +1,43 @@
+{
+  "slug": "t-80u",
+  "nome": "T-80U",
+  "pais": "SUN",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "turbina de helicóptero",
+  "curiosidade": "Blindagem Kontakt-5.",
+  "operadores": [
+    "SUN"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "potencia_hp": 1250,
+    "motor_modelo": "turbina",
+    "velocidade_max_kmh": 70,
+    "armamento_principal": {
+      "calibre_mm": 125,
+      "modelo": "2A46M-1"
+    },
+    "peso_kg": 46000,
+    "tripulacao": 3,
+    "alcance_km": 500
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-blindados",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status ATIVO assumido; a fonte não traz status",
+    "sem ano de entrada em serviço na fonte",
+    "sem fabricante na fonte",
+    "sem data/ano de primeiro uso na fonte",
+    "país 'Rússia/URSS' resolvido como SUN; conferir",
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+  ]
+}

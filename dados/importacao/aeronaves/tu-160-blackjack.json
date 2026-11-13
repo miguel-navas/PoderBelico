@@ -1,0 +1,52 @@
+{
+  "slug": "tu-160-blackjack",
+  "nome": "Tu-160 Blackjack",
+  "pais": "SUN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Tupolev",
+  "ano_primeiro_uso": 1981,
+  "ano_entrada_servico": 1987,
+  "unidades_produzidas": 35,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Estratégico Supersônico",
+  "curiosidade": "Maior e mais pesado bombardeiro supersônico do mundo. Apelido Cisne Branco.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 4,
+    "data_primeiro_voo": "1981-12-18",
+    "comprimento_m": 54.1,
+    "envergadura_m": 55.7,
+    "motores": {
+      "quantidade": 4,
+      "modelo": "Kuznetsov NK-32",
+      "empuxo_lbf": 55000
+    },
+    "velocidade_max_kmh": 2220,
+    "alcance_km": 12300,
+    "teto_m": 21000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "Até 40.000 kg: Kh-101, Kh-55, bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "país de origem 'URSS/Rússia' resolvido como SUN (pelo ano do primeiro voo); conferir",
+    "envergadura variável na fonte ('55,70 m (aberta) / 35,60 m (fechada)'); usado o primeiro valor",
+    "operadores não informados",
+    "unidades '35+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

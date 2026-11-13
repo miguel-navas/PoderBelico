@@ -1,0 +1,49 @@
+{
+  "slug": "f-4-phantom-ii",
+  "nome": "F-4 Phantom II",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "McDonnell Douglas",
+  "ano_primeiro_uso": 1958,
+  "ano_entrada_servico": 1960,
+  "unidades_produzidas": 5195,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Multimissão",
+  "curiosidade": "Caça mais importante do Vietnã. Primeiros modelos sem canhão — a lição trouxe o canhão de volta e criou o Top Gun.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1958-05-27",
+    "comprimento_m": 19.2,
+    "envergadura_m": 11.7,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "GE J79",
+      "empuxo_lbf": 17900
+    },
+    "velocidade_max_kmh": 2370,
+    "alcance_km": 2600,
+    "teto_m": 18300,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão M61 Vulcan 20mm (F-4E) + até 8.480 kg: AIM-7 Sparrow, AIM-9 Sidewinder, bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "mq-1-predator",
+  "nome": "MQ-1 Predator",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "General Atomics",
+  "ano_primeiro_uso": 1994,
+  "ano_entrada_servico": 1995,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Drone",
+  "curiosidade": "Primeiro drone armado da história.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "nao_tripulada",
+    "data_primeiro_voo": "1994-07-03",
+    "comprimento_m": 8.22,
+    "envergadura_m": 14.8,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Rotax 914",
+      "potencia_hp": 115
+    },
+    "velocidade_max_kmh": 217,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "2x Hellfire"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "tripulação não informada (aeronave não tripulada: o schema exige tripulacao >= 1)",
+    "Autonomia ('24 h') sem campo no schema",
+    "operadores não informados"
+  ],
+  "_erros_de_validacao": [
+    "'tripulacao' is a required property"
+  ]
+}

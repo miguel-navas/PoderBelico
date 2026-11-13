@@ -1,0 +1,51 @@
+{
+  "slug": "b-29-superfortress",
+  "nome": "B-29 Superfortress",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Boeing",
+  "ano_primeiro_uso": 1942,
+  "ano_entrada_servico": 1944,
+  "unidades_produzidas": 3970,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Estratégico",
+  "curiosidade": "Avião mais caro da guerra — custou mais que o Projeto Manhattan. Lançou as bombas atômicas em Hiroshima e Nagasaki.",
+  "operadores": [
+    "USA",
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 11,
+    "data_primeiro_voo": "1942-09-21",
+    "comprimento_m": 30.18,
+    "envergadura_m": 43.05,
+    "motores": {
+      "quantidade": 4,
+      "modelo": "Wright R-3350",
+      "potencia_hp": 2200
+    },
+    "velocidade_max_kmh": 576,
+    "alcance_km": 5230,
+    "teto_m": 10200,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "10x metralhadoras .50 + 2x canhão 20mm + 9.000 kg de bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

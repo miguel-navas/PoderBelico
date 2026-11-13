@@ -1,0 +1,50 @@
+{
+  "slug": "rafale",
+  "nome": "Rafale",
+  "pais": "FRA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Dassault",
+  "ano_primeiro_uso": 1986,
+  "ano_entrada_servico": 2001,
+  "unidades_produzidas": 300,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Multimissão 4.5ª Geração",
+  "curiosidade": "Omnirole — ar-ar, ataque, reconhecimento, nuclear.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1986-07-04",
+    "comprimento_m": 15.27,
+    "envergadura_m": 10.9,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "SNECMA M88",
+      "empuxo_lbf": 17000
+    },
+    "velocidade_max_kmh": 1912,
+    "alcance_km": 3700,
+    "teto_m": 15240,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão GIAT 30mm + até 9.500 kg: Meteor, Mica, SCALP, Exocet, bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "unidades '300+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

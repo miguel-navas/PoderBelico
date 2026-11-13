@@ -1,0 +1,53 @@
+{
+  "slug": "bf-109",
+  "nome": "Bf 109",
+  "pais": "DEU",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Messerschmitt",
+  "ano_primeiro_uso": 1935,
+  "ano_entrada_servico": 1937,
+  "unidades_produzidas": 34000,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça",
+  "curiosidade": "Caça mais produzido da história. Ases como Hartmann (352 vitórias) voaram nele.",
+  "operadores": [
+    "DEU"
+  ],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1935-05-29",
+    "comprimento_m": 9.02,
+    "envergadura_m": 9.92,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Daimler-Benz DB 605",
+      "potencia_hp": 1475
+    },
+    "velocidade_max_kmh": 640,
+    "alcance_km": 850,
+    "teto_m": 12000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão MG 151 20mm + 2x MG 131 13mm"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores adicionais não listados ('Alemanha e 10+ países')",
+    "unidades '34.000+' é valor aproximado/parcial; usado o número base",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "nota da fonte: No site, a foto está em museu, em solo."
+  ]
+}

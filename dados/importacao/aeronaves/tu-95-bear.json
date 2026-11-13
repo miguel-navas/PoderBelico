@@ -1,0 +1,50 @@
+{
+  "slug": "tu-95-bear",
+  "nome": "Tu-95 Bear",
+  "pais": "SUN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Tupolev",
+  "ano_primeiro_uso": 1952,
+  "ano_entrada_servico": 1956,
+  "unidades_produzidas": 500,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Estratégico",
+  "curiosidade": "Avião a hélice mais rápido do mundo. Ainda em serviço após 70 anos.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 7,
+    "data_primeiro_voo": "1952-11-12",
+    "comprimento_m": 46.2,
+    "envergadura_m": 50.1,
+    "motores": {
+      "quantidade": 4,
+      "modelo": "Kuznetsov NK-12 turboprop"
+    },
+    "velocidade_max_kmh": 925,
+    "alcance_km": 15000,
+    "teto_m": 13700,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "2x canhão 23mm + até 15.000 kg: Kh-101, bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "país de origem 'URSS/Rússia' resolvido como SUN (pelo ano do primeiro voo); conferir",
+    "potência '15.000 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "operadores não informados",
+    "unidades '500+' é valor aproximado/parcial; usado o número base"
+  ]
+}

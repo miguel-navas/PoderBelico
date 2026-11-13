@@ -1,0 +1,48 @@
+{
+  "slug": "f-105-thunderchief",
+  "nome": "F-105 Thunderchief",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Republic",
+  "ano_primeiro_uso": 1955,
+  "ano_entrada_servico": 1958,
+  "unidades_produzidas": 833,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça-Bombardeiro",
+  "curiosidade": "Apelido Thud. Carregava mais bombas que um B-17. Quase metade foi perdida no Vietnã.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1955-10-22",
+    "comprimento_m": 19.63,
+    "envergadura_m": 10.65,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Pratt & Whitney J75",
+      "empuxo_lbf": 26500
+    },
+    "velocidade_max_kmh": 2240,
+    "alcance_km": 3550,
+    "teto_m": 15800,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão M61 Vulcan 20mm + até 6.350 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados"
+  ]
+}

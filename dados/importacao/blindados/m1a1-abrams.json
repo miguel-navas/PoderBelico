@@ -1,0 +1,42 @@
+{
+  "slug": "m1a1-abrams",
+  "nome": "M1A1 Abrams",
+  "pais": "USA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Guerra do Golfo",
+  "curiosidade": "Blindagem de urânio empobrecido.",
+  "operadores": [
+    "USA"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "potencia_hp": 1500,
+    "motor_modelo": "turbina",
+    "velocidade_max_kmh": 67,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "M256"
+    },
+    "peso_kg": 61300,
+    "tripulacao": 4,
+    "alcance_km": 465
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-blindados",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status ATIVO assumido; a fonte não traz status",
+    "sem ano de entrada em serviço na fonte",
+    "sem fabricante na fonte",
+    "sem data/ano de primeiro uso na fonte",
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "destroyer-classe-arleigh-burke",
+  "nome": "Destroyer (Classe Arleigh Burke)",
+  "pais": "USA",
+  "forca": "MARINHA",
+  "categoria": "NAVIO",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Navio",
+  "curiosidade": "Espinha dorsal da marinha americana.",
+  "operadores": [
+    "USA"
+  ],
+  "especificacoes": {
+    "subtipo": "destroier",
+    "classe": "Arleigh Burke",
+    "deslocamento_t": 9200,
+    "comprimento_m": 155,
+    "velocidade_max_kmh": 56,
+    "tripulacao": 320,
+    "armamento": [
+      {
+        "descricao": "90 células VLS + canhão 127mm"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "ano_entrada_servico": 1991,
+  "unidades_produzidas": 70,
+  "_pendencias": [
+    "unidades '70+' aproximado; usado o número base",
+    "equipamento cadastrado por classe; status ATIVO assumido"
+  ]
+}

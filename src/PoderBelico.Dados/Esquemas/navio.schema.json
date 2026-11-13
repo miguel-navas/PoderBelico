@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Especificações de NAVIO (unidades padrão: km/h, t, m, km)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subtipo", "deslocamento_t"],
+  "definitions": {
+    "armamento_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["descricao"],
+      "properties": {
+        "tipo": { "type": "string", "minLength": 1 },
+        "descricao": { "type": "string", "minLength": 1 },
+        "quantidade": { "type": "integer", "minimum": 1 }
+      }
+    }
+  },
+  "properties": {
+    "subtipo": {
+      "type": "string",
+      "enum": [
+        "encouracado",
+        "cruzador",
+        "destroier",
+        "fragata",
+        "corveta",
+        "porta_avioes",
+        "submarino",
+        "navio_de_assalto_anfibio",
+        "patrulha",
+        "lancha_torpedeira",
+        "minador",
+        "navio_de_apoio"
+      ]
+    },
+    "classe": { "type": "string", "minLength": 1 },
+    "deslocamento_t": { "type": "number", "exclusiveMinimum": 0 },
+    "comprimento_m": { "type": "number", "exclusiveMinimum": 0 },
+    "boca_m": { "type": "number", "exclusiveMinimum": 0 },
+    "calado_m": { "type": "number", "exclusiveMinimum": 0 },
+    "propulsao": { "type": "string", "minLength": 1 },
+    "velocidade_max_kmh": { "type": "number", "exclusiveMinimum": 0 },
+    "alcance_km": { "type": "number", "exclusiveMinimum": 0 },
+    "tripulacao": { "type": "integer", "minimum": 1 },
+    "armamento": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/armamento_item" }
+    }
+  }
+}

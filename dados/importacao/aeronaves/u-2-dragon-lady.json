@@ -1,0 +1,42 @@
+{
+  "slug": "u-2-dragon-lady",
+  "nome": "U-2 Dragon Lady",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Lockheed Skunk Works",
+  "ano_primeiro_uso": 1955,
+  "ano_entrada_servico": 1956,
+  "unidades_produzidas": 104,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Espionagem / Reconhecimento",
+  "curiosidade": "Abatido sobre a URSS em 1960. Fotografou mísseis em Cuba em 1962. Ainda em serviço na versão U-2S.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "reconhecimento",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1955-08-01",
+    "comprimento_m": 19.2,
+    "envergadura_m": 31.4,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "GE F118-101",
+      "empuxo_lbf": 17000
+    },
+    "velocidade_max_kmh": 805,
+    "alcance_km": 11000,
+    "teto_m": 21300
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados"
+  ]
+}

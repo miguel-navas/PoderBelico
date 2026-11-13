@@ -1,0 +1,49 @@
+{
+  "slug": "ki-49-helen-donryu",
+  "nome": "Ki-49 Helen / Donryu",
+  "pais": "JPN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Nakajima",
+  "ano_primeiro_uso": 1939,
+  "ano_entrada_servico": 1941,
+  "unidades_produzidas": 819,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Pesado do Exército",
+  "curiosidade": "Apelido japonês Donryu (Dragão da Tempestade), codinome aliado Helen.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 8,
+    "comprimento_m": 16.5,
+    "envergadura_m": 20.42,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Nakajima Ha-109",
+      "potencia_hp": 1500
+    },
+    "velocidade_max_kmh": 492,
+    "alcance_km": 2950,
+    "teto_m": 9300,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão 20mm + 5x metralhadoras 7,7mm + até 1.000 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "primeiro voo 'Ago 1939' sem dia completo; só o ano foi usado",
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

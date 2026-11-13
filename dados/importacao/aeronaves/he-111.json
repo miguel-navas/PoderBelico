@@ -1,0 +1,50 @@
+{
+  "slug": "he-111",
+  "nome": "He 111",
+  "pais": "DEU",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Heinkel",
+  "ano_primeiro_uso": 1935,
+  "ano_entrada_servico": 1937,
+  "unidades_produzidas": 6508,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Médio",
+  "curiosidade": "Bombardeiro principal da Blitz e da Batalha da Grã-Bretanha.",
+  "operadores": [
+    "DEU"
+  ],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 5,
+    "data_primeiro_voo": "1935-02-24",
+    "comprimento_m": 16.4,
+    "envergadura_m": 22.6,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Junkers Jumo 211",
+      "potencia_hp": 1340
+    },
+    "velocidade_max_kmh": 440,
+    "alcance_km": 2300,
+    "teto_m": 6500,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "7x metralhadoras + 2.000 kg de bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "b-1b-lancer",
+  "nome": "B-1B Lancer",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Rockwell",
+  "ano_primeiro_uso": 1974,
+  "ano_entrada_servico": 1986,
+  "unidades_produzidas": 104,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Estratégico Supersônico",
+  "curiosidade": "Apelido Bone (B-One). Maior capacidade de carga de qualquer bombardeiro americano.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 4,
+    "data_primeiro_voo": "1974-12-23",
+    "comprimento_m": 44.5,
+    "envergadura_m": 41.8,
+    "motores": {
+      "quantidade": 4,
+      "modelo": "GE F101",
+      "empuxo_lbf": 30000
+    },
+    "velocidade_max_kmh": 1330,
+    "alcance_km": 11998,
+    "teto_m": 18300,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "Até 34.000 kg: JDAM, JASSM, bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "envergadura variável na fonte ('41,80 m (aberta) / 23,80 m (fechada)'); usado o primeiro valor",
+    "operadores não informados",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

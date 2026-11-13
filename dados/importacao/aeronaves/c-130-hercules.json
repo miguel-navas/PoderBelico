@@ -1,0 +1,44 @@
+{
+  "slug": "c-130-hercules",
+  "nome": "C-130 Hercules",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Lockheed Martin",
+  "ano_primeiro_uso": 1954,
+  "ano_entrada_servico": 1956,
+  "unidades_produzidas": 2500,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Transporte Militar Tático",
+  "curiosidade": "Em serviço há 70 anos. Base para AC-130, KC-130, HC-130. O KC-390 foi feito para sucedê-lo.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "transporte",
+    "tripulacao": 3,
+    "data_primeiro_voo": "1954-08-23",
+    "comprimento_m": 29.8,
+    "envergadura_m": 40.4,
+    "motores": {
+      "quantidade": 4,
+      "modelo": "Allison T56 / Rolls-Royce AE 2100 turboprop"
+    },
+    "velocidade_max_kmh": 671,
+    "alcance_km": 3800,
+    "teto_m": 8500
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "potência '4.590 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "Carga útil ('20.000 kg / 92 soldados / 64 paraquedistas') sem campo no schema",
+    "operadores não informados",
+    "unidades '2.500+' é valor aproximado/parcial; usado o número base"
+  ]
+}

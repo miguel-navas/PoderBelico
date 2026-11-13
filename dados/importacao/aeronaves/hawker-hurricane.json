@@ -1,0 +1,51 @@
+{
+  "slug": "hawker-hurricane",
+  "nome": "Hawker Hurricane",
+  "pais": "GBR",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Hawker",
+  "ano_primeiro_uso": 1935,
+  "ano_entrada_servico": 1937,
+  "unidades_produzidas": 14487,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça",
+  "curiosidade": "Abateu mais aviões alemães na Batalha da Grã-Bretanha que o Spitfire.",
+  "operadores": [
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1935-11-06",
+    "comprimento_m": 9.84,
+    "envergadura_m": 12.19,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Rolls-Royce Merlin",
+      "potencia_hp": 1030
+    },
+    "velocidade_max_kmh": 547,
+    "alcance_km": 965,
+    "teto_m": 10970,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "8x metralhadoras .303 + 12x canhão 20mm (variantes)"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores adicionais não listados ('Reino Unido e 20+ países')",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

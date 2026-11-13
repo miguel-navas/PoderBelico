@@ -1,0 +1,48 @@
+{
+  "slug": "b-52-stratofortress",
+  "nome": "B-52 Stratofortress",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Boeing",
+  "ano_primeiro_uso": 1952,
+  "ano_entrada_servico": 1955,
+  "unidades_produzidas": 744,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Estratégico",
+  "curiosidade": "Em serviço há 70+ anos, previsto até 2050.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 5,
+    "data_primeiro_voo": "1952-04-15",
+    "comprimento_m": 48.5,
+    "envergadura_m": 56.4,
+    "motores": {
+      "quantidade": 8,
+      "modelo": "Pratt & Whitney TF33",
+      "empuxo_lbf": 17000
+    },
+    "velocidade_max_kmh": 1000,
+    "alcance_km": 14080,
+    "teto_m": 15240,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "Até 31.500 kg: bombas, mísseis AGM-86, AGM-158"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados"
+  ]
+}

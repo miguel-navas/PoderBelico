@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.*" />
+    <PackageReference Include="xunit" Version="2.9.*" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\PoderBelico.Api\PoderBelico.Api.csproj" />
+    <ProjectReference Include="..\..\src\PoderBelico.Dados\PoderBelico.Dados.csproj" />
+    <ProjectReference Include="..\..\src\PoderBelico.Importador\PoderBelico.Importador.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Exemplos de fichas e lista de países, copiados para a saída dos testes. -->
+    <Content Include="..\..\dados\exemplos\*.json"
+             Link="exemplos\%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\dados\exemplos-eventos\*.json"
+             Link="exemplos_eventos\%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\dados\importacao\aeronaves\*.json"
+             Link="importacao_aeronaves\%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\dados\importacao\blindados\*.json"
+             Link="importacao_blindados\%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\dados\importacao\navios\*.json"
+             Link="importacao_navios\%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\dados\referencia\paises-adicionais.json"
+             Link="dados_teste\paises-adicionais.json"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\dados\referencia\paises.json"
+             Link="dados_teste\paises.json"
+             CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,50 @@
+{
+  "slug": "f-35-lightning-ii",
+  "nome": "F-35 Lightning II",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Lockheed Martin",
+  "ano_primeiro_uso": 2006,
+  "ano_entrada_servico": 2015,
+  "unidades_produzidas": 1300,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Furtivo 5ª Geração Multimissão",
+  "curiosidade": "3 variantes: A (convencional), B (pouso vertical), C (naval). Programa militar mais caro da história.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "2006-12-15",
+    "comprimento_m": 15.7,
+    "envergadura_m": 10.7,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Pratt & Whitney F135",
+      "empuxo_lbf": 43000
+    },
+    "velocidade_max_kmh": 1930,
+    "alcance_km": 2220,
+    "teto_m": 15240,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão GAU-22 25mm + AIM-120, AIM-9, JDAM, até 8.100 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "unidades '1.300+ entregues' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "sr-71-blackbird",
+  "nome": "SR-71 Blackbird",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Lockheed Skunk Works",
+  "ano_primeiro_uso": 1964,
+  "ano_entrada_servico": 1966,
+  "unidades_produzidas": 32,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Reconhecimento Estratégico",
+  "curiosidade": "Avião tripulado mais rápido já construído. Nunca foi abatido em missão.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "reconhecimento",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1964-12-22",
+    "comprimento_m": 32.74,
+    "envergadura_m": 16.94,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Pratt & Whitney J58",
+      "empuxo_lbf": 32500
+    },
+    "velocidade_max_kmh": 3540,
+    "alcance_km": 5230,
+    "teto_m": 25900
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados"
+  ]
+}

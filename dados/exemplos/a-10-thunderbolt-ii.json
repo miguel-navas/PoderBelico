@@ -1,0 +1,45 @@
+{
+  "_observacao": "Rascunho do formato de importação (etapa 3). Dados vindos da ficha do autor; substituir a fonte pela original antes de publicar.",
+  "slug": "a-10-thunderbolt-ii",
+  "nome": "A-10 Thunderbolt II",
+  "variante": "Warthog",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Fairchild Republic",
+  "ano_primeiro_uso": 1972,
+  "ano_entrada_servico": 1977,
+  "unidades_produzidas": 716,
+  "status": "ATIVO",
+  "confiabilidade": "CONFIRMADO",
+  "descricao_curta": "Ataque ao solo e apoio aéreo aproximado.",
+  "curiosidade": "Construído em torno do canhão GAU-8, não o contrário. Herói na Guerra do Golfo de 1991 destruindo blindados iraquianos. Apelido Warthog / Javali.",
+  "operadores": ["USA"],
+  "especificacoes": {
+    "subtipo": "ataque_ao_solo",
+    "data_primeiro_voo": "1972-05-10",
+    "tripulacao": 1,
+    "comprimento_m": 16.26,
+    "envergadura_m": 17.53,
+    "altura_m": 4.47,
+    "peso_vazio_kg": 11321,
+    "peso_max_decolagem_kg": 23000,
+    "motores": { "quantidade": 2, "modelo": "General Electric TF34-GE-100", "empuxo_lbf": 9065 },
+    "velocidade_max_kmh": 706,
+    "alcance_km": 4150,
+    "teto_m": 13716,
+    "armamento": [
+      { "tipo": "canhão", "descricao": "GAU-8/A Avenger 30 mm", "municao": 1174 },
+      {
+        "tipo": "cargas externas",
+        "descricao": "AGM-65 Maverick, bombas, foguetes Hydra 70 mm, AIM-9 Sidewinder",
+        "carga_max_kg": 7260,
+        "pontos": 11
+      }
+    ],
+    "blindagem": "Banheira de titânio de 540 kg ao redor do piloto"
+  },
+  "fontes": [
+    { "slug": "acervo-do-autor", "tipo": "SITE", "provisoria": true, "titulo": "Ficha técnica do acervo do autor (substituir pela fonte original)" }
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  { "codigo_iso": "USA", "nome": "Estados Unidos" },
+  { "codigo_iso": "RUS", "nome": "Rússia" },
+  { "codigo_iso": "GBR", "nome": "Reino Unido" },
+  { "codigo_iso": "DEU", "nome": "Alemanha" },
+  { "codigo_iso": "JPN", "nome": "Japão" },
+  { "codigo_iso": "SUN", "nome": "União Soviética", "ano_inicio": 1922, "ano_fim": 1991 }
+]

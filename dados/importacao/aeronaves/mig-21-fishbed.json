@@ -1,0 +1,49 @@
+{
+  "slug": "mig-21-fishbed",
+  "nome": "MiG-21 Fishbed",
+  "pais": "SUN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Mikoyan-Gurevich",
+  "ano_primeiro_uso": 1955,
+  "ano_entrada_servico": 1959,
+  "unidades_produzidas": 11496,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Interceptador",
+  "curiosidade": "No Vietnã, com tática subir-atirar-fugir, abateu mais Phantoms do que perdeu em várias fases.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "interceptador",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1955-02-14",
+    "comprimento_m": 14.5,
+    "envergadura_m": 7.15,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Tumansky R-25",
+      "empuxo_lbf": 15650
+    },
+    "velocidade_max_kmh": 2175,
+    "alcance_km": 1210,
+    "teto_m": 19000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão GSh-23 23mm + mísseis AA-2 Atoll / R-60 + bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "su-57-felon",
+  "nome": "Su-57 Felon",
+  "pais": "RUS",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Sukhoi",
+  "ano_primeiro_uso": 2010,
+  "ano_entrada_servico": 2020,
+  "unidades_produzidas": 30,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Furtivo 5ª Geração",
+  "curiosidade": "Primeiro caça furtivo russo, vetorização de empuxo 3D.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "2010-01-29",
+    "comprimento_m": 20.1,
+    "envergadura_m": 14.1,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Saturn AL-41F1",
+      "empuxo_lbf": 33000
+    },
+    "velocidade_max_kmh": 2600,
+    "alcance_km": 3500,
+    "teto_m": 20000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão GSh-30-1 30mm + R-77, R-73, Kh-59"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "unidades '30+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

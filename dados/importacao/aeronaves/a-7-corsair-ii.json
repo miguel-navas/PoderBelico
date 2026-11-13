@@ -1,0 +1,48 @@
+{
+  "slug": "a-7-corsair-ii",
+  "nome": "A-7 Corsair II",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "LTV",
+  "ano_primeiro_uso": 1965,
+  "ano_entrada_servico": 1967,
+  "unidades_produzidas": 1569,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Ataque Naval",
+  "curiosidade": "Subssônico mas muito preciso graças ao computador de ataque pioneiro.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "ataque_ao_solo",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1965-09-26",
+    "comprimento_m": 14.06,
+    "envergadura_m": 11.8,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Allison TF41",
+      "empuxo_lbf": 15000
+    },
+    "velocidade_max_kmh": 1120,
+    "alcance_km": 2700,
+    "teto_m": 12800,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão M61 Vulcan 20mm + até 6.800 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados"
+  ]
+}

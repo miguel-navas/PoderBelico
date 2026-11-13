@@ -1,0 +1,51 @@
+{
+  "slug": "mq-9-reaper",
+  "nome": "MQ-9 Reaper",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "General Atomics",
+  "ano_primeiro_uso": 2001,
+  "ano_entrada_servico": 2007,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Drone de Ataque",
+  "curiosidade": "Caçador incansável, voa 27h sem parar.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "nao_tripulada",
+    "data_primeiro_voo": "2001-02-02",
+    "comprimento_m": 11,
+    "envergadura_m": 20.1,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Honeywell TPE331 turboprop",
+      "potencia_hp": 900
+    },
+    "velocidade_max_kmh": 445,
+    "alcance_km": 1850,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "4x Hellfire + 2x bombas 500 lb"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "tripulação não informada (aeronave não tripulada: o schema exige tripulacao >= 1)",
+    "Autonomia ('27 h') sem campo no schema",
+    "operadores não informados",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ],
+  "_erros_de_validacao": [
+    "'tripulacao' is a required property"
+  ]
+}

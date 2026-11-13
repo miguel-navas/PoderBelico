@@ -1,0 +1,23 @@
+{
+  "_observacao": "Exemplo do formato de eventos (etapa 3b). Texto redigido por IA, sem fonte verificada: a fonte é provisória e a ficha fica ESTIMADO.",
+  "slug": "segunda-guerra-mundial",
+  "nome": "Segunda Guerra Mundial",
+  "tipo": "GUERRA",
+  "data_inicio": "1939-09-01",
+  "data_fim": "1945-09-02",
+  "local": "Europa, Pacífico, Ásia, Norte da África e Atlântico",
+  "descricao": "Conflito global entre os Aliados e as potências do Eixo.",
+  "resultado": "Vitória dos Aliados.",
+  "confiabilidade": "ESTIMADO",
+  "beligerantes": [
+    { "pais": "USA", "lado": "Aliados" },
+    { "pais": "GBR", "lado": "Aliados" },
+    { "pais": "SUN", "lado": "Aliados" },
+    { "pais": "DEU", "lado": "Eixo" },
+    { "pais": "JPN", "lado": "Eixo" }
+  ],
+  "fontes": [
+    { "slug": "fonte-eventos-a-definir", "tipo": "SITE", "provisoria": true,
+      "titulo": "Texto redigido por IA, sem fonte verificada (substituir por livro ou artigo)" }
+  ]
+}

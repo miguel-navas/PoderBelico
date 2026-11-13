@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Especificações de TANQUE (unidades padrão: km/h, kg, m, km)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subtipo", "peso_kg", "tripulacao"],
+  "properties": {
+    "subtipo": {
+      "type": "string",
+      "enum": [
+        "tanque_de_batalha",
+        "tanque_leve",
+        "tanque_medio",
+        "tanque_pesado",
+        "destruidor_de_tanques",
+        "veiculo_blindado_de_combate"
+      ]
+    },
+    "motor_modelo": { "type": "string", "minLength": 1 },
+    "potencia_hp": { "type": "number", "exclusiveMinimum": 0 },
+    "velocidade_max_kmh": { "type": "number", "exclusiveMinimum": 0 },
+    "peso_kg": { "type": "number", "exclusiveMinimum": 0 },
+    "tripulacao": { "type": "integer", "minimum": 1 },
+    "comprimento_m": { "type": "number", "exclusiveMinimum": 0 },
+    "largura_m": { "type": "number", "exclusiveMinimum": 0 },
+    "altura_m": { "type": "number", "exclusiveMinimum": 0 },
+    "armamento_principal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["calibre_mm"],
+      "properties": {
+        "calibre_mm": { "type": "number", "exclusiveMinimum": 0 },
+        "modelo": { "type": "string", "minLength": 1 }
+      }
+    },
+    "armamento_secundario": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "blindagem": { "type": "string", "minLength": 1 },
+    "alcance_km": { "type": "number", "exclusiveMinimum": 0 },
+    "torre_tripulada": { "type": "boolean" }
+  }
+}

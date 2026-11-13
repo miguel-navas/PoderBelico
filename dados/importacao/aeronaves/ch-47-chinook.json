@@ -1,0 +1,43 @@
+{
+  "slug": "ch-47-chinook",
+  "nome": "CH-47 Chinook",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Boeing",
+  "ano_primeiro_uso": 1961,
+  "ano_entrada_servico": 1962,
+  "unidades_produzidas": 1200,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Transporte Pesado",
+  "curiosidade": "Em serviço há 60+ anos, leva até um obus pendurado.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "helicoptero_utilitario",
+    "tripulacao": 3,
+    "data_primeiro_voo": "1961-09-21",
+    "comprimento_m": 30.1,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Honeywell T55"
+    },
+    "velocidade_max_kmh": 315,
+    "alcance_km": 741
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "potência '4.733 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "Carga ('10.886 kg') sem campo no schema",
+    "operadores não informados",
+    "unidades '1.200+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

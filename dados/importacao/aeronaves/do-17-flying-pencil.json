@@ -1,0 +1,49 @@
+{
+  "slug": "do-17-flying-pencil",
+  "nome": "Do 17 Flying Pencil",
+  "pais": "DEU",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Dornier",
+  "ano_primeiro_uso": 1934,
+  "ano_entrada_servico": 1937,
+  "unidades_produzidas": 2139,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Leve",
+  "curiosidade": "Apelido Flying Pencil pela fuselagem fina. Já obsoleto em 1940.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 4,
+    "data_primeiro_voo": "1934-11-23",
+    "comprimento_m": 15.8,
+    "envergadura_m": 18,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Bramo 323",
+      "potencia_hp": 1000
+    },
+    "velocidade_max_kmh": 410,
+    "alcance_km": 1160,
+    "teto_m": 8200,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "6x metralhadoras + até 1.000 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

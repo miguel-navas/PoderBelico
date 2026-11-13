@@ -1,0 +1,48 @@
+{
+  "slug": "j-20-mighty-dragon",
+  "nome": "J-20 Mighty Dragon",
+  "pais": "CHN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Chengdu",
+  "ano_primeiro_uso": 2011,
+  "ano_entrada_servico": 2017,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Furtivo 5ª Geração",
+  "curiosidade": "Maior frota de 5ª geração fora dos EUA.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "2011-01-11",
+    "comprimento_m": 20.4,
+    "envergadura_m": 12.9,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "WS-10C / WS-15"
+    },
+    "velocidade_max_kmh": 2470,
+    "alcance_km": 5500,
+    "teto_m": 20000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão + PL-15, PL-10, bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "unidades '300-500 estimados' é uma faixa; omitido",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

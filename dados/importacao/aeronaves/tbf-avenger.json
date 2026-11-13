@@ -1,0 +1,49 @@
+{
+  "slug": "tbf-avenger",
+  "nome": "TBF Avenger",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Grumman",
+  "ano_primeiro_uso": 1941,
+  "ano_entrada_servico": 1942,
+  "unidades_produzidas": 9839,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Torpedeiro Naval",
+  "curiosidade": "George H. W. Bush voou um Avenger e foi abatido em 1944.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 3,
+    "data_primeiro_voo": "1941-08-01",
+    "comprimento_m": 12.19,
+    "envergadura_m": 16.51,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Wright R-2600",
+      "potencia_hp": 1700
+    },
+    "velocidade_max_kmh": 444,
+    "alcance_km": 1610,
+    "teto_m": 7000,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "2x .50 + 1x .30 traseira + 1x torpedo 907 kg ou 907 kg de bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

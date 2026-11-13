@@ -1,0 +1,53 @@
+{
+  "slug": "p-51-mustang",
+  "nome": "P-51 Mustang",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "North American",
+  "ano_primeiro_uso": 1940,
+  "ano_entrada_servico": 1942,
+  "unidades_produzidas": 15000,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Caça Escolta",
+  "curiosidade": "Escoltou os B-17 até Berlim e de volta. Considerado o melhor caça a pistão da guerra.",
+  "operadores": [
+    "USA",
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "caca",
+    "tripulacao": 1,
+    "data_primeiro_voo": "1940-10-26",
+    "comprimento_m": 9.83,
+    "envergadura_m": 11.28,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Rolls-Royce Merlin V-1650",
+      "potencia_hp": 1490
+    },
+    "velocidade_max_kmh": 703,
+    "alcance_km": 2755,
+    "teto_m": 12800,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "6x metralhadoras .50 + bombas / foguetes"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores adicionais não listados ('EUA, Reino Unido e 20+ países')",
+    "unidades '15.000+' é valor aproximado/parcial; usado o número base",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

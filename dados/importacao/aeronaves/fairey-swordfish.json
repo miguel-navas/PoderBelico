@@ -1,0 +1,49 @@
+{
+  "slug": "fairey-swordfish",
+  "nome": "Fairey Swordfish",
+  "pais": "GBR",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Fairey",
+  "ano_primeiro_uso": 1934,
+  "ano_entrada_servico": 1936,
+  "unidades_produzidas": 2391,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Torpedeiro Biplano Naval",
+  "curiosidade": "Biplano que parecia obsoleto, mas afundou o Bismarck — seu torpedo travou o leme em 1941. Brilhou em Taranto em 1940.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 3,
+    "data_primeiro_voo": "1934-04-17",
+    "comprimento_m": 10.87,
+    "envergadura_m": 13.87,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Bristol Pegasus",
+      "potencia_hp": 690
+    },
+    "velocidade_max_kmh": 222,
+    "alcance_km": 879,
+    "teto_m": 3260,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x metralhadora .303 + 1x torpedo 730 kg ou bombas"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

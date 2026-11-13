@@ -1,0 +1,18 @@
+{
+  "_observacao": "Exemplo do formato de eventos (etapa 3b). Texto redigido por IA, sem fonte verificada: a fonte é provisória e a ficha fica ESTIMADO.",
+  "slug": "batalha-de-midway",
+  "nome": "Batalha de Midway",
+  "tipo": "BATALHA",
+  "evento_pai": "segunda-guerra-mundial",
+  "data_inicio": "1942-06-04",
+  "data_fim": "1942-06-07",
+  "local": "Atol de Midway, Oceano Pacífico",
+  "descricao": "Batalha aeronaval entre as marinhas dos EUA e do Japão.",
+  "resultado": "Vitória dos EUA; o Japão perdeu quatro porta-aviões.",
+  "confiabilidade": "ESTIMADO",
+  "beligerantes": [
+    { "pais": "USA", "lado": "Aliados" },
+    { "pais": "JPN", "lado": "Eixo" }
+  ],
+  "fontes": [ "fonte-eventos-a-definir" ]
+}

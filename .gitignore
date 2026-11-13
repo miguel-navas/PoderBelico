@@ -1,0 +1,20 @@
+bin/
+obj/
+.vs/
+*.user
+*.db
+*.db-shm
+*.db-wal
+node_modules/
+web/dist/
+src/PoderBelico.Api/wwwroot/
+publicado/
+
+# Cópias de segurança e arquivos temporários do trabalho passo a passo
+_backup_antes_*/
+_to_delete/
+_bmad-output/
+relatorio-importacao.json
+.claude/
+dados/exemplos-eventos/PoderBelico/
+*.zip

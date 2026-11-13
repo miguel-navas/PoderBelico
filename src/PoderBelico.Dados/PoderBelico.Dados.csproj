@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>PoderBelico.Dados</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.*" />
+    <PackageReference Include="NJsonSchema" Version="11.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Esquemas das especificações por categoria, embutidos no assembly. -->
+    <EmbeddedResource Include="Esquemas\*.schema.json" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+{
+  "slug": "g4m-betty",
+  "nome": "G4M Betty",
+  "pais": "JPN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Mitsubishi",
+  "ano_primeiro_uso": 1939,
+  "ano_entrada_servico": 1941,
+  "unidades_produzidas": 2435,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro / Ataque Terrestre Naval",
+  "curiosidade": "Sem tanques autovedantes — apelido Charuto Voador. Levava o almirante Yamamoto quando foi abatido em 1943.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 7,
+    "data_primeiro_voo": "1939-10-23",
+    "comprimento_m": 19.97,
+    "envergadura_m": 24.89,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Mitsubishi Kasei",
+      "potencia_hp": 1530
+    },
+    "velocidade_max_kmh": 428,
+    "alcance_km": 2852,
+    "teto_m": 9200,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "4x metralhadoras 7,7mm + 1x canhão 20mm + até 1.000 kg / 1 torpedo 800 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "mi-24-hind",
+  "nome": "Mi-24 Hind",
+  "pais": "SUN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Mil",
+  "ano_primeiro_uso": 1969,
+  "ano_entrada_servico": 1972,
+  "unidades_produzidas": 2600,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Ataque / Transporte",
+  "curiosidade": "Tanque voador — transporta tropa e ataca.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "helicoptero_de_ataque",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1969-09-19",
+    "comprimento_m": 17.5,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Klimov TV3-117"
+    },
+    "velocidade_max_kmh": 335,
+    "alcance_km": 450,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "Canhão 23mm + foguetes + mísseis AT"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "país de origem 'URSS/Rússia' resolvido como SUN (pelo ano do primeiro voo); conferir",
+    "Diâmetro rotor (17,30 m) sem campo no schema",
+    "potência '2.200 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "operadores não informados",
+    "unidades '2.600+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "b-21-raider",
+  "nome": "B-21 Raider",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Northrop Grumman",
+  "ano_primeiro_uso": 2023,
+  "status": "PROTOTIPO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Furtivo 6ª Geração",
+  "curiosidade": "Sucessor do B-2. Nome Raider homenageia o Doolittle Raid de 1942.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 2,
+    "data_primeiro_voo": "2023-11-10",
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "Baias internas: JDAM, B61 nuclear, mísseis — dados classificados"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "armamento descrito como dado classificado",
+    "operadores não informados",
+    "unidades '100+ planejados' é valor aproximado/parcial; usado o número base",
+    "unidades são planejadas, não produzidas; omitido"
+  ]
+}

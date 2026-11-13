@@ -1,0 +1,43 @@
+{
+  "slug": "uh-60-black-hawk",
+  "nome": "UH-60 Black Hawk",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Sikorsky",
+  "ano_primeiro_uso": 1974,
+  "ano_entrada_servico": 1979,
+  "unidades_produzidas": 5000,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Helicóptero Utilitário",
+  "curiosidade": "Helicóptero utilitário mais usado do mundo.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "helicoptero_utilitario",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1974-10-17",
+    "comprimento_m": 19.76,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "GE T700"
+    },
+    "velocidade_max_kmh": 294,
+    "alcance_km": 590
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "Diâmetro rotor (16,36 m) sem campo no schema",
+    "potência '1.940 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "operadores não informados",
+    "unidades '5.000+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

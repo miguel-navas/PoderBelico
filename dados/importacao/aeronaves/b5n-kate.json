@@ -1,0 +1,49 @@
+{
+  "slug": "b5n-kate",
+  "nome": "B5N Kate",
+  "pais": "JPN",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Nakajima",
+  "ano_primeiro_uso": 1937,
+  "ano_entrada_servico": 1938,
+  "unidades_produzidas": 1149,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Bombardeiro Torpedeiro Embarcado",
+  "curiosidade": "Principal responsável pelo ataque a Pearl Harbor em 7 Dez 1941.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "bombardeiro",
+    "tripulacao": 3,
+    "comprimento_m": 10.3,
+    "envergadura_m": 15.52,
+    "motores": {
+      "quantidade": 1,
+      "modelo": "Nakajima Sakae",
+      "potencia_hp": 1000
+    },
+    "velocidade_max_kmh": 378,
+    "alcance_km": 1990,
+    "teto_m": 8260,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x metralhadora 7,7mm traseira + 1x torpedo 800 kg ou 3x bombas 250 kg"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "primeiro voo 'Jan 1937' sem dia completo; só o ano foi usado",
+    "operadores não informados",
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+  ]
+}

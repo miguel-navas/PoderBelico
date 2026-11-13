@@ -1,0 +1,22 @@
+{
+  "_observacao": "Exemplo do formato de eventos (etapa 6). Texto redigido por IA, sem fonte verificada: a fonte é provisória e a ficha fica ESTIMADO.",
+  "slug": "guerra-do-golfo",
+  "nome": "Guerra do Golfo",
+  "tipo": "GUERRA",
+  "data_inicio": "1990-08-02",
+  "data_fim": "1991-02-28",
+  "local": "Kuwait e Iraque",
+  "descricao": "Conflito iniciado com a invasão do Kuwait pelo Iraque e encerrado pela campanha de uma coalizão liderada pelos Estados Unidos.",
+  "resultado": "Libertação do Kuwait pela coalizão.",
+  "confiabilidade": "ESTIMADO",
+  "beligerantes": [
+    { "pais": "USA", "lado": "Coalizão" },
+    { "pais": "GBR", "lado": "Coalizão" },
+    { "pais": "FRA", "lado": "Coalizão" },
+    { "pais": "IRQ", "lado": "Iraque" }
+  ],
+  "fontes": [
+    { "slug": "fonte-eventos-a-definir", "tipo": "SITE", "provisoria": true,
+      "titulo": "Texto redigido por IA, sem fonte verificada (substituir por livro ou artigo)" }
+  ]
+}

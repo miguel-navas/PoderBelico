@@ -1,0 +1,43 @@
+{
+  "slug": "v-22-osprey",
+  "nome": "V-22 Osprey",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Bell Boeing",
+  "ano_primeiro_uso": 1989,
+  "ano_entrada_servico": 2007,
+  "unidades_produzidas": 400,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Tiltrotor",
+  "curiosidade": "Decola como helicóptero, voa como avião.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "transporte",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1989-03-19",
+    "comprimento_m": 17.5,
+    "envergadura_m": 25.8,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Rolls-Royce AE 1107"
+    },
+    "velocidade_max_kmh": 565,
+    "alcance_km": 1627
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "potência '6.150 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "operadores não informados",
+    "unidades '400+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "ka-52-alligator",
+  "nome": "Ka-52 Alligator",
+  "pais": "RUS",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Kamov",
+  "ano_primeiro_uso": 1997,
+  "ano_entrada_servico": 2011,
+  "unidades_produzidas": 150,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Ataque",
+  "curiosidade": "Único helicóptero de ataque com assento ejetável.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "helicoptero_de_ataque",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1997-06-25",
+    "comprimento_m": 16,
+    "motores": {
+      "quantidade": 2,
+      "modelo": "Klimov VK-2500"
+    },
+    "velocidade_max_kmh": 310,
+    "alcance_km": 460,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "Canhão 30mm + Vikhr / Ataka"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "potência '2.400 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "operadores não informados",
+    "unidades '150+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "porta-avioes-classe-nimitz",
+  "nome": "Porta-Aviões Classe Nimitz",
+  "pais": "USA",
+  "forca": "MARINHA",
+  "categoria": "NAVIO",
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Navio",
+  "curiosidade": "Maiores navios de guerra do mundo.",
+  "operadores": [
+    "USA"
+  ],
+  "especificacoes": {
+    "subtipo": "porta_avioes",
+    "classe": "Nimitz",
+    "deslocamento_t": 100000,
+    "comprimento_m": 332.8,
+    "propulsao": "2x reatores nucleares",
+    "velocidade_max_kmh": 56,
+    "tripulacao": 5680
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "ano_entrada_servico": 1975,
+  "unidades_produzidas": 10,
+  "_pendencias": [
+    "aeronaves embarcadas ('85-90') sem campo no schema",
+    "unidades '10' aproximado; usado o número base",
+    "equipamento cadastrado por classe; status ATIVO assumido"
+  ]
+}

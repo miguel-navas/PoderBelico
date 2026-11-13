@@ -1,0 +1,49 @@
+{
+  "slug": "ah-64-apache",
+  "nome": "AH-64 Apache",
+  "pais": "USA",
+  "forca": "AEREA",
+  "categoria": "AERONAVE",
+  "fabricante": "Boeing",
+  "ano_primeiro_uso": 1975,
+  "ano_entrada_servico": 1986,
+  "unidades_produzidas": 2700,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Helicóptero de Ataque",
+  "curiosidade": "Radar Longbow no topo do rotor. O pesadelo dos blindados desde a Guerra do Golfo.",
+  "operadores": [],
+  "especificacoes": {
+    "subtipo": "helicoptero_de_ataque",
+    "tripulacao": 2,
+    "data_primeiro_voo": "1975-09-30",
+    "motores": {
+      "quantidade": 2,
+      "modelo": "GE T700"
+    },
+    "velocidade_max_kmh": 293,
+    "alcance_km": 480,
+    "teto_m": 6400,
+    "armamento": [
+      {
+        "tipo": "armamento",
+        "descricao": "1x canhão M230 Chain Gun 30mm + até 16x AGM-114 Hellfire + Hydra 70mm"
+      }
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-avioes",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "Diâmetro do rotor (14,63 m) sem campo no schema",
+    "potência '1.890 shp cada' não convertida (shp/outra unidade sem campo no schema)",
+    "operadores não informados",
+    "unidades '2.700+' é valor aproximado/parcial; usado o número base",
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+  ]
+}

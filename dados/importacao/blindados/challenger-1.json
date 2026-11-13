@@ -1,0 +1,42 @@
+{
+  "slug": "challenger-1",
+  "nome": "Challenger 1",
+  "pais": "GBR",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "recorde de 4.700 m",
+  "curiosidade": "Destruiu T-55 iraquiano a 4.700 m.",
+  "operadores": [
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "potencia_hp": 1200,
+    "motor_modelo": "Perkins",
+    "velocidade_max_kmh": 56,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "L11A5 raiado"
+    },
+    "peso_kg": 62000,
+    "tripulacao": 4,
+    "alcance_km": 450
+  },
+  "fontes": [
+    {
+      "slug": "meta-ai-blindados",
+      "tipo": "SITE",
+      "provisoria": true,
+      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+    }
+  ],
+  "_pendencias": [
+    "status APOSENTADO por conhecimento geral (substituído pelo Challenger 2); a fonte não diz",
+    "sem ano de entrada em serviço na fonte",
+    "sem fabricante na fonte",
+    "sem data/ano de primeiro uso na fonte",
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+  ]
+}
