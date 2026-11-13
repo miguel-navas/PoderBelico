@@ -25,8 +25,8 @@
       "empuxo_lbf": 17300
     },
     "velocidade_max_kmh": 1010,
-    "alcance_km": 11100,
-    "teto_m": 15240,
+    "alcance_km": 11000,
+    "teto_m": 15200,
     "armamento": [
       {
         "tipo": "armamento",
@@ -36,14 +36,17 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-b-2-spirit",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Northrop Grumman B-2 Spirit — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Northrop_B-2_Spirit",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores não informados",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
+    "velocidade_max_kmh=1010 não confirmada: a Wikipedia traz apenas velocidade de cruzeiro de 900 km/h. Conferir.",
+    "Empuxo: a página principal cita 19.000 lbf por motor; a ficha técnica cita 17.300 lbf."
   ]
 }

@@ -7,7 +7,7 @@
   "fabricante": "Baykar",
   "ano_primeiro_uso": 2014,
   "ano_entrada_servico": 2015,
-  "unidades_produzidas": 500,
+  "unidades_produzidas": 800,
   "status": "ATIVO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Drone de Ataque",
@@ -19,24 +19,25 @@
     "envergadura_m": 12,
     "motores": {
       "quantidade": 1,
-      "modelo": "Rotax 912",
+      "modelo": "Baykar TM100 / Rotax 912-iS",
       "potencia_hp": 100
     },
-    "velocidade_max_kmh": 220,
-    "alcance_km": 150,
+    "velocidade_max_kmh": 222,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "4x munições MAM-L / MAM-C"
       }
-    ]
+    ],
+    "teto_m": 7620
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-bayraktar-tb2",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Baykar Bayraktar TB2 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baykar_Bayraktar_TB2",
+      "provisoria": false
     }
   ],
   "_pendencias": [
@@ -45,6 +46,8 @@
     "operadores não informados",
     "unidades '500+' é valor aproximado/parcial; usado o número base",
     "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
-    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
+    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)",
+    "alcance_km removido: 150 km é alcance de comunicação em linha de visada (<300 km pelo fabricante), não alcance de voo; autonomia >20 h (campo ainda não existe no esquema).",
+    "unidades_produzidas: Wikipedia diz >800."
   ]
 }

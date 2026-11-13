@@ -24,7 +24,7 @@
       "potencia_hp": 1000
     },
     "velocidade_max_kmh": 378,
-    "alcance_km": 1990,
+    "alcance_km": 978,
     "teto_m": 8260,
     "armamento": [
       {
@@ -35,15 +35,17 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-b5n-kate",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Nakajima B5N — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_B5N",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "primeiro voo 'Jan 1937' sem dia completo; só o ano foi usado",
     "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "alcance_km corrigido de 1990 para 978 km (1991 km é o alcance ferry). Valores do B5N2."
   ]
 }

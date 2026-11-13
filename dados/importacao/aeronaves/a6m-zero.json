@@ -23,11 +23,11 @@
     "envergadura_m": 12,
     "motores": {
       "quantidade": 1,
-      "modelo": "Nakajima Sakae",
-      "potencia_hp": 950
+      "modelo": "Nakajima Sakae 12",
+      "potencia_hp": 940
     },
     "velocidade_max_kmh": 533,
-    "alcance_km": 3100,
+    "alcance_km": 1870,
     "teto_m": 10000,
     "armamento": [
       {
@@ -38,13 +38,16 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-a6m-zero",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Mitsubishi A6M Zero — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante A6M2 Model 21: alcance 1870 km (3100 km é o alcance ferry), motor Sakae-12 com 940 hp na decolagem.",
+    "Armamento: Wikipedia confirma 2 canhões de 20 mm + 2 metralhadoras de 7,7 mm no projeto (conferir variantes)."
   ]
 }

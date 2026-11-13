@@ -13,23 +13,24 @@
   ],
   "especificacoes": {
     "subtipo": "tanque_de_batalha",
-    "potencia_hp": 1400,
+    "potencia_hp": 1500,
     "motor_modelo": "MTU",
     "velocidade_max_kmh": 58,
     "armamento_principal": {
       "calibre_mm": 120,
       "modelo": "raiado"
     },
-    "peso_kg": 68500,
+    "peso_kg": 68000,
     "tripulacao": 4,
     "alcance_km": 450
   },
   "fontes": [
     {
-      "slug": "meta-ai-blindados",
+      "slug": "wikipedia-arjun-tank",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Arjun (tank) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arjun_(tank)",
+      "provisoria": false
     }
   ],
   "_pendencias": [
@@ -37,6 +38,8 @@
     "sem ano de entrada em serviço na fonte",
     "sem fabricante na fonte",
     "sem data/ano de primeiro uso na fonte",
-    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores",
+    "Mk1A: 68 t, 1.500 hp DATRAN V12, 58 km/h (valores corrigidos; Mk1 pesa 58,5 t, 1.400 hp MTU, 70 km/h)",
+    "alcance 450 km é do Mk1; não informado para o Mk1A"
   ]
 }

@@ -20,16 +20,17 @@
       "calibre_mm": 120,
       "modelo": "L/55"
     },
-    "peso_kg": 70000,
+    "peso_kg": 66500,
     "tripulacao": 4,
     "alcance_km": 550
   },
   "fontes": [
     {
-      "slug": "meta-ai-blindados",
+      "slug": "wikipedia-leopard-2",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Leopard 2 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leopard_2",
+      "provisoria": false
     }
   ],
   "_pendencias": [
@@ -37,6 +38,7 @@
     "sem ano de entrada em serviço na fonte",
     "sem fabricante na fonte",
     "sem data/ano de primeiro uso na fonte",
-    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores",
+    "massa corrigida para 66,5 t (2A7V, infobox); outras tabelas citam 63–67,5 t"
   ]
 }

@@ -13,21 +13,23 @@
   ],
   "especificacoes": {
     "subtipo": "tanque_de_batalha",
-    "velocidade_max_kmh": 65,
+    "velocidade_max_kmh": 74,
     "armamento_principal": {
       "calibre_mm": 125,
       "modelo": "ZPT-98"
     },
     "peso_kg": 43000,
     "tripulacao": 3,
-    "alcance_km": 600
+    "alcance_km": 400,
+    "potencia_hp": 1000
   },
   "fontes": [
     {
-      "slug": "meta-ai-blindados",
+      "slug": "wikipedia-type-96-tank",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Type 96 tank — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Type_96_tank",
+      "provisoria": false
     }
   ],
   "_pendencias": [
@@ -35,6 +37,8 @@
     "sem ano de entrada em serviço na fonte",
     "sem fabricante na fonte",
     "sem data/ano de primeiro uso na fonte",
-    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores",
+    "Type 96B: 43 t; potência 1.000 hp na tabela, 1.200 hp no texto da fonte",
+    "velocidade corrigida para 74 km/h; alcance 400 km"
   ]
 }

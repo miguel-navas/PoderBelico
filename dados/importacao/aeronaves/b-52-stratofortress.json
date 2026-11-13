@@ -24,25 +24,27 @@
       "modelo": "Pratt & Whitney TF33",
       "empuxo_lbf": 17000
     },
-    "velocidade_max_kmh": 1000,
-    "alcance_km": 14080,
-    "teto_m": 15240,
+    "velocidade_max_kmh": 1050,
+    "alcance_km": 14200,
+    "teto_m": 15000,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "Até 31.500 kg: bombas, mísseis AGM-86, AGM-158"
+        "descricao": "Cerca de 32.000 kg: bombas, minas e mísseis (AGM-86, AGM-158)"
       }
     ]
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-b-52-stratofortress",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Boeing B-52 Stratofortress — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados"
+    "operadores não informados",
+    "Valores do B-52H. data_primeiro_voo (1952-04-15) não aparece nas fontes consultadas; conferir."
   ]
 }

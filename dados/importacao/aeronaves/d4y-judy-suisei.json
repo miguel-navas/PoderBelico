@@ -24,7 +24,7 @@
       "potencia_hp": 1400
     },
     "velocidade_max_kmh": 550,
-    "alcance_km": 1460,
+    "alcance_km": 1465,
     "teto_m": 10700,
     "armamento": [
       {
@@ -35,10 +35,11 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-d4y-judy-suisei",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Yokosuka D4Y — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yokosuka_D4Y",
+      "provisoria": false
     }
   ],
   "_pendencias": [

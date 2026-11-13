@@ -1,0 +1,60 @@
+:root { color-scheme: dark; --orange: #ff650a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #080b0e; color: #f4f6f8; font-family: "Segoe UI", Arial, sans-serif; }
+.battle-background { position: fixed; inset: 0; z-index: -1; background: linear-gradient(90deg, #03070b88, #04080b33 50%, #03070b88), linear-gradient(0deg, #030609aa, #04090e44 55%, #03070b88), url('output/imagegen/background-segunda-guerra.png') center / cover no-repeat; }
+.desktop { min-height: 100svh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 42px; padding: 48px 28px 64px; }
+.title-layer { position: relative; width: min(690px, 100%); text-align: center; padding: 0; }
+h1 { margin: 0; width: 100%; filter: drop-shadow(0 3px 1px #191b13) drop-shadow(0 7px 10px #000); }
+.vintage-title { display: block; width: 100%; height: auto; }
+
+.force-list { display: grid; gap: 19px; width: min(1200px, 88vw); max-width: 100%; }
+.force-card { position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 126px; padding: 25px 29px; border: 1px solid #9aa7b2; border-radius: 8px; background: #060a0e; box-shadow: 0 8px 24px #0008, inset 0 0 0 1px #ffffff14; }
+.card-image { position: absolute; inset: 0; z-index: -2; background-image: url('output/imagegen/background-segunda-guerra.png'); background-repeat: no-repeat; opacity: .75; transition: opacity .2s; }
+.force-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #030609b8, #03060966 48%, #0306099c 100%); }
+.army .card-image { background-size: 160%; background-position: 0% 87%; }
+.air .card-image { background-size: 130%; background-position: 100% 5%; }
+.navy .card-image { background-size: 160%; background-position: 100% 65%; }
+.force-card:hover .card-image { opacity: 1; }
+.card-copy { min-width: 0; }
+h2 { font-family: Stencil, "Stencil Std", Impact, "Arial Black", sans-serif; font-size: 30px; font-weight: 850; letter-spacing: -.4px; line-height: 1.2; margin: 0 0 7px; text-shadow: 0 2px 5px #000; }
+.card-copy p { color: #c0c9d3; font-size: 16px; font-weight: 600; line-height: 1.4; margin: 0; text-shadow: 0 1px 4px #000; }
+.explore { display: inline-flex; flex-shrink: 0; gap: 14px; justify-content: center; align-items: center; padding: 12px 17px; border: 1px solid #ff8b36; border-radius: 5px; color: #fff; background: linear-gradient(#ff7c14, #ff5400); box-shadow: 0 0 20px #ff53004d, 0 3px 12px #0008; font: 850 12px "Segoe UI", Arial, sans-serif; text-decoration: none; cursor: pointer; transition: box-shadow .2s, background .2s; }
+.explore span { font-size: 19px; line-height: .8; }
+.explore:hover { background: #ff8526; box-shadow: 0 0 25px #ff650a88; }
+.explore:focus-visible, .close:focus-visible { outline: 2px solid white; outline-offset: 5px; }
+dialog { width: min(490px, calc(100% - 40px)); border: 1px solid #7c8995; border-radius: 8px; padding: 35px; background: #0b121a; color: #f4f6f8; box-shadow: 0 20px 90px #000a; }
+dialog::backdrop { background: #000a; backdrop-filter: blur(6px); }
+dialog h2 { margin: 8px 25px 18px 0; } dialog p { color: #bcc8d2; font-size: 15px; line-height: 1.7; }
+.close { position: absolute; top: 10px; right: 15px; border: 0; color: #eee; background: transparent; font-size: 28px; cursor: pointer; }
+.topics { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 23px; }.topics span { padding: 8px 11px; border: 1px solid #ff650a55; border-radius: 4px; color: #ffb07a; font-size: 12px; }
+@media (min-width: 1500px) { .desktop { gap: 50px; }.force-list { width: min(1200px, 88vw); gap: 22px; }.force-card { min-height: 140px; } }
+@media (max-width: 600px) { .desktop { padding: 40px 20px; gap: 30px; }.title-layer { padding: 0; }.force-card { min-height: 112px; padding: 20px 16px; gap: 10px; } h2 { font-size: clamp(18px, 4.5vw, 24px); }.card-copy p { font-size: 13px; max-width: 240px; }.explore { padding: 11px 12px; font-size: 10px; gap: 7px; }.force-list { gap: 16px; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Mesmo layout, equipamentos contemporâneos na segunda versão. */
+.modern .battle-background { background-image: linear-gradient(90deg, #03070b88, #04080b33 50%, #03070b88), linear-gradient(0deg, #030609aa, #04090e44 55%, #03070b88), url('output/imagegen/background-moderno-a10-canhoes.png'); }
+.modern .card-image { background-image: url('output/imagegen/background-moderno-a10-canhoes.png'); }
+.modern .army .card-image { background-position: 0% 65%; }
+.modern .air .card-image { background-size: max(100%, 1170px) auto; background-position: 100% 9%; }
+.modern .navy .card-image { background-size: max(100%, 845px) auto; background-position: 100% 60%; }
+
+/* Controles apenas com seta: área de clique preservada sem a palavra Explorar. */
+.explore { min-width: 44px; min-height: 44px; padding: 10px 13px; }
+@media (max-width: 600px) { .explore { min-width: 44px; min-height: 44px; padding: 10px; } }
+
+.modern .air .card-image, .modern .navy .card-image { mask-image: none; }
+.modern .air::after, .modern .navy::after { background: linear-gradient(90deg, #030609b8, #03060940 52%, #03060920 100%); }
+
+/* O box inteiro funciona como acesso, sem botão visível. */
+.force-card { position: relative; }
+.force-card .explore { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; min-width: 0; min-height: 0; margin: 0; padding: 0; border: 0; border-radius: inherit; background: transparent; box-shadow: none; }
+.force-card .explore:hover { background: transparent; box-shadow: none; }
+.force-card .explore:focus-visible { outline: 2px solid #eee3bd; outline-offset: -5px; }
+
+/* Amplia somente a largura; a altura original dos boxes é preservada. */
+@media (min-width: 761px) {
+  .force-card { padding-left: 36px; padding-right: 36px; }
+}
+@media (max-width: 600px) {
+  .force-list { width: 100%; }
+}

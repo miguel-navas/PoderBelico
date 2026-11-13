@@ -24,11 +24,11 @@
     "envergadura_m": 19.54,
     "motores": {
       "quantidade": 2,
-      "modelo": "Pratt & Whitney TF30 / GE F110",
-      "empuxo_lbf": 28000
+      "modelo": "General Electric F110-GE-400",
+      "empuxo_lbf": 26950
     },
     "velocidade_max_kmh": 2485,
-    "alcance_km": 2960,
+    "alcance_km": 3000,
     "teto_m": 16000,
     "armamento": [
       {
@@ -39,13 +39,15 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f-14-tomcat",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Grumman F-14 Tomcat — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grumman_F-14_Tomcat",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "envergadura variável na fonte ('19,54 m (aberta) / 11,65 m (fechada)'); usado o primeiro valor"
+    "envergadura variável na fonte ('19,54 m (aberta) / 11,65 m (fechada)'); usado o primeiro valor",
+    "Valores da variante F-14D; as versões A/B usavam TF30."
   ]
 }

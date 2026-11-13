@@ -22,21 +22,24 @@
       "modelo": "GE T700"
     },
     "velocidade_max_kmh": 293,
-    "alcance_km": 480,
-    "teto_m": 6400,
+    "alcance_km": 476,
+    "teto_m": 6100,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "1x canhão M230 Chain Gun 30mm + até 16x AGM-114 Hellfire + Hydra 70mm"
       }
-    ]
+    ],
+    "comprimento_m": 17.73,
+    "altura_m": 3.87
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-ah-64-apache",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Boeing AH-64 Apache — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boeing_AH-64_Apache",
+      "provisoria": false
     }
   ],
   "_pendencias": [
@@ -44,6 +47,8 @@
     "potência '1.890 shp cada' não convertida (shp/outra unidade sem campo no schema)",
     "operadores não informados",
     "unidades '2.700+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
+    "velocidade_max_kmh=293 vem da página do Apache AH1 britânico (AgustaWestland); a página do AH-64 dá 148-153 kt conforme missão. Conferir.",
+    "teto_m 6100 (AH-64A/D); 6400 m é valor em dia padrão/AH1."
   ]
 }

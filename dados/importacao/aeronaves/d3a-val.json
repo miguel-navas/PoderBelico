@@ -24,7 +24,7 @@
       "potencia_hp": 1300
     },
     "velocidade_max_kmh": 430,
-    "alcance_km": 1470,
+    "alcance_km": 1352,
     "teto_m": 10500,
     "armamento": [
       {
@@ -35,15 +35,17 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-d3a-val",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Aichi D3A — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aichi_D3A",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "primeiro voo 'Jan 1938' sem dia completo; só o ano foi usado",
     "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante D3A2."
   ]
 }

@@ -27,25 +27,27 @@
       "modelo": "Wright R-3350",
       "potencia_hp": 2200
     },
-    "velocidade_max_kmh": 576,
+    "velocidade_max_kmh": 575,
     "alcance_km": 5230,
-    "teto_m": 10200,
+    "teto_m": 9710,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "10x metralhadoras .50 + 2x canhão 20mm + 9.000 kg de bombas"
+        "descricao": "10x metralhadoras .50 em torres remotas + 2x .50 e 1x canhão 20 mm na cauda (o canhão foi removido depois) + até 9.100 kg de bombas"
       }
     ]
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-b-29-superfortress",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Boeing B-29 Superfortress — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Corrigido: canhão de 20 mm é apenas 1 (na cauda), não 2; teto 9710 m (antes 10200)."
   ]
 }

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0e">
+  <meta name="description" content="Explore o universo militar: Exército, Aeronáutica e Marinha.">
+  <title>Poder Bélico — Segunda Guerra</title>
+  <link rel="stylesheet" href="poderbelico.css">
+</head>
+<body class="ww2">
+  <div class="battle-background" aria-hidden="true"></div>
+  <main class="desktop" aria-labelledby="page-title">
+    <div class="title-layer">
+      <h1 id="page-title" aria-label="Poder Bélico"><img class="vintage-title" src="output/imagegen/titulo-poder-belico-vintage.svg" alt="Poder Bélico — letras militares com furos de bala e um O em forma de mira"></h1>
+    </div>
+    <div class="force-list" aria-label="Forças militares">
+      <article class="force-card army">
+        <div class="card-image" aria-hidden="true"></div>
+        <div class="card-copy"><h2>EXÉRCITO</h2><p>Blindados, infantaria e artilharia</p></div>
+        <button class="explore" data-force="army" aria-label="Explorar Exército"></button>
+      </article>
+      <article class="force-card air">
+        <div class="card-image" aria-hidden="true"></div>
+        <div class="card-copy"><h2>AERONÁUTICA</h2><p>Aviões e combate aéreo</p></div>
+        <a class="explore" href="index.html" aria-label="Explorar Aeronáutica"></a>
+      </article>
+      <article class="force-card navy">
+        <div class="card-image" aria-hidden="true"></div>
+        <div class="card-copy"><h2>MARINHA</h2><p>Navios, submarinos e batalhas navais</p></div>
+        <button class="explore" data-force="navy" aria-label="Explorar Marinha"></button>
+      </article>
+    </div>
+  </main>
+  <dialog id="force-dialog" aria-labelledby="dialog-title">
+    <button class="close" aria-label="Fechar">×</button>
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-description"></p>
+    <div id="dialog-topics" class="topics"></div>
+  </dialog>
+  <script>
+    const forces = {
+      army: {title: 'Exército', description: 'Explore as forças terrestres e o seu papel na história militar.', topics: ['Blindados', 'Infantaria', 'Artilharia']},
+      navy: {title: 'Marinha', description: 'Explore as frotas e as operações que marcaram a guerra no mar.', topics: ['Navios de guerra', 'Submarinos', 'Operações de desembarque']}
+    };
+    const modal = document.querySelector('#force-dialog');
+    document.querySelectorAll('[data-force]').forEach(button => button.addEventListener('click', () => {
+      const force = forces[button.dataset.force];
+      document.querySelector('#dialog-title').textContent = force.title;
+      document.querySelector('#dialog-description').textContent = force.description;
+      document.querySelector('#dialog-topics').replaceChildren(...force.topics.map(topic => {
+        const item = document.createElement('span'); item.textContent = topic; return item;
+      }));
+      modal.showModal();
+    }));
+    document.querySelector('.close').addEventListener('click', () => modal.close());
+    modal.addEventListener('click', event => {
+      const bounds = modal.getBoundingClientRect();
+      if (event.target === modal && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom)) modal.close();
+    });
+  </script>
+</body>
+</html>

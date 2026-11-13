@@ -24,16 +24,18 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-b-21-raider",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Northrop Grumman B-21 Raider — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_B-21_Raider",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "armamento descrito como dado classificado",
     "operadores não informados",
     "unidades '100+ planejados' é valor aproximado/parcial; usado o número base",
-    "unidades são planejadas, não produzidas; omitido"
+    "unidades são planejadas, não produzidas; omitido",
+    "Especificações do B-21 são classificadas; dados numéricos (dimensões, motores, alcance) não publicados. Em produção inicial de baixa taxa (LRIP)."
   ]
 }

@@ -22,14 +22,15 @@
     },
     "peso_kg": 46000,
     "tripulacao": 3,
-    "alcance_km": 500
+    "alcance_km": 335
   },
   "fontes": [
     {
-      "slug": "meta-ai-blindados",
+      "slug": "wikipedia-t-80",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "T-80 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/T-80",
+      "provisoria": false
     }
   ],
   "_pendencias": [
@@ -38,6 +39,8 @@
     "sem fabricante na fonte",
     "sem data/ano de primeiro uso na fonte",
     "país 'Rússia/URSS' resolvido como SUN; conferir",
-    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores",
+    "alcance corrigido para 335 km em estrada sem tanques externos (415 km com tanques)",
+    "massa 46 t, 1.250 hp (GTD-1250) e 70 km/h conferem"
   ]
 }

@@ -7,7 +7,7 @@
   "fabricante": "LTV",
   "ano_primeiro_uso": 1965,
   "ano_entrada_servico": 1967,
-  "unidades_produzidas": 1569,
+  "unidades_produzidas": 1545,
   "status": "APOSENTADO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Ataque Naval",
@@ -24,9 +24,9 @@
       "modelo": "Allison TF41",
       "empuxo_lbf": 15000
     },
-    "velocidade_max_kmh": 1120,
-    "alcance_km": 2700,
-    "teto_m": 12800,
+    "velocidade_max_kmh": 1100,
+    "alcance_km": 1981,
+    "teto_m": 13000,
     "armamento": [
       {
         "tipo": "armamento",
@@ -36,13 +36,16 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-a-7-corsair-ii",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "LTV A-7 Corsair II — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LTV_A-7_Corsair_II",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados"
+    "operadores não informados",
+    "Valores da variante A-7E: velocidade 1100 km/h, alcance 1981 km (combustível interno máximo), teto 13000 m.",
+    "unidades_produzidas corrigido de 1569 para 1545."
   ]
 }

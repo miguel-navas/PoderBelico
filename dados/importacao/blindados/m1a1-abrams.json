@@ -20,16 +20,17 @@
       "calibre_mm": 120,
       "modelo": "M256"
     },
-    "peso_kg": 61300,
+    "peso_kg": 57000,
     "tripulacao": 4,
     "alcance_km": 465
   },
   "fontes": [
     {
-      "slug": "meta-ai-blindados",
+      "slug": "wikipedia-m1-abrams",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Tanques & Blindados de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "M1 Abrams — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M1_Abrams",
+      "provisoria": false
     }
   ],
   "_pendencias": [
@@ -37,6 +38,7 @@
     "sem ano de entrada em serviço na fonte",
     "sem fabricante na fonte",
     "sem data/ano de primeiro uso na fonte",
-    "operadores: assumido apenas o país de origem; a fonte não lista operadores"
+    "operadores: assumido apenas o país de origem; a fonte não lista operadores",
+    "massa corrigida para 57 t (M1A1); o M1A1 SA pesa 61,3 t"
   ]
 }

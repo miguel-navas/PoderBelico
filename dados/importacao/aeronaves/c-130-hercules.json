@@ -21,24 +21,27 @@
     "envergadura_m": 40.4,
     "motores": {
       "quantidade": 4,
-      "modelo": "Allison T56 / Rolls-Royce AE 2100 turboprop"
+      "modelo": "Allison T56-A-15",
+      "potencia_hp": 4590
     },
-    "velocidade_max_kmh": 671,
+    "velocidade_max_kmh": 590,
     "alcance_km": 3800,
-    "teto_m": 8500
+    "teto_m": 10000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-c-130-hercules",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Lockheed C-130 Hercules — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "potência '4.590 shp cada' não convertida (shp/outra unidade sem campo no schema)",
     "Carga útil ('20.000 kg / 92 soldados / 64 paraquedistas') sem campo no schema",
     "operadores não informados",
-    "unidades '2.500+' é valor aproximado/parcial; usado o número base"
+    "unidades '2.500+' é valor aproximado/parcial; usado o número base",
+    "Valores da variante C-130H; potência em shp (aprox. hp)."
   ]
 }

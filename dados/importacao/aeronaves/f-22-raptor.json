@@ -17,16 +17,16 @@
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1997-09-07",
-    "comprimento_m": 18.9,
+    "comprimento_m": 18.92,
     "envergadura_m": 13.56,
     "motores": {
       "quantidade": 2,
       "modelo": "Pratt & Whitney F119",
       "empuxo_lbf": 35000
     },
-    "velocidade_max_kmh": 2410,
-    "alcance_km": 2960,
-    "teto_m": 19800,
+    "velocidade_max_kmh": 2414,
+    "alcance_km": 3000,
+    "teto_m": 20000,
     "armamento": [
       {
         "tipo": "armamento",
@@ -36,10 +36,11 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f-22-raptor",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Lockheed Martin F-22 Raptor — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor",
+      "provisoria": false
     }
   ],
   "_pendencias": [

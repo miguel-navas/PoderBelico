@@ -25,7 +25,7 @@
       "potencia_hp": 1000
     },
     "velocidade_max_kmh": 410,
-    "alcance_km": 1160,
+    "alcance_km": 660,
     "teto_m": 8200,
     "armamento": [
       {
@@ -36,14 +36,16 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-do-17-flying-pencil",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Dornier Do 17 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dornier_Do_17",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante Do 17Z-2."
   ]
 }

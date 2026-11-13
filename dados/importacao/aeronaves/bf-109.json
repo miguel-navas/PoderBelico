@@ -19,11 +19,11 @@
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1935-05-29",
-    "comprimento_m": 9.02,
+    "comprimento_m": 8.9,
     "envergadura_m": 9.92,
     "motores": {
       "quantidade": 1,
-      "modelo": "Daimler-Benz DB 605",
+      "modelo": "Daimler-Benz DB 605A-1",
       "potencia_hp": 1475
     },
     "velocidade_max_kmh": 640,
@@ -34,20 +34,23 @@
         "tipo": "armamento",
         "descricao": "1x canhão MG 151 20mm + 2x MG 131 13mm"
       }
-    ]
+    ],
+    "altura_m": 2.59
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-bf-109",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Messerschmitt Bf 109 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores adicionais não listados ('Alemanha e 10+ países')",
     "unidades '34.000+' é valor aproximado/parcial; usado o número base",
     "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
-    "nota da fonte: No site, a foto está em museu, em solo."
+    "nota da fonte: No site, a foto está em museu, em solo.",
+    "Valores referem-se à variante Bf 109G-6."
   ]
 }
