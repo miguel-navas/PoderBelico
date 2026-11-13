@@ -1,17 +1,9 @@
 # Relatório da conversão
 
-- Fichas válidas: 87 (aeronaves 54, navios 3, blindados 30)
-- Rejeitadas pelo schema: 5
+- Fichas válidas: 92 (aeronaves 59, navios 3, blindados 30)
+- Rejeitadas pelo schema: 0 (os 5 drones passaram a valer depois que o esquema deixou de exigir tripulação para aeronave não tripulada)
 - Ignoradas (fora do escopo militar): Ônibus Espacial, Foguete Starship
 - Blindados sem dados (lotes 1–6): 36
-
-## Rejeitadas
-
-- `mq-9-reaper`: 'tripulacao' is a required property
-- `rq-4-global-hawk`: 'tripulacao' is a required property
-- `bayraktar-tb2`: 'tripulacao' is a required property
-- `mq-1-predator`: 'tripulacao' is a required property
-- `x-47b`: 'tripulacao' is a required property
 
 ## Pendências por ficha
 

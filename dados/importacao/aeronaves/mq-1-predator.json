@@ -39,11 +39,8 @@
     }
   ],
   "_pendencias": [
-    "tripulação não informada (aeronave não tripulada: o schema exige tripulacao >= 1)",
     "Autonomia ('24 h') sem campo no schema",
-    "operadores não informados"
-  ],
-  "_erros_de_validacao": [
-    "'tripulacao' is a required property"
+    "operadores não informados",
+    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
   ]
 }

@@ -53,9 +53,11 @@ Ficha só com fonte provisória nunca fica "confirmado" (é gravada como "estima
 ```
 GET /api/equipamentos?pais=&forca=&categoria=&status=&de=&ate=&pagina=&tamanho=
 GET /api/equipamentos/{slug}     ficha com medidas convertidas (mph, nós, pés, libras...) e fontes
-GET /api/eventos?tipo=&pais=&de=&ate=&pagina=   eventos em ordem cronológica (período cruza de..ate)
+GET /api/eventos?tipo=&pais=&forca=&de=&ate=&pagina=   eventos em ordem cronológica (período cruza de..ate)
 GET /api/eventos/{slug}          evento, evento pai, subeventos, beligerantes por lado,
                                  equipamentos por país e força, fontes
+GET /api/linha-do-tempo?forca=&pais=   guerras com seus subeventos em árvore
+GET /api/busca?q=                texto sem acento nem maiúsculas; equipamentos e eventos
 GET /api/filtros                 forças, categorias, países e tipos para os filtros
 ```
 O banco guarda tudo em unidade padrão (km/h, kg, m, km); a conversão é só na exibição.
@@ -63,7 +65,7 @@ O banco guarda tudo em unidade padrão (km/h, kg, m, km); a conversão é só na
 ## Testes
 ```powershell
 dotnet test
-cd web; npm test -- --run
+cd web; npx vitest run
 ```
 
 ## Publicar
@@ -87,16 +89,10 @@ tests/PoderBelico.Api.Tests/   testes xUnit
 web/                           front React
 ```
 
-## O que foi verificado e o que não foi
-- **Verificado:** o front compila e o teste passa (`npm run build` e Vitest). Os três
-  esquemas JSON e as duas fichas de exemplo foram validados com um validador
-  independente (aceita as fichas, rejeita campo desconhecido, tipo errado, subtipo
-  fora da lista e campo obrigatório ausente).
-- **Não verificado:** a parte .NET (não havia o SDK no ambiente onde o projeto foi
-  montado). Rode `dotnet build` e `dotnet test` primeiro. Se algo não compilar,
-  é provável que seja um ajuste pequeno de pacote ou de API.
-- Os pacotes NuGet usam versões flutuantes (`10.0.*`, `11.*`). Depois do primeiro
-  restore que funcionar, vale fixar as versões exatas.
+## Estado atual
+- O MVP está completo: todas as tarefas de `openspec/changes/mvp-poder-belico/tasks.md` estão marcadas.
+- Os testes .NET e os do front passam. O mapa de cobertura está em `docs/COBERTURA-DE-TESTES.md`.
+- Os pacotes NuGet usam versões flutuantes (`10.0.*`, `11.*`). Vale fixar as versões exatas.
 
 ## Revisar nas fichas de exemplo
 - **T-14:** status (`ATIVO`), anos e fabricante não vinham da sua ficha. Confirme.
@@ -105,6 +101,6 @@ web/                           front React
 - **Fontes:** as duas fichas citam "acervo do autor" como fonte provisória. Troque
   pela fonte original (a spec exige pelo menos uma fonte por equipamento).
 
-## Próximos passos (openspec/changes/mvp-poder-belico/tasks.md)
-Etapa 3: importador idempotente (usa o validador já pronto). Depois: catálogo de
-equipamentos, eventos, participação, navegação e busca.
+## Próximos passos
+Substituir as fontes provisórias por fontes verificáveis, separar os submarinos Virginia e Ohio,
+cadastrar os blindados que faltam (`dados/importacao/BLINDADOS-SEM-DADOS.md`) e ampliar países e eventos.

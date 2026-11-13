@@ -74,4 +74,20 @@ public class EspecificacoesValidadorTests
         await Assert.ThrowsAsync<ArgumentException>(() =>
             EspecificacoesValidador.ValidarAsync("FOGUETE", "{}"));
     }
+
+    [Fact]
+    public async Task Aeronave_nao_tripulada_nao_precisa_de_tripulacao()
+    {
+        const string json = """{ "subtipo": "nao_tripulada", "envergadura_m": 20.1, "velocidade_max_kmh": 445 }""";
+
+        Assert.Empty(await EspecificacoesValidador.ValidarAsync("AERONAVE", json));
+    }
+
+    [Fact]
+    public async Task Aeronave_tripulada_continua_exigindo_tripulacao()
+    {
+        const string json = """{ "subtipo": "caca", "velocidade_max_kmh": 1200 }""";
+
+        Assert.NotEmpty(await EspecificacoesValidador.ValidarAsync("AERONAVE", json));
+    }
 }

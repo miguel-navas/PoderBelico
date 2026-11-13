@@ -40,14 +40,11 @@
     }
   ],
   "_pendencias": [
-    "tripulação não informada (aeronave não tripulada: o schema exige tripulacao >= 1)",
     "primeiro voo 'Ago 2014' sem dia completo; só o ano foi usado",
     "Autonomia ('27 h') sem campo no schema",
     "operadores não informados",
     "unidades '500+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
-  ],
-  "_erros_de_validacao": [
-    "'tripulacao' is a required property"
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
+    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
   ]
 }

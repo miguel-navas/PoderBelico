@@ -35,12 +35,9 @@
     }
   ],
   "_pendencias": [
-    "tripulação não informada (aeronave não tripulada: o schema exige tripulacao >= 1)",
     "Autonomia ('34 h') sem campo no schema",
     "operadores não informados",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
-  ],
-  "_erros_de_validacao": [
-    "'tripulacao' is a required property"
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
+    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
   ]
 }

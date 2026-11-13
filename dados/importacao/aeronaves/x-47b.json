@@ -32,11 +32,8 @@
     }
   ],
   "_pendencias": [
-    "tripulação não informada (aeronave não tripulada: o schema exige tripulacao >= 1)",
     "operadores não informados",
-    "sem ano de entrada em serviço; status PROTOTIPO assumido"
-  ],
-  "_erros_de_validacao": [
-    "'tripulacao' is a required property"
+    "sem ano de entrada em serviço; status PROTOTIPO assumido",
+    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
   ]
 }

@@ -3,7 +3,11 @@
   "title": "Especificações de AERONAVE (unidades padrão: km/h, kg, m, km)",
   "type": "object",
   "additionalProperties": false,
-  "required": ["subtipo", "tripulacao"],
+  "required": ["subtipo"],
+  "anyOf": [
+    { "required": ["tripulacao"] },
+    { "properties": { "subtipo": { "enum": ["nao_tripulada"] } } }
+  ],
   "definitions": {
     "armamento_item": {
       "type": "object",

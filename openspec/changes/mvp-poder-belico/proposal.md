@@ -11,7 +11,7 @@ em que foram usados, da 1ª Guerra Mundial até hoje.
 - Ligar equipamentos e eventos por participação.
 - Criar navegação por país, evento e linha do tempo, com busca e filtro por força.
 - Exigir fontes e indicar a confiabilidade dos dados.
-- Importar os dados por script idempotente a partir de JSON/CSV.
+- Importar os dados por script idempotente a partir de arquivos JSON.
 
 ## Capabilities (todas novas)
 - catalogo-equipamentos
