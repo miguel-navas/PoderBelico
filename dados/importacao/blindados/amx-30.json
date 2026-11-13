@@ -1,0 +1,52 @@
+{
+  "slug": "amx-30",
+  "nome": "AMX-30",
+  "pais": "FRA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "AMX / GIAT",
+  "ano_entrada_servico": 1966,
+  "unidades_produzidas": 3571,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "MBT francês leve e compacto, substituído pelo Leclerc",
+  "curiosidade": "Protegia-se pela velocidade e silhueta baixa (2,28 m) em vez de blindagem espessa.",
+  "operadores": [
+    "FRA"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "Hispano-Suiza HS-110",
+    "potencia_hp": 720,
+    "velocidade_max_kmh": 65,
+    "peso_kg": 36000,
+    "tripulacao": 4,
+    "comprimento_m": 9.48,
+    "largura_m": 3.1,
+    "altura_m": 2.28,
+    "alcance_km": 600,
+    "armamento_principal": {
+      "calibre_mm": 105,
+      "modelo": "Modèle F1 (raiado)"
+    },
+    "armamento_secundario": [
+      "20 mm modèle F2",
+      "7,62 mm NF1"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-amx-30",
+      "tipo": "SITE",
+      "titulo": "AMX-30 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AMX-30",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "status APOSENTADO na França; ainda em uso em poucos países",
+    "3.571 inclui variantes",
+    "alcance 600 km: tabela comparativa (500–600 km)",
+    "armamento secundário conforme infobox (texto cita metralhadora coaxial 12,7 mm)"
+  ]
+}

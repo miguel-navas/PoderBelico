@@ -1,0 +1,50 @@
+{
+  "slug": "type-10",
+  "nome": "Type 10",
+  "pais": "JPN",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Mitsubishi Heavy Industries",
+  "ano_entrada_servico": 2012,
+  "unidades_produzidas": 117,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "MBT japonês de 4ª geração, 70 km/h também em marcha à ré",
+  "curiosidade": "Transmissão contínua permite 70 km/h para frente e para trás.",
+  "operadores": [
+    "JPN"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "MHI 8VA34WTK V8",
+    "potencia_hp": 1200,
+    "velocidade_max_kmh": 70,
+    "peso_kg": 44000,
+    "tripulacao": 3,
+    "comprimento_m": 9.485,
+    "largura_m": 3.24,
+    "altura_m": 2.3,
+    "alcance_km": 500,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "JSW L/44 (liso)"
+    },
+    "armamento_secundario": [
+      "12,7 mm Type 90",
+      "7,62 mm Type 74"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-type-10",
+      "tipo": "SITE",
+      "titulo": "Type 10 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Type_10",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "massa: 40 t (básica), 44 t (padrão), 48 t (plena); usada a padrão",
+    "unidades: 117 (FY2010–2022) segundo a fonte"
+  ]
+}

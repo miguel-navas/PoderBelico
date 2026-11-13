@@ -1,15 +1,62 @@
 [
-  { "codigo_iso": "BRA", "nome": "Brasil" },
-  { "codigo_iso": "FRA", "nome": "França" },
-  { "codigo_iso": "CHN", "nome": "China" },
-  { "codigo_iso": "TUR", "nome": "Turquia" },
-  { "codigo_iso": "IRN", "nome": "Irã" },
-  { "codigo_iso": "PRT", "nome": "Portugal" },
-  { "codigo_iso": "HUN", "nome": "Hungria" },
-  { "codigo_iso": "ISR", "nome": "Israel" },
-  { "codigo_iso": "SWE", "nome": "Suécia" },
-  { "codigo_iso": "KOR", "nome": "Coreia do Sul" },
-  { "codigo_iso": "IND", "nome": "Índia" },
-  { "codigo_iso": "POL", "nome": "Polônia" },
-  { "codigo_iso": "IRQ", "nome": "Iraque" }
+  {
+    "codigo_iso": "BRA",
+    "nome": "Brasil"
+  },
+  {
+    "codigo_iso": "FRA",
+    "nome": "França"
+  },
+  {
+    "codigo_iso": "CHN",
+    "nome": "China"
+  },
+  {
+    "codigo_iso": "TUR",
+    "nome": "Turquia"
+  },
+  {
+    "codigo_iso": "IRN",
+    "nome": "Irã"
+  },
+  {
+    "codigo_iso": "PRT",
+    "nome": "Portugal"
+  },
+  {
+    "codigo_iso": "HUN",
+    "nome": "Hungria"
+  },
+  {
+    "codigo_iso": "ISR",
+    "nome": "Israel"
+  },
+  {
+    "codigo_iso": "SWE",
+    "nome": "Suécia"
+  },
+  {
+    "codigo_iso": "KOR",
+    "nome": "Coreia do Sul"
+  },
+  {
+    "codigo_iso": "IND",
+    "nome": "Índia"
+  },
+  {
+    "codigo_iso": "POL",
+    "nome": "Polônia"
+  },
+  {
+    "codigo_iso": "IRQ",
+    "nome": "Iraque"
+  },
+  {
+    "codigo_iso": "ITA",
+    "nome": "Itália"
+  },
+  {
+    "codigo_iso": "ARG",
+    "nome": "Argentina"
+  }
 ]

@@ -1,0 +1,51 @@
+{
+  "slug": "centurion",
+  "nome": "Centurion",
+  "pais": "GBR",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Vickers / Leyland / ROF",
+  "ano_primeiro_uso": 1950,
+  "ano_entrada_servico": 1946,
+  "unidades_produzidas": 4423,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Primeiro MBT britânico, em serviço por mais de 40 anos",
+  "curiosidade": "Combateu da Guerra da Coreia ao Líbano; evoluiu no Sho't israelense e no Olifant sul-africano.",
+  "operadores": [
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "Rolls-Royce Meteor 4B",
+    "potencia_hp": 650,
+    "velocidade_max_kmh": 34.6,
+    "peso_kg": 51000,
+    "tripulacao": 4,
+    "comprimento_m": 9.83,
+    "largura_m": 3.38,
+    "altura_m": 2.94,
+    "alcance_km": 100.6,
+    "armamento_principal": {
+      "calibre_mm": 105,
+      "modelo": "L7 (raiado)"
+    },
+    "armamento_secundario": [
+      "Browning .30 coaxial"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-centurion",
+      "tipo": "SITE",
+      "titulo": "Centurion (tank) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Centurion_(tank)",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "canhão: 17 pdr (76,2 mm) e 20 pdr (84 mm) nos modelos iniciais; 105 mm L7 nos tardios",
+    "alcance 100,6 km em estrada (Mk 3/5/6); Mk 7 chegava a 163 km",
+    "entrada em serviço: dezembro de 1946; primeiro combate em 1950"
+  ]
+}

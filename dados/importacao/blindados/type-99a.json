@@ -1,0 +1,51 @@
+{
+  "slug": "type-99a",
+  "nome": "Type 99A (ZTZ-99A)",
+  "pais": "CHN",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Baotou (Norinco)",
+  "ano_entrada_servico": 2011,
+  "unidades_produzidas": 1400,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "MBT chinês de 3ª geração com carregador automático",
+  "curiosidade": "Tem laser de autodefesa que ofusca sensores e miras inimigas.",
+  "operadores": [
+    "CHN"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "150HB V12 diesel",
+    "potencia_hp": 1500,
+    "velocidade_max_kmh": 76,
+    "peso_kg": 55000,
+    "tripulacao": 3,
+    "comprimento_m": 11.0,
+    "largura_m": 3.7,
+    "altura_m": 2.35,
+    "alcance_km": 600,
+    "armamento_principal": {
+      "calibre_mm": 125,
+      "modelo": "ZPT-98 (liso)"
+    },
+    "armamento_secundario": [
+      "12,7 mm QJC-88",
+      "7,62 mm Type 86 coaxial"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-type-99",
+      "tipo": "SITE",
+      "titulo": "Type 99 tank — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Type_99_tank",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "unidades ~1.400 somam Type 99 e 99A",
+    "velocidade 76 km/h (infobox); texto cita 80 km/h",
+    "altura 2,35 m é do casco; alcance 600–650 km no infobox"
+  ]
+}

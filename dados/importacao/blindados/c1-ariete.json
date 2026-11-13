@@ -1,0 +1,49 @@
+{
+  "slug": "c1-ariete",
+  "nome": "C1 Ariete",
+  "pais": "ITA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Consorzio Iveco Oto Melara",
+  "ano_entrada_servico": 1995,
+  "unidades_produzidas": 200,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "MBT italiano em modernização para o padrão C2",
+  "curiosidade": "Entregas de 1995 a 2002; cerca de 90 unidades estão sendo modernizadas ao padrão C2.",
+  "operadores": [
+    "ITA"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "Fiat MTCA V12",
+    "potencia_hp": 1270,
+    "velocidade_max_kmh": 65,
+    "peso_kg": 54000,
+    "tripulacao": 4,
+    "comprimento_m": 9.52,
+    "largura_m": 3.61,
+    "altura_m": 2.45,
+    "alcance_km": 600,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "OTO Breda L/44 (liso)"
+    },
+    "armamento_secundario": [
+      "7,62 mm MG 42/59 coaxial",
+      "7,62 mm MG 42/59 antiaérea"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-ariete",
+      "tipo": "SITE",
+      "titulo": "Ariete — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ariete",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "potência: 950 kW (1.270 hp) no infobox; texto cita 937 kW (1.257 hp)"
+  ]
+}

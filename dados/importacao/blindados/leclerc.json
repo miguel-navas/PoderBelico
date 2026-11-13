@@ -1,0 +1,52 @@
+{
+  "slug": "leclerc",
+  "nome": "Leclerc",
+  "pais": "FRA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Nexter / KNDS France",
+  "ano_entrada_servico": 1992,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "MBT francês com autoloader e tripulação de 3",
+  "curiosidade": "Primeiro tanque ocidental de série com carregador automático e 3 tripulantes.",
+  "operadores": [
+    "FRA"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "SACM V8X Hyperbar",
+    "potencia_hp": 1500,
+    "velocidade_max_kmh": 71,
+    "peso_kg": 56300,
+    "tripulacao": 3,
+    "comprimento_m": 9.87,
+    "largura_m": 3.6,
+    "altura_m": 2.53,
+    "alcance_km": 550,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "GIAT CN120-26 (liso)"
+    },
+    "armamento_secundario": [
+      "12,7 mm M2HB coaxial",
+      "7,62 mm"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-leclerc",
+      "tipo": "SITE",
+      "titulo": "Leclerc tank — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leclerc_tank",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "massa: 54,5 t (Série 1), 56,3 t (Série 2), 57,6 t (SXXI); usada a Série 2",
+    "unidades_produzidas omitida: fontes divergem (406 pela tabela de séries vs 862 em outra fonte)",
+    "comprimento 9,87 m (canhão à frente) de busca secundária; largura 3,60 m com saias (3,43 m sem)",
+    "velocidade 71 km/h (Wikipedia) vs 72 km/h em outras fontes",
+    "operadores: também Emirados Árabes Unidos e Jordânia, ausentes do cadastro de países"
+  ]
+}

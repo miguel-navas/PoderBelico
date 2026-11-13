@@ -1,0 +1,52 @@
+{
+  "slug": "leopard-1",
+  "nome": "Leopard 1",
+  "pais": "DEU",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Krauss-Maffei",
+  "ano_entrada_servico": 1965,
+  "unidades_produzidas": 4744,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Primeiro MBT alemão do pós-guerra",
+  "curiosidade": "Mais de dois mil exemplares alemães; ainda usado por Grécia, Brasil e Ucrânia.",
+  "operadores": [
+    "DEU"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "MTU MB 838 Ca-M500",
+    "potencia_hp": 820,
+    "velocidade_max_kmh": 65,
+    "peso_kg": 42200,
+    "tripulacao": 4,
+    "comprimento_m": 9.54,
+    "largura_m": 3.37,
+    "altura_m": 2.39,
+    "alcance_km": 600,
+    "armamento_principal": {
+      "calibre_mm": 105,
+      "modelo": "L7A3 (raiado)"
+    },
+    "armamento_secundario": [
+      "7,62 mm MG3 coaxial",
+      "7,62 mm MG3 antiaérea"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-leopard-1",
+      "tipo": "SITE",
+      "titulo": "Leopard 1 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leopard_1",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "status APOSENTADO para a Alemanha (retirado em 2003); segue em serviço em outros países",
+    "velocidade 65 km/h e alcance 600 km vêm da tabela comparativa do artigo AMX-30",
+    "unidades: 4.744 carros de combate (6.485 incluindo variantes)",
+    "operadores adicionais (Itália, Grécia, Brasil etc.) fora do cadastro"
+  ]
+}

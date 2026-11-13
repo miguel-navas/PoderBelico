@@ -1,0 +1,42 @@
+{
+  "slug": "challenger-3",
+  "nome": "Challenger 3",
+  "pais": "GBR",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Rheinmetall BAE Systems Land",
+  "ano_entrada_servico": 2027,
+  "status": "PROTOTIPO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Modernização do Challenger 2 com canhão liso L55A1",
+  "curiosidade": "Resulta da conversão de 148 Challenger 2 existentes.",
+  "operadores": [
+    "GBR"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "Perkins CV12",
+    "potencia_hp": 1500,
+    "peso_kg": 66000,
+    "tripulacao": 4,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "Rheinmetall L55A1 (liso)"
+    }
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-challenger-3",
+      "tipo": "SITE",
+      "titulo": "Challenger 3 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_3",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "status PROTOTIPO: em desenvolvimento, serviço previsto a partir de 2027",
+    "potência 1.200–1.500 hp na fonte; usado o teto",
+    "peso de 66 t é o 'core weight'; configuração operacional não divulgada",
+    "sem dimensões e sem velocidade/alcance na fonte"
+  ]
+}

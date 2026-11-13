@@ -1,0 +1,51 @@
+{
+  "slug": "tam",
+  "nome": "TAM",
+  "pais": "ARG",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "TAMSE",
+  "ano_entrada_servico": 1983,
+  "unidades_produzidas": 200,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Tanque médio argentino sobre chassi do Marder alemão",
+  "curiosidade": "Nunca entrou em combate, mas VCTPs derivados foram à Croácia em missão de paz da ONU.",
+  "operadores": [
+    "ARG"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_medio",
+    "motor_modelo": "MTU MB 833 Ka-500",
+    "potencia_hp": 720,
+    "velocidade_max_kmh": 75,
+    "peso_kg": 30500,
+    "tripulacao": 4,
+    "comprimento_m": 6.75,
+    "largura_m": 3.25,
+    "altura_m": 2.42,
+    "alcance_km": 590,
+    "armamento_principal": {
+      "calibre_mm": 105,
+      "modelo": "FM K.4 Modelo 1L"
+    },
+    "armamento_secundario": [
+      "7,62 mm FN MAG coaxial",
+      "7,62 mm FN MAG antiaérea"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-tam",
+      "tipo": "SITE",
+      "titulo": "Tanque Argentino Mediano — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tanque_Argentino_Mediano",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "ano de serviço: 1983 (infobox); o texto cita 1979 como início da produção",
+    "unidades 200: encomenda do Exército cumprida até 1995; produção inicial 1979–83 foi de 150",
+    "comprimento 6,75 m é do casco"
+  ]
+}

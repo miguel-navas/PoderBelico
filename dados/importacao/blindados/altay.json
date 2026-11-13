@@ -1,0 +1,51 @@
+{
+  "slug": "altay",
+  "nome": "Altay",
+  "pais": "TUR",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "BMC",
+  "ano_entrada_servico": 2025,
+  "unidades_produzidas": 7,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "MBT turco derivado do K2 sul-coreano",
+  "curiosidade": "Entrou em serviço em outubro de 2025 após anos de atraso por embargo de motores alemães.",
+  "operadores": [
+    "TUR"
+  ],
+  "especificacoes": {
+    "subtipo": "tanque_de_batalha",
+    "motor_modelo": "HD Hyundai DV27K (T1) / BMC BATU V12 (T2)",
+    "potencia_hp": 1500,
+    "velocidade_max_kmh": 65,
+    "peso_kg": 65000,
+    "tripulacao": 4,
+    "comprimento_m": 10.3,
+    "largura_m": 3.9,
+    "altura_m": 2.6,
+    "alcance_km": 450,
+    "armamento_principal": {
+      "calibre_mm": 120,
+      "modelo": "MKE L/55 (liso)"
+    },
+    "armamento_secundario": [
+      "Estação de armas remota 12,7/7,62 mm",
+      "7,62 mm coaxial"
+    ]
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-altay",
+      "tipo": "SITE",
+      "titulo": "Altay (tank) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Altay_(tank)",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "velocidade 65 km/h é a meta de projeto (fonte marca 'citation needed')",
+    "unidades: 7 construídas (incl. 2 protótipos); 250 encomendadas",
+    "alcance 450 km é da versão T1"
+  ]
+}
