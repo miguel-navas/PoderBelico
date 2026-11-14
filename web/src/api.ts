@@ -14,6 +14,7 @@ export type EquipamentoResumo = {
   confiabilidade: string
   descricaoCurta: string | null
   imagem: Imagem | null
+  subtipo?: CategoriaRef | null
 }
 
 export type ListaPaginada<T> = {
@@ -85,6 +86,7 @@ export type EquipamentoFicha = {
 export type Filtros = {
   forcas: PaisRef[]
   categorias: { codigo: string; nome: string; forca: string | null }[]
+  subtipos?: { codigo: string; nome: string; forca: string; categoria: string }[]
   paises: PaisRef[]
   status: string[]
   paisesEventos: PaisRef[]
@@ -166,6 +168,7 @@ async function obter<T>(url: string): Promise<T> {
 export type ParametrosLista = {
   forca?: string
   categoria?: string
+  subtipo?: string
   pais?: string
   status?: string
   de?: string

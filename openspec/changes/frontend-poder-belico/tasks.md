@@ -22,6 +22,12 @@
 - [x] 4.2 Especificações em tabela de duas colunas e fontes em lista
 - [x] 4.3 Selo de confiabilidade e aviso de dados estimados
 
+## 4b. Categorias e imagens
+- [x] 4b.1 API: filtro `subtipo`, lista de `subtipos` em `/api/filtros` e `subtipo` no resumo (sem migration)
+- [x] 4b.2 Front: filtro "Categoria" por subtipo, banner e imagem de categoria nos cartões sem foto
+- [x] 4b.3 Imagens por categoria em `web/public/img/categorias/` e imagens dos 4 navios
+- [ ] 4b.4 Imagens próprias para categorias ainda sem ficha (fragata, lança-foguetes, etc.)
+
 ## 5. Demais páginas
 - [ ] 5.1 Eventos, Evento, Linha do tempo no mesmo padrão
 - [ ] 5.2 Países, País e Busca no mesmo padrão

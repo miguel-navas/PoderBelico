@@ -5,7 +5,7 @@ import type { ParametrosLista } from '../api'
 import { LinkF } from '../navegacao'
 import { rotuloConfiabilidade, rotuloForca, rotuloStatus } from '../rotulos'
 
-const CHAVES = ['forca', 'categoria', 'pais', 'status', 'de', 'ate', 'pagina'] as const
+const CHAVES = ['forca', 'subtipo', 'pais', 'status', 'de', 'ate', 'pagina'] as const
 
 export default function Lista() {
   const [busca, setBusca] = useSearchParams()
@@ -31,17 +31,27 @@ export default function Lista() {
     if (valor) novo.set(chave, valor)
     else novo.delete(chave)
     if (chave !== 'pagina') novo.delete('pagina')
-    if (chave === 'forca') novo.delete('categoria')
+    if (chave === 'forca') novo.delete('subtipo')
     setBusca(novo)
   }
 
-  const categorias = (filtros.data?.categorias ?? []).filter(
+  const subtipos = (filtros.data?.subtipos ?? []).filter(
     (c) => !parametros.forca || c.forca === parametros.forca,
   )
+  const subtipoAtual = filtros.data?.subtipos?.find((c) => c.codigo === parametros.subtipo)
 
   return (
     <section>
       <h2>Equipamentos</h2>
+
+      {parametros.subtipo && (
+        <div
+          className="banner-categoria"
+          style={{ backgroundImage: `linear-gradient(90deg, #080b0ecc, #080b0e33), url(/img/categorias/${parametros.subtipo}.jpg)` }}
+        >
+          <h3>{subtipoAtual?.nome ?? parametros.subtipo}</h3>
+        </div>
+      )}
 
       <details className="painel-filtros" open={abertoInicial}>
         <summary>Filtros{nAtivos > 0 ? ` (${nAtivos} ativos)` : ''}</summary>
@@ -59,9 +69,9 @@ export default function Lista() {
         </label>
         <label>
           Categoria
-          <select value={parametros.categoria ?? ''} onChange={(e) => alterar('categoria', e.target.value)}>
+          <select value={parametros.subtipo ?? ''} onChange={(e) => alterar('subtipo', e.target.value)}>
             <option value="">Todas</option>
-            {categorias.map((c) => (
+            {subtipos.map((c) => (
               <option key={c.codigo} value={c.codigo}>
                 {c.nome}
               </option>
@@ -141,6 +151,11 @@ export default function Lista() {
                       <img src={e.imagem.url} alt="" loading="lazy" decoding="async" />
                       <span className="credito">{e.imagem.credito}</span>
                     </>
+                  ) : e.subtipo ? (
+                    <>
+                      <img className="generica" src={`/img/categorias/${e.subtipo.codigo}.jpg`} alt="" loading="lazy" decoding="async" />
+                      <span className="credito">Ilustração da categoria · IA</span>
+                    </>
                   ) : (
                     <div className="inicial" aria-hidden="true">{e.categoria.nome.charAt(0)}</div>
                   )}
@@ -150,7 +165,7 @@ export default function Lista() {
                   {e.variante && <span> {e.variante}</span>}
                 </LinkF>
                 <div className="meta">
-                  {e.pais.nome} · {rotuloForca(e.forca)} · {e.categoria.nome}
+                  {e.pais.nome} · {rotuloForca(e.forca)} · {e.subtipo?.nome ?? e.categoria.nome}
                   {e.anoEntradaServico !== null && <> · em serviço desde {e.anoEntradaServico}</>}
                 </div>
                 <div className="meta">

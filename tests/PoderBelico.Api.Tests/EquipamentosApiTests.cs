@@ -118,6 +118,22 @@ public class EquipamentosApiTests(FabricaApi fabrica) : IClassFixture<FabricaApi
     }
 
     [Fact]
+    public async Task Filtra_por_subtipo_e_expoe_o_subtipo_na_lista_e_nos_filtros()
+    {
+        Assert.Equal(new[] { "a-10-teste" }, Slugs(await ObterAsync("/api/equipamentos?subtipo=ataque_ao_solo")));
+        Assert.Equal(new[] { "tanque-teste" }, Slugs(await ObterAsync("/api/equipamentos?subtipo=TANQUE_DE_BATALHA")));
+        Assert.Empty(Slugs(await ObterAsync("/api/equipamentos?subtipo=fragata")));
+
+        var lista = await ObterAsync("/api/equipamentos?subtipo=porta_avioes");
+        var item = lista.GetProperty("itens")[0];
+        Assert.Equal("Porta-aviões", item.GetProperty("subtipo").GetProperty("nome").GetString());
+
+        var subtipos = (await ObterAsync("/api/filtros")).GetProperty("subtipos").EnumerateArray()
+            .Select(x => x.GetProperty("codigo").GetString()).ToArray();
+        Assert.Equal(new[] { "ataque_ao_solo", "porta_avioes", "tanque_de_batalha" }, subtipos.OrderBy(x => x));
+    }
+
+    [Fact]
     public async Task Pagina_os_resultados()
     {
         var segunda = await ObterAsync("/api/equipamentos?tamanho=1&pagina=2");

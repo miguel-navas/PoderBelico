@@ -9,7 +9,8 @@ public sealed record ImagemDto(string Url, string Credito);
 
 public sealed record EquipamentoResumo(
     string Slug, string Nome, string? Variante, PaisRef Pais, string Forca, CategoriaRef Categoria,
-    int? AnoEntradaServico, string Status, string Confiabilidade, string? DescricaoCurta, ImagemDto? Imagem);
+    int? AnoEntradaServico, string Status, string Confiabilidade, string? DescricaoCurta, ImagemDto? Imagem,
+    CategoriaRef? Subtipo = null);
 
 public sealed record ListaPaginada<T>(
     IReadOnlyList<T> Itens, int Pagina, int TamanhoPagina, int Total, int TotalPaginas);
@@ -60,8 +61,20 @@ public static class EquipamentosEndpoints
             .Where(p => db.EventoPaises.Any(x => x.PaisId == p.Id))
             .OrderBy(p => p.Nome).ToListAsync(ct);
 
+        var jsons = await db.Equipamentos.AsNoTracking()
+            .Select(e => new { ForcaCodigo = e.Forca!.Codigo, CategoriaCodigo = e.Categoria!.Codigo, e.Especificacoes })
+            .ToListAsync(ct);
+        var subtipos = jsons
+            .Select(x => new { x.ForcaCodigo, x.CategoriaCodigo, Sub = Subtipos.Ler(x.Especificacoes) })
+            .Where(x => x.Sub is not null)
+            .GroupBy(x => x.Sub!)
+            .Select(g => new SubtipoRef(g.Key, Subtipos.Nome(g.Key), Maiusculo(g.First().ForcaCodigo), g.First().CategoriaCodigo))
+            .OrderBy(x => x.Nome)
+            .ToList();
+
         return Results.Ok(new
         {
+            subtipos,
             forcas = forcas.Select(f => new PaisRef(Maiusculo(f.Codigo), f.Nome)),
             categorias = categorias.Select(c => new
             {
@@ -77,7 +90,7 @@ public static class EquipamentosEndpoints
     }
 
     private static async Task<IResult> Listar(
-        PoderBelicoContext db, string? pais, string? forca, string? categoria,
+        PoderBelicoContext db, string? pais, string? forca, string? categoria, string? subtipo,
         int? de, int? ate, string? status, int? pagina, int? tamanho, CancellationToken ct)
     {
         var consulta = db.Equipamentos.AsNoTracking().AsQueryable();
@@ -99,6 +112,16 @@ public static class EquipamentosEndpoints
         {
             var codigo = categoria.Trim().ToUpperInvariant();
             consulta = consulta.Where(e => e.Categoria!.Codigo == codigo);
+        }
+
+        if (!string.IsNullOrWhiteSpace(subtipo))
+        {
+            var alvo = subtipo.Trim();
+            var candidatos = await consulta.Select(e => new { e.Id, e.Especificacoes }).ToListAsync(ct);
+            var ids = candidatos
+                .Where(c => string.Equals(Subtipos.Ler(c.Especificacoes), alvo, StringComparison.OrdinalIgnoreCase))
+                .Select(c => c.Id).ToList();
+            consulta = consulta.Where(e => ids.Contains(e.Id));
         }
 
         if (!string.IsNullOrWhiteSpace(status))
@@ -125,6 +148,7 @@ public static class EquipamentosEndpoints
                 ForcaCodigo = e.Forca!.Codigo,
                 CategoriaCodigo = e.Categoria!.Codigo, CategoriaNome = e.Categoria!.Nome,
                 e.AnoEntradaServico, e.Status, e.Confiabilidade, e.DescricaoCurta, e.ImagemUrl, e.ImagemCredito,
+                e.Especificacoes,
             })
             .ToListAsync(ct);
 
@@ -133,7 +157,8 @@ public static class EquipamentosEndpoints
             new PaisRef(l.PaisCodigo, l.PaisNome), Maiusculo(l.ForcaCodigo),
             new CategoriaRef(l.CategoriaCodigo, l.CategoriaNome),
             l.AnoEntradaServico, Maiusculo(l.Status), Maiusculo(l.Confiabilidade),
-            l.DescricaoCurta, Imagem(l.ImagemUrl, l.ImagemCredito))).ToList();
+            l.DescricaoCurta, Imagem(l.ImagemUrl, l.ImagemCredito),
+            Subtipos.Ler(l.Especificacoes) is { } sub ? new CategoriaRef(sub, Subtipos.Nome(sub)) : null)).ToList();
 
         var totalPaginas = (int)Math.Ceiling(total / (double)tamanhoPagina);
         return Results.Ok(new ListaPaginada<EquipamentoResumo>(itens, paginaAtual, tamanhoPagina, total, totalPaginas));

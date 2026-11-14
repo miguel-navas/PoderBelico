@@ -50,3 +50,22 @@ Próxima, a página atual e o total, desabilitando o botão sem destino.
 #### Scenario: Primeira página
 - **WHEN** o usuário está na página 1
 - **THEN** o botão "Anterior" está desabilitado
+
+### Requirement: Categoria por subtipo
+O sistema SHALL oferecer no filtro "Categoria" os subtipos existentes no acervo
+(por exemplo bombardeiro, caça, tanque de batalha, submarino), limitados à força
+escolhida, e MUST refletir a escolha na URL (`subtipo`).
+
+#### Scenario: Filtrar por bombardeiro
+- **WHEN** o usuário escolhe a força "Força Aérea" e a categoria "Bombardeiro"
+- **THEN** a lista mostra somente bombardeiros
+- **AND** a URL contém `subtipo=bombardeiro`
+
+### Requirement: Imagem de fundo por categoria
+O sistema SHALL ter uma imagem por subtipo, usada como banner da lista filtrada e
+como imagem dos cartões de equipamentos sem foto própria, identificada como
+ilustração da categoria gerada por IA.
+
+#### Scenario: Equipamento sem foto
+- **WHEN** um equipamento não tem imagem própria
+- **THEN** o cartão mostra a imagem da sua categoria com o texto "Ilustração da categoria · IA"

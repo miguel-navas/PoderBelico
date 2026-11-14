@@ -143,6 +143,27 @@ test('envia os filtros da URL para a API', async () => {
   expect(api).toHaveBeenCalledWith('/api/equipamentos?forca=EXERCITO&pais=RUS')
 })
 
+test('o filtro Categoria usa os subtipos e envia subtipo para a API', async () => {
+  const api = simularApi([
+    ['/api/filtros', {
+      ...filtros,
+      subtipos: [
+        { codigo: 'bombardeiro', nome: 'Bombardeiro', forca: 'AEREA', categoria: 'AERONAVE' },
+        { codigo: 'submarino', nome: 'Submarino', forca: 'MARINHA', categoria: 'NAVIO' },
+      ],
+    }],
+    ['/api/equipamentos', { itens: [{ ...tanque, subtipo: { codigo: 'tanque_de_batalha', nome: 'Tanque de batalha' } }], pagina: 1, tamanhoPagina: 24, total: 1, totalPaginas: 1 }],
+  ])
+
+  abrir('/equipamentos?forca=AEREA&subtipo=bombardeiro')
+
+  await screen.findByRole('link', { name: /T-14 Armata/ })
+  expect(api).toHaveBeenCalledWith('/api/equipamentos?forca=AEREA&subtipo=bombardeiro')
+  expect(screen.getByRole('option', { name: 'Bombardeiro' })).toBeInTheDocument()
+  expect(screen.queryByRole('option', { name: 'Submarino' })).not.toBeInTheDocument()
+  expect(screen.getByText(/Tanque de batalha/, { selector: '.meta' })).toBeInTheDocument()
+})
+
 test('lista vazia mostra mensagem e permite limpar os filtros', async () => {
   simularApi([
     ['/api/filtros', filtros],
