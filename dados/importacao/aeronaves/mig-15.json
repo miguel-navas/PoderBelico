@@ -7,7 +7,7 @@
   "fabricante": "Mikoyan-Gurevich",
   "ano_primeiro_uso": 1947,
   "ano_entrada_servico": 1949,
-  "unidades_produzidas": 18000,
+  "unidades_produzidas": 17310,
   "status": "APOSENTADO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça",
@@ -19,15 +19,15 @@
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1947-12-30",
-    "comprimento_m": 10.08,
+    "comprimento_m": 10.102,
     "altura_m": 3.7,
-    "envergadura_m": 10.08,
+    "envergadura_m": 10.085,
     "motores": {
       "quantidade": 1,
       "modelo": "Klimov VK-1",
       "empuxo_lbf": 5950
     },
-    "velocidade_max_kmh": 1075,
+    "velocidade_max_kmh": 1076,
     "alcance_km": 1200,
     "teto_m": 15500,
     "armamento": [
@@ -35,18 +35,23 @@
         "tipo": "armamento",
         "descricao": "1x canhão N-37 37mm + 2x canhão NR-23 23mm"
       }
-    ]
+    ],
+    "peso_vazio_kg": 3681,
+    "peso_max_decolagem_kg": 6106
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-mig-15",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Mikoyan-Gurevich MiG-15 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-15",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "unidades '18.000+ — jato mais produzido da história' é valor aproximado/parcial; usado o número base"
+    "Valores do MiG-15bis. alcance_km (1.200) é o requisito de projeto citado; a Wikipedia só dá alcance de traslado de 2.520 km com tanques.",
+    "Produção: 13.130 na URSS + ao menos 4.180 sob licença (soma 17.310).",
+    "Armamento não conferido na Wikipedia (mantido da fonte anterior).",
+    "operadores não informados"
   ]
 }

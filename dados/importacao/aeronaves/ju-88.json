@@ -19,33 +19,38 @@
     "subtipo": "bombardeiro",
     "tripulacao": 4,
     "data_primeiro_voo": "1936-12-21",
-    "comprimento_m": 14.36,
-    "envergadura_m": 20.08,
+    "comprimento_m": 14.4,
+    "envergadura_m": 20.0,
     "motores": {
       "quantidade": 2,
-      "modelo": "Junkers Jumo 211",
+      "modelo": "Junkers Jumo 211J",
       "potencia_hp": 1340
     },
     "velocidade_max_kmh": 470,
-    "alcance_km": 2430,
+    "alcance_km": 1790,
     "teto_m": 8200,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "5x metralhadoras + até 3.000 kg de bombas / torpedos"
+        "descricao": "Metralhadoras defensivas + até 3.000 kg de bombas (carga usual 1.500–2.000 kg)"
       }
-    ]
+    ],
+    "altura_m": 4.8,
+    "peso_vazio_kg": 9860,
+    "peso_max_decolagem_kg": 14000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-ju-88",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Junkers Ju 88 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Junkers_Ju_88",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do Ju 88 A-4. Alcance de traslado: 2.730 km.",
+    "Armamento defensivo detalhado (número de metralhadoras) não conferido.",
+    "operadores não informados"
   ]
 }

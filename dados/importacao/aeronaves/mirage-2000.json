@@ -26,26 +26,30 @@
       "modelo": "SNECMA M53-P2",
       "empuxo_lbf": 21400
     },
-    "velocidade_max_kmh": 2530,
+    "velocidade_max_kmh": 2336,
     "alcance_km": 1550,
-    "teto_m": 18000,
+    "teto_m": 17060,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "2x canhão DEFA 30mm + até 6.300 kg: Mica, Magic, bombas"
+        "descricao": "2x canhão DEFA 554 de 30 mm (125 tiros cada) + até 6.300 kg externos"
       }
-    ]
+    ],
+    "altura_m": 5.2,
+    "peso_vazio_kg": 7500,
+    "peso_max_decolagem_kg": 17000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-mirage-2000",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Dassault Mirage 2000 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_2000",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "Alcance de traslado: 3.335 km com combustível auxiliar.",
+    "operadores não informados"
   ]
 }

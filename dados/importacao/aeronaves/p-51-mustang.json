@@ -7,7 +7,7 @@
   "fabricante": "North American",
   "ano_primeiro_uso": 1940,
   "ano_entrada_servico": 1942,
-  "unidades_produzidas": 15000,
+  "unidades_produzidas": 15686,
   "status": "APOSENTADO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Escolta",
@@ -26,30 +26,34 @@
     "envergadura_m": 11.28,
     "motores": {
       "quantidade": 1,
-      "modelo": "Rolls-Royce Merlin V-1650",
+      "modelo": "Packard V-1650-7 (Merlin)",
       "potencia_hp": 1490
     },
-    "velocidade_max_kmh": 703,
-    "alcance_km": 2755,
+    "velocidade_max_kmh": 710,
+    "alcance_km": 2660,
     "teto_m": 12800,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "6x metralhadoras .50 + bombas / foguetes"
+        "descricao": "6x metralhadoras .50 + foguetes HVAR ou bombas de até 230 kg por asa"
       }
-    ]
+    ],
+    "altura_m": 4.077,
+    "peso_vazio_kg": 3463,
+    "peso_max_decolagem_kg": 5490
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-p-51-mustang",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "North American P-51 Mustang — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/North_American_P-51_Mustang",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores adicionais não listados ('EUA, Reino Unido e 20+ países')",
-    "unidades '15.000+' é valor aproximado/parcial; usado o número base",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do P-51D. Alcance 2.660 km com tanques externos.",
+    "Produção: 15.686 (infobox); a tabela de variantes soma 15.588.",
+    "operadores adicionais não listados"
   ]
 }

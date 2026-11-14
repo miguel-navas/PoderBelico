@@ -15,6 +15,8 @@ export default function Lista() {
     const valor = busca.get(chave)
     if (valor) parametros[chave] = valor
   }
+  const abertoInicial = typeof window.matchMedia !== 'function' || !window.matchMedia('(max-width: 600px)').matches
+  const nAtivos = CHAVES.filter((c) => c !== 'pagina' && busca.get(c)).length
   const temFiltro = CHAVES.some((c) => c !== 'pagina' && busca.get(c))
 
   const filtros = useQuery({ queryKey: ['filtros'], queryFn: buscarFiltros })
@@ -41,6 +43,8 @@ export default function Lista() {
     <section>
       <h2>Equipamentos</h2>
 
+      <details className="painel-filtros" open={abertoInicial}>
+        <summary>Filtros{nAtivos > 0 ? ` (${nAtivos} ativos)` : ''}</summary>
       <form className="filtros" onSubmit={(e) => e.preventDefault()} aria-label="Filtros">
         <label>
           Força
@@ -107,6 +111,7 @@ export default function Lista() {
           />
         </label>
       </form>
+      </details>
 
       {lista.isPending && <p>Carregando equipamentos...</p>}
       {lista.isError && <p role="alert">Não foi possível carregar os equipamentos.</p>}
@@ -129,7 +134,17 @@ export default function Lista() {
           </p>
           <ul className="cartoes">
             {lista.data.itens.map((e) => (
-              <li key={e.slug}>
+              <li key={e.slug} className={`forca-${e.forca.toLowerCase()}`}>
+                <div className="cartao-img">
+                  {e.imagem ? (
+                    <>
+                      <img src={e.imagem.url} alt="" loading="lazy" decoding="async" />
+                      <span className="credito">{e.imagem.credito}</span>
+                    </>
+                  ) : (
+                    <div className="inicial" aria-hidden="true">{e.categoria.nome.charAt(0)}</div>
+                  )}
+                </div>
                 <LinkF to={`/equipamentos/${e.slug}`}>
                   <strong>{e.nome}</strong>
                   {e.variante && <span> {e.variante}</span>}

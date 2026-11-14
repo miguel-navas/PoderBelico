@@ -19,27 +19,33 @@
     "subtipo": "transporte",
     "tripulacao": 2,
     "data_primeiro_voo": "1989-03-19",
-    "comprimento_m": 17.5,
-    "envergadura_m": 25.8,
+    "comprimento_m": 17.48,
+    "envergadura_m": 13.97,
     "motores": {
       "quantidade": 2,
-      "modelo": "Rolls-Royce AE 1107"
+      "modelo": "Rolls-Royce T406 (AE 1107C)",
+      "potencia_hp": 6150
     },
-    "velocidade_max_kmh": 565,
-    "alcance_km": 1627
+    "velocidade_max_kmh": 509,
+    "alcance_km": 1628,
+    "altura_m": 6.73,
+    "peso_vazio_kg": 14432,
+    "peso_max_decolagem_kg": 25855,
+    "teto_m": 7600
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-v-22-osprey",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Bell–Boeing V-22 Osprey — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bell–Boeing_V-22_Osprey",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "potência '6.150 shp cada' não convertida (shp/outra unidade sem campo no schema)",
-    "operadores não informados",
-    "unidades '400+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "Valores do MV-22B. Envergadura 13,97 m é a asa; 25,8 m (valor anterior) é a largura total com rotores.",
+    "Velocidade 509 km/h (275 kn); 565 km/h a 4.600 m. peso_max_decolagem = STOL (25.855 kg); VTOL 23.859 kg.",
+    "Produção: 400 em 2020. Alcance de traslado 4.130 km.",
+    "operadores não informados"
   ]
 }

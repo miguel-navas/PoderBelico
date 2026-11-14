@@ -7,7 +7,7 @@
   "fabricante": "Tupolev",
   "ano_primeiro_uso": 1981,
   "ano_entrada_servico": 1987,
-  "unidades_produzidas": 35,
+  "unidades_produzidas": 41,
   "status": "ATIVO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Estratégico Supersônico",
@@ -28,27 +28,30 @@
     },
     "velocidade_max_kmh": 2220,
     "alcance_km": 12300,
-    "teto_m": 21000,
+    "teto_m": 16000,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "Até 40.000 kg: Kh-101, Kh-55, bombas"
       }
-    ]
+    ],
+    "altura_m": 13.1,
+    "peso_vazio_kg": 110000,
+    "peso_max_decolagem_kg": 275000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-tu-160-blackjack",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Tupolev Tu-160 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-160",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "país de origem 'URSS/Rússia' resolvido como SUN (pelo ano do primeiro voo); conferir",
-    "envergadura variável na fonte ('55,70 m (aberta) / 35,60 m (fechada)'); usado o primeiro valor",
-    "operadores não informados",
-    "unidades '35+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "Envergadura 55,7 m com asas abertas (35,6 m recolhidas).",
+    "Produção: 41 (9 de teste + 32 de série); a Wikipedia também cita 35 concluídas até 1992, antes da retomada da produção.",
+    "alcance_km = prático sem reabastecimento. Teto de serviço 16.000 m (valor anterior 21.000 m era incorreto).",
+    "operadores não informados"
   ]
 }

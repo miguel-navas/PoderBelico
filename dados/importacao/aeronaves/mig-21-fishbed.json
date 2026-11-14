@@ -19,33 +19,39 @@
     "subtipo": "interceptador",
     "tripulacao": 1,
     "data_primeiro_voo": "1955-02-14",
-    "comprimento_m": 14.5,
-    "envergadura_m": 7.15,
+    "comprimento_m": 14.7,
+    "envergadura_m": 7.154,
     "motores": {
       "quantidade": 1,
-      "modelo": "Tumansky R-25",
-      "empuxo_lbf": 15650
+      "modelo": "Tumansky R-25-300",
+      "empuxo_lbf": 15640
     },
     "velocidade_max_kmh": 2175,
-    "alcance_km": 1210,
-    "teto_m": 19000,
+    "alcance_km": 660,
+    "teto_m": 17500,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "1x canhão GSh-23 23mm + mísseis AA-2 Atoll / R-60 + bombas"
+        "descricao": "1x canhão GSh-23 de 23 mm + mísseis K-13/R-60 ou R-3R + 2 bombas de 500 kg"
       }
-    ]
+    ],
+    "altura_m": 4.1,
+    "peso_vazio_kg": 5339,
+    "peso_max_decolagem_kg": 8800
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-mig-21-fishbed",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Mikoyan-Gurevich MiG-21 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do MiG-21bis. Comprimento 14,7 m sem a sonda pitot (15,0 m com).",
+    "Alcance 660 km limpo; a lista de variantes da Wikipedia cita 1.210 km com combustível interno — fontes divergem.",
+    "Peso vazio (5.339 kg) vem da lista de variantes.",
+    "operadores não informados"
   ]
 }

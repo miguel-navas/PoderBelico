@@ -7,7 +7,7 @@
   "fabricante": "Embraer",
   "ano_primeiro_uso": 2015,
   "ano_entrada_servico": 2019,
-  "unidades_produzidas": 30,
+  "unidades_produzidas": 16,
   "status": "ATIVO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Transporte Militar",
@@ -21,31 +21,34 @@
   ],
   "especificacoes": {
     "subtipo": "transporte",
-    "tripulacao": 2,
+    "tripulacao": 3,
     "data_primeiro_voo": "2015-02-03",
-    "comprimento_m": 33.43,
-    "altura_m": 11.43,
-    "envergadura_m": 33.94,
+    "comprimento_m": 35.2,
+    "altura_m": 11.84,
+    "envergadura_m": 35.05,
     "motores": {
       "quantidade": 2,
       "modelo": "IAE V2500",
       "empuxo_lbf": 31330
     },
     "velocidade_max_kmh": 988,
-    "alcance_km": 5820,
-    "teto_m": 11000
+    "alcance_km": 5020,
+    "teto_m": 11000,
+    "peso_vazio_kg": 35000,
+    "peso_max_decolagem_kg": 86999
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-kc-390-millennium",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Embraer C-390 Millennium — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Embraer_C-390_Millennium",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "Carga útil ('26.000 kg / 80 soldados / 66 paraquedistas') sem campo no schema",
-    "unidades '30+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "alcance_km = 5.020 km com 14 t de carga; traslado 6.240–8.460 km.",
+    "Produção: 16 unidades incluindo 3 protótipos (Wikipedia, nov/2026).",
+    "Carga útil 26.000 kg sem campo no schema."
   ]
 }

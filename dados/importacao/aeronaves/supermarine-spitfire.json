@@ -21,33 +21,38 @@
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1936-03-05",
-    "comprimento_m": 9.37,
+    "comprimento_m": 9.12,
     "envergadura_m": 11.23,
     "motores": {
       "quantidade": 1,
-      "modelo": "Rolls-Royce Merlin",
+      "modelo": "Rolls-Royce Merlin 45",
       "potencia_hp": 1470
     },
-    "velocidade_max_kmh": 594,
-    "alcance_km": 760,
-    "teto_m": 11300,
+    "velocidade_max_kmh": 600,
+    "alcance_km": 771,
+    "teto_m": 11100,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "2x canhão Hispano 20mm + 4x metralhadoras .303"
       }
-    ]
+    ],
+    "altura_m": 3.48,
+    "peso_vazio_kg": 2297,
+    "peso_max_decolagem_kg": 3039
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-supermarine-spitfire",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Supermarine Spitfire — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supermarine_Spitfire",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores adicionais não listados ('Reino Unido e 30+ países')",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do Spitfire Mk Vb (comprimento anterior de 9,37 m era de outra variante).",
+    "Produção: mais de 20.351 no total, 24 marcas; o Mk V foi o mais numeroso (6.487).",
+    "operadores não informados"
   ]
 }

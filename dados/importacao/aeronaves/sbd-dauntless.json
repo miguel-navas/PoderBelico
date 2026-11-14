@@ -19,33 +19,35 @@
     "subtipo": "bombardeiro",
     "tripulacao": 2,
     "data_primeiro_voo": "1940-05-01",
-    "comprimento_m": 10.06,
-    "envergadura_m": 12.65,
+    "comprimento_m": 9.79,
+    "envergadura_m": 12.66,
     "motores": {
       "quantidade": 1,
       "modelo": "Wright R-1820",
       "potencia_hp": 1200
     },
     "velocidade_max_kmh": 410,
-    "alcance_km": 1795,
+    "alcance_km": 1794,
     "teto_m": 7600,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "2x .50 dianteiras + 2x .30 traseiras + 1x bomba 1.000 lb + 2x 100 lb"
+        "descricao": "2x .50 dianteiras + 2x .30 traseiras; bomba de 730 kg sob a fuselagem + 147 kg sob cada asa"
       }
     ]
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-sbd-dauntless",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Douglas SBD Dauntless — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Douglas_SBD_Dauntless",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do SBD-5 (Wikipedia). Teto (7.600 m) não conferido.",
+    "Produção: 5.936 (confirmado).",
+    "operadores não informados"
   ]
 }

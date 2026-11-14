@@ -22,7 +22,8 @@
     "comprimento_m": 16,
     "motores": {
       "quantidade": 2,
-      "modelo": "Klimov VK-2500"
+      "modelo": "Klimov VK-2500-01",
+      "potencia_hp": 2000
     },
     "velocidade_max_kmh": 310,
     "alcance_km": 460,
@@ -35,16 +36,17 @@
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-ka-52-alligator",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Kamov Ka-50 (inclui o Ka-52) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kamov_Ka-50",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "potência '2.400 shp cada' não convertida (shp/outra unidade sem campo no schema)",
-    "operadores não informados",
-    "unidades '150+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "A Wikipedia traz especificações só do Ka-50 (monoposto). Comprimento 16 m, velocidade 310 km/h e alcance 460 km do Ka-52 não conferidos.",
+    "potencia_hp = 2.000 shp de decolagem do VK-2500-01 (Ka-52); o Ka-50 lista 2.400 shp.",
+    "Entrada em serviço em maio/2011 confirmada; produção (150) não conferida.",
+    "operadores não informados"
   ]
 }

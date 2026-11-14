@@ -6,7 +6,7 @@
   "categoria": "AERONAVE",
   "fabricante": "Heinkel",
   "ano_primeiro_uso": 1935,
-  "ano_entrada_servico": 1937,
+  "ano_entrada_servico": 1935,
   "unidades_produzidas": 6508,
   "status": "APOSENTADO",
   "confiabilidade": "ESTIMADO",
@@ -25,8 +25,8 @@
     "envergadura_m": 22.6,
     "motores": {
       "quantidade": 2,
-      "modelo": "Junkers Jumo 211",
-      "potencia_hp": 1340
+      "modelo": "Junkers Jumo 211F-1",
+      "potencia_hp": 1300
     },
     "velocidade_max_kmh": 440,
     "alcance_km": 2300,
@@ -34,19 +34,24 @@
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "7x metralhadoras + 2.000 kg de bombas"
+        "descricao": "Até 7x metralhadoras 7,92 mm MG 15/MG 81 + 2.000 kg de bombas internas (até 3.600 kg externas)"
       }
-    ]
+    ],
+    "altura_m": 4.0,
+    "peso_vazio_kg": 8680,
+    "peso_max_decolagem_kg": 14000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-he-111",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Heinkel He 111 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heinkel_He_111",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do bloco geral da série H. Teto 6.500 m é com carga pesada; o texto do H-6 cita 8.500 m e 435 km/h.",
+    "operadores não informados"
   ]
 }
