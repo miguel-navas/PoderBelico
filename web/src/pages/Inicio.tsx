@@ -1,30 +1,32 @@
-import { useQuery } from '@tanstack/react-query'
 import { Link } from 'react-router-dom'
+import '../inicio.css'
 
-type Saude = { status: string; banco: boolean }
-
-async function buscarSaude(): Promise<Saude> {
-  const resposta = await fetch('/api/saude')
-  if (!resposta.ok) throw new Error('Falha ao consultar a API')
-  return resposta.json()
-}
+const FORCAS = [
+  { codigo: 'EXERCITO', classe: 'army', titulo: 'EXÉRCITO', texto: 'Blindados modernos e forças terrestres' },
+  { codigo: 'AEREA', classe: 'air', titulo: 'AERONÁUTICA', texto: 'A-10 Thunderbolt II e aviação de combate' },
+  { codigo: 'MARINHA', classe: 'navy', titulo: 'MARINHA', texto: 'Navios de guerra e artilharia naval' },
+]
 
 export default function Inicio() {
-  const { data, isPending, isError } = useQuery({
-    queryKey: ['saude'],
-    queryFn: buscarSaude,
-  })
-
   return (
-    <section>
-      <p>Equipamentos militares, da 1ª Guerra Mundial aos dias de hoje.</p>
-      <p>
-        <Link to="/equipamentos">Ver equipamentos</Link> · <Link to="/linha-do-tempo">Linha do tempo</Link> ·{' '}
-        <Link to="/paises">Países</Link>
-      </p>
-      {isPending && <p>Consultando a API...</p>}
-      {isError && <p role="alert">API indisponível</p>}
-      {data && <p>API {data.status}</p>}
-    </section>
+    <div className="inicio">
+      <div className="inicio-fundo" aria-hidden="true" />
+      <div className="inicio-conteudo">
+        <h1 aria-label="Poder Bélico">
+          <img src={`${import.meta.env.BASE_URL}img/titulo-poder-belico.svg`} alt="" />
+        </h1>
+        <nav className="force-list" aria-label="Forças militares">
+          {FORCAS.map((f) => (
+            <Link key={f.codigo} className={`force-card ${f.classe}`} to={`/equipamentos?forca=${f.codigo}`}>
+              <span className="card-image" aria-hidden="true" />
+              <span className="card-copy">
+                <h2>{f.titulo}</h2>
+                <p>{f.texto}</p>
+              </span>
+            </Link>
+          ))}
+        </nav>
+      </div>
+    </div>
   )
 }

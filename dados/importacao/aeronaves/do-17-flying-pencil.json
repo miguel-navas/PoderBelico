@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Leve",
   "curiosidade": "Apelido Flying Pencil pela fuselagem fina. Já obsoleto em 1940.",
+  "imagem_url": "/img/aeronaves/do-17-flying-pencil.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

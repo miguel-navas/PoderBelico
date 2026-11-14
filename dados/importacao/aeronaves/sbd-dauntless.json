@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro de Mergulho Naval",
   "curiosidade": "Decisivo em Midway em 4 Jun 1942 — em 5 minutos afundou 3 porta-aviões japoneses.",
+  "imagem_url": "/img/aeronaves/sbd-dauntless.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

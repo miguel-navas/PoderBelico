@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Estratégico Supersônico",
   "curiosidade": "Apelido Bone (B-One). Maior capacidade de carga de qualquer bombardeiro americano.",
+  "imagem_url": "/img/aeronaves/b-1b-lancer.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

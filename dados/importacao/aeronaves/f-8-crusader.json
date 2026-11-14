@@ -7,42 +7,47 @@
   "fabricante": "Vought",
   "ano_primeiro_uso": 1955,
   "ano_entrada_servico": 1957,
-  "unidades_produzidas": 1261,
+  "unidades_produzidas": 1219,
   "status": "APOSENTADO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Naval",
   "curiosidade": "Apelido Last of the Gunfighters — último caça americano feito para lutar com canhão.",
+  "imagem_url": "/img/aeronaves/f-8-crusader.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1955-03-25",
-    "comprimento_m": 16.53,
+    "comprimento_m": 17.06,
     "envergadura_m": 10.87,
     "motores": {
       "quantidade": 1,
       "modelo": "Pratt & Whitney J57",
       "empuxo_lbf": 18000
     },
-    "velocidade_max_kmh": 1975,
-    "alcance_km": 2330,
-    "teto_m": 17700,
+    "velocidade_max_kmh": 1974,
+    "alcance_km": 730,
+    "teto_m": 18000,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "4x canhão Colt Mk 12 20mm + AIM-9 Sidewinder"
       }
-    ]
+    ],
+    "altura_m": 4.8
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f-8-crusader",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Vought F-8 Crusader — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vought_F-8_Crusader",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados"
+    "operadores não informados",
+    "Valores da variante F-8E. alcance_km = alcance de combate (730 km); alcance de traslado 2.791 km."
   ]
 }

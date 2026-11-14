@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Tiltrotor",
   "curiosidade": "Decola como helicóptero, voa como avião.",
+  "imagem_url": "/img/aeronaves/v-22-osprey.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "transporte",

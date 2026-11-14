@@ -64,7 +64,7 @@ test('termo inválido (400) mostra aviso', async () => {
 test('o campo do cabeçalho leva à página de busca', async () => {
   const f = vi.fn(async () => resposta({ termo: 'jutlandia', total: 0, equipamentos: [], eventos: [] }))
   vi.stubGlobal('fetch', f)
-  abrir('/')
+  abrir('/metodologia')
 
   const campo = screen.getByRole('searchbox', { name: 'Buscar' })
   fireEvent.change(campo, { target: { value: 'jutlândia' } })

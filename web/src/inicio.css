@@ -1,0 +1,26 @@
+/* Página inicial (mockup "moderno"). Tudo escopado em .inicio para não afetar as demais páginas. */
+.inicio { position: relative; isolation: isolate; min-height: 100svh; background: #080b0e; color: #f4f6f8; text-align: left; }
+.inicio-fundo { position: fixed; inset: 0; z-index: -1; background: linear-gradient(90deg, #03070b88, #04080b33 50%, #03070b88), linear-gradient(0deg, #030609aa, #04090e44 55%, #03070b88), url('/img/fundo-moderno.png') center / cover no-repeat; }
+.inicio-conteudo { box-sizing: border-box; min-height: 100svh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 42px; padding: 48px 28px 64px; }
+.inicio h1 { margin: 0; width: min(690px, 100%); filter: drop-shadow(0 3px 1px #191b13) drop-shadow(0 7px 10px #000); }
+.inicio h1 img { display: block; width: 100%; height: auto; }
+.inicio .force-list { display: grid; gap: 19px; width: min(1200px, 88vw); max-width: 100%; }
+.inicio .force-card { position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: center; min-height: 126px; padding: 25px 36px; border: 1px solid #9aa7b2; border-radius: 8px; background: #060a0e; box-shadow: 0 8px 24px #0008, inset 0 0 0 1px #ffffff14; color: inherit; text-decoration: none; }
+.inicio .card-image { position: absolute; inset: 0; z-index: -2; background: url('/img/fundo-moderno.png') no-repeat; opacity: .75; transition: opacity .2s; }
+.inicio .force-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #030609b8, #03060966 48%, #0306099c 100%); }
+.inicio .army .card-image { background-size: 160%; background-position: 0% 65%; }
+.inicio .air .card-image { background-size: max(100%, 1170px) auto; background-position: 100% 9%; }
+.inicio .navy .card-image { background-size: max(100%, 845px) auto; background-position: 100% 60%; }
+.inicio .air::after, .inicio .navy::after { background: linear-gradient(90deg, #030609b8, #03060940 52%, #03060920 100%); }
+.inicio .force-card:hover .card-image { opacity: 1; }
+.inicio .force-card:focus-visible { outline: 2px solid #eee3bd; outline-offset: -5px; }
+.inicio .card-copy { min-width: 0; }
+.inicio h2 { font-family: Stencil, "Stencil Std", Impact, "Arial Black", sans-serif; font-size: 30px; font-weight: 850; letter-spacing: -.4px; line-height: 1.2; margin: 0 0 7px; color: #f4f6f8; text-shadow: 0 2px 5px #000; }
+.inicio .card-copy p { color: #c0c9d3; font-size: 16px; font-weight: 600; line-height: 1.4; margin: 0; text-shadow: 0 1px 4px #000; }
+@media (min-width: 1500px) { .inicio-conteudo { gap: 50px; } .inicio .force-card { min-height: 140px; } }
+@media (max-width: 600px) { .inicio-conteudo { padding: 40px 20px; gap: 30px; } .inicio .force-list { width: 100%; gap: 16px; } .inicio .force-card { min-height: 112px; padding: 20px 16px; } .inicio h2 { font-size: clamp(18px, 4.5vw, 24px); } .inicio .card-copy p { font-size: 13px; max-width: 240px; } }
+@media (prefers-reduced-motion: reduce) { .inicio * { transition: none !important; } }
+
+/* A inicial ocupa a tela toda, sem a moldura central do #root e sem rolagem extra. */
+body:has(.inicio) #root { width: 100%; max-width: none; border-inline: 0; }
+body:has(.inicio) { overflow-x: hidden; }

@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Estratégico",
   "curiosidade": "Avião a hélice mais rápido do mundo. Ainda em serviço após 70 anos.",
+  "imagem_url": "/img/aeronaves/tu-95-bear.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

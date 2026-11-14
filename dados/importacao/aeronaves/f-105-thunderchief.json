@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça-Bombardeiro",
   "curiosidade": "Apelido Thud. Carregava mais bombas que um B-17. Quase metade foi perdida no Vietnã.",
+  "imagem_url": "/img/aeronaves/f-105-thunderchief.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Multimissão",
   "curiosidade": "Caça mais importante do Vietnã. Primeiros modelos sem canhão — a lição trouxe o canhão de volta e criou o Top Gun.",
+  "imagem_url": "/img/aeronaves/f-4-phantom-ii.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "caca",
@@ -21,29 +23,32 @@
     "envergadura_m": 11.7,
     "motores": {
       "quantidade": 2,
-      "modelo": "GE J79",
-      "empuxo_lbf": 17900
+      "modelo": "General Electric J79-GE-17A",
+      "empuxo_lbf": 17845
     },
     "velocidade_max_kmh": 2370,
-    "alcance_km": 2600,
-    "teto_m": 18300,
+    "alcance_km": 680,
+    "teto_m": 18000,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "1x canhão M61 Vulcan 20mm (F-4E) + até 8.480 kg: AIM-7 Sparrow, AIM-9 Sidewinder, bombas"
       }
-    ]
+    ],
+    "altura_m": 5.0
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f-4-phantom-ii",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "McDonnell Douglas F-4 Phantom II — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-4_Phantom_II",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores não informados",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
+    "Valores da variante F-4E. alcance_km = alcance de combate (680 km); alcance de traslado 2.699 km."
   ]
 }

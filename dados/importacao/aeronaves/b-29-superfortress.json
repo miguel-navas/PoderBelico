@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Estratégico",
   "curiosidade": "Avião mais caro da guerra — custou mais que o Projeto Manhattan. Lançou as bombas atômicas em Hiroshima e Nagasaki.",
+  "imagem_url": "/img/aeronaves/b-29-superfortress.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [
     "USA",
     "GBR"

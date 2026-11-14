@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Naval",
   "curiosidade": "Asa de gaivota invertida. Apelido Whistling Death. Lutou até a Coreia.",
+  "imagem_url": "/img/aeronaves/f4u-corsair.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [
     "USA",
     "GBR",
@@ -21,32 +23,35 @@
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1940-05-29",
-    "comprimento_m": 10.2,
+    "comprimento_m": 10.26,
     "envergadura_m": 12.5,
     "motores": {
       "quantidade": 1,
-      "modelo": "Pratt & Whitney R-2800",
-      "potencia_hp": 2000
+      "modelo": "Pratt & Whitney R-2800-18W",
+      "potencia_hp": 2380
     },
-    "velocidade_max_kmh": 718,
-    "alcance_km": 1630,
+    "velocidade_max_kmh": 717,
+    "alcance_km": 1617,
     "teto_m": 12600,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "6x metralhadoras .50 + bombas / foguetes"
       }
-    ]
+    ],
+    "altura_m": 4.5
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f4u-corsair",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Vought F4U Corsair — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vought_F4U_Corsair",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante F4U-4. alcance_km = alcance máximo (1.617 km); alcance de combate ~528 km."
   ]
 }

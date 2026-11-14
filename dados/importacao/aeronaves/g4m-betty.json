@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro / Ataque Terrestre Naval",
   "curiosidade": "Sem tanques autovedantes — apelido Charuto Voador. Levava o almirante Yamamoto quando foi abatido em 1943.",
+  "imagem_url": "/img/aeronaves/g4m-betty.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",
@@ -32,18 +34,21 @@
         "tipo": "armamento",
         "descricao": "4x metralhadoras 7,7mm + 1x canhão 20mm + até 1.000 kg / 1 torpedo 800 kg"
       }
-    ]
+    ],
+    "altura_m": 4.9
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-g4m-betty",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Mitsubishi G4M — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_G4M",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante G4M1 Model 11. Teto (9.200 m) não confirmado na fonte consultada (o G4M2 chega a 8.950 m). Alcance de traslado: 5.040 km."
   ]
 }

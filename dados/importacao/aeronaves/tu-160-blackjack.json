@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Estratégico Supersônico",
   "curiosidade": "Maior e mais pesado bombardeiro supersônico do mundo. Apelido Cisne Branco.",
+  "imagem_url": "/img/aeronaves/tu-160-blackjack.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Torpedeiro Biplano Naval",
   "curiosidade": "Biplano que parecia obsoleto, mas afundou o Bismarck — seu torpedo travou o leme em 1941. Brilhou em Taranto em 1940.",
+  "imagem_url": "/img/aeronaves/fairey-swordfish.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",
@@ -24,26 +26,29 @@
       "modelo": "Bristol Pegasus",
       "potencia_hp": 690
     },
-    "velocidade_max_kmh": 222,
-    "alcance_km": 879,
-    "teto_m": 3260,
+    "velocidade_max_kmh": 230,
+    "alcance_km": 840,
+    "teto_m": 5000,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "1x metralhadora .303 + 1x torpedo 730 kg ou bombas"
+        "descricao": "1x metralhadora .303 fixa + 1x .303 traseira + 1x torpedo 760 kg ou bombas/minas até 700 kg"
       }
-    ]
+    ],
+    "altura_m": 3.76
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-fairey-swordfish",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Fairey Swordfish — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fairey_Swordfish",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante Swordfish I."
   ]
 }

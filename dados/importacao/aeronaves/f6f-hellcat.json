@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Naval",
   "curiosidade": "75% dos abates navais americanos no Pacífico. Proporção 19:1 contra o Japão.",
+  "imagem_url": "/img/aeronaves/f6f-hellcat.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [
     "USA",
     "GBR"
@@ -24,28 +26,31 @@
     "envergadura_m": 13.06,
     "motores": {
       "quantidade": 1,
-      "modelo": "Pratt & Whitney R-2800",
-      "potencia_hp": 2000
+      "modelo": "Pratt & Whitney R-2800-10W",
+      "potencia_hp": 2200
     },
-    "velocidade_max_kmh": 610,
-    "alcance_km": 1520,
+    "velocidade_max_kmh": 629,
+    "alcance_km": 1521,
     "teto_m": 11400,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "6x metralhadoras .50 + bombas / foguetes"
       }
-    ]
+    ],
+    "altura_m": 3.99
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f6f-hellcat",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Grumman F6F Hellcat — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grumman_F6F_Hellcat",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante F6F-5. alcance_km = alcance de combate (1.521 km); alcance de traslado 2.460 km."
   ]
 }

@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça",
   "curiosidade": "Choque na Coreia em 1950. Duelo no MiG Alley contra o F-86.",
+  "imagem_url": "/img/aeronaves/mig-15.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "caca",

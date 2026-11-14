@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Helicóptero de Ataque",
   "curiosidade": "Radar Longbow no topo do rotor. O pesadelo dos blindados desde a Guerra do Golfo.",
+  "imagem_url": "/img/aeronaves/ah-64-apache.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "helicoptero_de_ataque",

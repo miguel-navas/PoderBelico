@@ -7,11 +7,13 @@
   "fabricante": "Lockheed Martin",
   "ano_primeiro_uso": 2006,
   "ano_entrada_servico": 2015,
-  "unidades_produzidas": 1300,
+  "unidades_produzidas": 1400,
   "status": "ATIVO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Furtivo 5ª Geração Multimissão",
   "curiosidade": "3 variantes: A (convencional), B (pouso vertical), C (naval). Programa militar mais caro da história.",
+  "imagem_url": "/img/aeronaves/f-35-lightning-ii.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "caca",
@@ -24,27 +26,31 @@
       "modelo": "Pratt & Whitney F135",
       "empuxo_lbf": 43000
     },
-    "velocidade_max_kmh": 1930,
-    "alcance_km": 2220,
-    "teto_m": 15240,
+    "velocidade_max_kmh": 1976,
+    "alcance_km": 1239,
+    "teto_m": 15000,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "1x canhão GAU-22 25mm + AIM-120, AIM-9, JDAM, até 8.100 kg"
+        "descricao": "1x canhão GAU-22/A 25mm + AIM-120, AIM-9X, JDAM, até 8.200 kg (18.000 lb)"
       }
-    ]
+    ],
+    "altura_m": 4.39
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f-35-lightning-ii",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Lockheed Martin F-35 Lightning II — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores não informados",
     "unidades '1.300+ entregues' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
+    "Valores da variante F-35A. alcance_km = raio de combate em interdição (1.239 km); alcance de traslado ~2.800 km.",
+    "Produção: mais de 1.400 unidades (Wikipedia, nov/2026)."
   ]
 }

@@ -107,13 +107,15 @@ function abrir(rota: string) {
 
 afterEach(() => vi.unstubAllGlobals())
 
-test('mostra o título e o status da API', async () => {
-  simularApi([['/api/saude', { status: 'ok', banco: true }]])
+test('início mostra o título e os cards das três forças', () => {
+  simularApi([])
 
   abrir('/')
 
   expect(screen.getByRole('heading', { name: 'Poder Bélico' })).toBeInTheDocument()
-  expect(await screen.findByText('API ok')).toBeInTheDocument()
+  expect(screen.getByRole('link', { name: /EXÉRCITO/ })).toHaveAttribute('href', '/equipamentos?forca=EXERCITO')
+  expect(screen.getByRole('link', { name: /AERONÁUTICA/ })).toHaveAttribute('href', '/equipamentos?forca=AEREA')
+  expect(screen.getByRole('link', { name: /MARINHA/ })).toHaveAttribute('href', '/equipamentos?forca=MARINHA')
 })
 
 test('lista equipamentos com os dados principais', async () => {
@@ -198,7 +200,7 @@ test('slug inexistente mostra não encontrado com link para a busca', async () =
 test('rodapé leva à página de metodologia', async () => {
   simularApi([])
 
-  abrir('/')
+  abrir('/busca')
   fireEvent.click(screen.getByRole('link', { name: /Metodologia/ }))
 
   expect(await screen.findByRole('heading', { name: 'Metodologia' })).toBeInTheDocument()

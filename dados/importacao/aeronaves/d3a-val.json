@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro de Mergulho Embarcado",
   "curiosidade": "Afundou mais navios aliados que qualquer outro avião do Eixo. Decisivo em Pearl Harbor, Midway e Mar de Coral.",
+  "imagem_url": "/img/aeronaves/d3a-val.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

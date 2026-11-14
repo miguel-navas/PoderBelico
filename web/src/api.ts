@@ -157,7 +157,8 @@ export class ErroHttp extends Error {
 }
 
 async function obter<T>(url: string): Promise<T> {
-  const resposta = await fetch(url)
+  const caminho = `${import.meta.env.BASE_URL}${url.replace(/^\//, '')}`
+  const resposta = await fetch(caminho)
   if (!resposta.ok) throw new ErroHttp(resposta.status, `Falha ao consultar ${url}`)
   return resposta.json() as Promise<T>
 }

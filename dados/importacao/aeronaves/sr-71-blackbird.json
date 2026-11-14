@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Reconhecimento Estratégico",
   "curiosidade": "Avião tripulado mais rápido já construído. Nunca foi abatido em missão.",
+  "imagem_url": "/img/aeronaves/sr-71-blackbird.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "reconhecimento",

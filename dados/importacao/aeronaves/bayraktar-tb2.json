@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Drone de Ataque",
   "curiosidade": "Estrela da guerra na Ucrânia.",
+  "imagem_url": "/img/aeronaves/bayraktar-tb2.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "nao_tripulada",

@@ -10,6 +10,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Drone Furtivo Naval",
   "curiosidade": "Primeiro drone a pousar sozinho em porta-aviões, em 2013.",
+  "imagem_url": "/img/aeronaves/x-47b.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "nao_tripulada",

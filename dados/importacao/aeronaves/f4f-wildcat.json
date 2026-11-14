@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Naval Embarcado",
   "curiosidade": "Segurou o início do Pacífico contra o Zero em 1942. Tática Thach Weave virou o jogo.",
+  "imagem_url": "/img/aeronaves/f4f-wildcat.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "caca",
@@ -25,25 +27,28 @@
       "potencia_hp": 1200
     },
     "velocidade_max_kmh": 533,
-    "alcance_km": 1240,
+    "alcance_km": 1360,
     "teto_m": 12000,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "6x metralhadoras .50 + 2x bombas 100 lb"
+        "descricao": "4x metralhadoras .50 + 2x bombas 100 lb"
       }
-    ]
+    ],
+    "altura_m": 3.61
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f4f-wildcat",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Grumman F4F Wildcat — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grumman_F4F_Wildcat",
+      "provisoria": false
     }
   ],
   "_pendencias": [
     "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz",
+    "Valores da variante F4F-3 (o F4F-4 tinha 6 metralhadoras e desempenho menor)."
   ]
 }

@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Pesado",
   "curiosidade": "Único bombardeiro pesado alemão sério. Motores pegavam fogo — apelidado de isqueiro voador.",
+  "imagem_url": "/img/aeronaves/he-177-greif.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

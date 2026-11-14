@@ -38,6 +38,8 @@ function PaginaPais() {
 }
 
 export default function App() {
+  const { pathname } = useLocation()
+  if (pathname === '/') return <Inicio />
   return (
     <>
       <header className="topo">
@@ -50,7 +52,6 @@ export default function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Inicio />} />
           <Route path="/equipamentos" element={<Lista />} />
           <Route path="/equipamentos/:slug" element={<Ficha />} />
           <Route path="/eventos" element={<Eventos />} />

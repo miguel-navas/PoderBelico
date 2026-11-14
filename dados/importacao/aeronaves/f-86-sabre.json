@@ -12,17 +12,19 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça",
   "curiosidade": "Resposta americana ao MiG-15. Duelos lendários no MiG Alley.",
+  "imagem_url": "/img/aeronaves/f-86-sabre.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1947-10-01",
-    "comprimento_m": 11.44,
-    "envergadura_m": 11.31,
+    "comprimento_m": 11.3,
+    "envergadura_m": 11.91,
     "motores": {
       "quantidade": 1,
-      "modelo": "GE J47",
-      "empuxo_lbf": 5200
+      "modelo": "General Electric J47-GE-27",
+      "empuxo_lbf": 5910
     },
     "velocidade_max_kmh": 1106,
     "alcance_km": 2454,
@@ -32,17 +34,20 @@
         "tipo": "armamento",
         "descricao": "6x metralhadoras .50 + foguetes / bombas"
       }
-    ]
+    ],
+    "altura_m": 4.29
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-f-86-sabre",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "North American F-86 Sabre — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/North_American_F-86_Sabre",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados"
+    "operadores não informados",
+    "Valores da variante F-86F-40. alcance_km = alcance máximo (2.454 km); alcance de combate com bombas e tanques ~666 km."
   ]
 }

@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Estratégico",
   "curiosidade": "Em serviço há 70+ anos, previsto até 2050.",
+  "imagem_url": "/img/aeronaves/b-52-stratofortress.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

@@ -10,6 +10,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Bombardeiro Furtivo 6ª Geração",
   "curiosidade": "Sucessor do B-2. Nome Raider homenageia o Doolittle Raid de 1942.",
+  "imagem_url": "/img/aeronaves/b-21-raider.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "bombardeiro",

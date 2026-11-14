@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Transporte Militar Tático",
   "curiosidade": "Em serviço há 70 anos. Base para AC-130, KC-130, HC-130. O KC-390 foi feito para sucedê-lo.",
+  "imagem_url": "/img/aeronaves/c-130-hercules.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "transporte",

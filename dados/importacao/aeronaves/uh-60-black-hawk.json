@@ -12,6 +12,8 @@
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Helicóptero Utilitário",
   "curiosidade": "Helicóptero utilitário mais usado do mundo.",
+  "imagem_url": "/img/aeronaves/uh-60-black-hawk.jpg",
+  "imagem_credito": "Imagem gerada por IA",
   "operadores": [],
   "especificacoes": {
     "subtipo": "helicoptero_utilitario",
