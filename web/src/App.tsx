@@ -40,15 +40,23 @@ function PaginaPais() {
 export default function App() {
   const { pathname } = useLocation()
   if (pathname === '/') return <Inicio />
+  const atual = (base: string) => (pathname === base || pathname.startsWith(base + '/') ? { 'aria-current': 'page' as const } : {})
   return (
     <>
       <header className="topo">
-        <h1>Poder Bélico</h1>
-        <nav aria-label="Principal">
-          <Link to="/">Início</Link> · <LinkF to="/equipamentos">Equipamentos</LinkF> · <LinkF to="/eventos">Eventos</LinkF> ·{' '}
-          <LinkF to="/linha-do-tempo">Linha do tempo</LinkF> · <LinkF to="/paises">Países</LinkF>
-        </nav>
-        <CampoBusca />
+        <div className="topo-interno">
+          <h1>
+            <Link to="/">Poder Bélico</Link>
+          </h1>
+          <nav aria-label="Principal">
+            <Link to="/">Início</Link>
+            <LinkF to="/equipamentos" {...atual('/equipamentos')}>Equipamentos</LinkF>
+            <LinkF to="/eventos" {...atual('/eventos')}>Eventos</LinkF>
+            <LinkF to="/linha-do-tempo" {...atual('/linha-do-tempo')}>Linha do tempo</LinkF>
+            <LinkF to="/paises" {...atual('/paises')}>Países</LinkF>
+          </nav>
+          <CampoBusca />
+        </div>
       </header>
       <main>
         <Routes>

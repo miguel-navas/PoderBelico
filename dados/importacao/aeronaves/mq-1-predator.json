@@ -17,11 +17,11 @@
   "especificacoes": {
     "subtipo": "nao_tripulada",
     "data_primeiro_voo": "1994-07-03",
-    "comprimento_m": 8.22,
+    "comprimento_m": 8.23,
     "envergadura_m": 14.8,
     "motores": {
       "quantidade": 1,
-      "modelo": "Rotax 914",
+      "modelo": "Rotax 914F",
       "potencia_hp": 115
     },
     "velocidade_max_kmh": 217,
@@ -30,19 +30,27 @@
         "tipo": "armamento",
         "descricao": "2x Hellfire"
       }
-    ]
+    ],
+    "altura_m": 2.1,
+    "peso_vazio_kg": 513,
+    "peso_max_decolagem_kg": 1020,
+    "alcance_km": 1250,
+    "teto_m": 7600
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-mq-1-predator",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "General Atomics MQ-1 Predator — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-1_Predator",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "Autonomia ('24 h') sem campo no schema",
-    "operadores não informados",
-    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
-  ]
+    "peso_max_decolagem_kg = peso bruto (1.020 kg) da Wikipedia.",
+    "Autonomia de 24 h sem campo no schema.",
+    "Produção: 360 (285 RQ-1 + 75 MQ-1). Em serviço limitado; aposentado pela USAF em 2018.",
+    "operadores não informados"
+  ],
+  "unidades_produzidas": 360
 }

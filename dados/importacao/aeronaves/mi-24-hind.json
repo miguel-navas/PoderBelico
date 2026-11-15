@@ -7,7 +7,7 @@
   "fabricante": "Mil",
   "ano_primeiro_uso": 1969,
   "ano_entrada_servico": 1972,
-  "unidades_produzidas": 2600,
+  "unidades_produzidas": 2648,
   "status": "ATIVO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Ataque / Transporte",
@@ -22,31 +22,35 @@
     "comprimento_m": 17.5,
     "motores": {
       "quantidade": 2,
-      "modelo": "Klimov TV3-117"
+      "modelo": "Isotov TV3-117",
+      "potencia_hp": 2200
     },
-    "velocidade_max_kmh": 335,
+    "velocidade_max_kmh": 320,
     "alcance_km": 450,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "Canhão 23mm + foguetes + mísseis AT"
       }
-    ]
+    ],
+    "envergadura_m": 6.5,
+    "altura_m": 6.5,
+    "peso_vazio_kg": 8500,
+    "peso_max_decolagem_kg": 12000,
+    "teto_m": 5750
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-mi-24-hind",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Mil Mi-24 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mil_Mi-24",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "país de origem 'URSS/Rússia' resolvido como SUN (pelo ano do primeiro voo); conferir",
-    "Diâmetro rotor (17,30 m) sem campo no schema",
-    "potência '2.200 shp cada' não convertida (shp/outra unidade sem campo no schema)",
-    "operadores não informados",
-    "unidades '2.600+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "Comprimento é só da fuselagem (19,79 m com rotores); envergadura = asas auxiliares; diâmetro do rotor 17,2 m sem campo no schema.",
+    "potencia_hp = 2.200 shp (1.600 kW) por motor, como listado na Wikipedia.",
+    "operadores não informados"
   ]
 }

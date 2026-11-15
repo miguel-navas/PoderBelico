@@ -1,0 +1,45 @@
+{
+  "slug": "oerlikon-gdf",
+  "nome": "Oerlikon GDF 35 mm",
+  "pais": "CHE",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Oerlikon Contraves (hoje Rheinmetall Air Defence)",
+  "ano_entrada_servico": 1963,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Canhão antiaéreo rebocado com dois canos de 35 mm, usado por cerca de 30 países",
+  "curiosidade": "Seus canhões KD equipam também o Gepard alemão; foi usado na Guerra das Malvinas.",
+  "imagem_url": "/img/blindados/oerlikon-gdf.jpg",
+  "imagem_credito": "Foto enviada pelo usuário (origem a confirmar)",
+  "operadores": [
+    "CHE"
+  ],
+  "especificacoes": {
+    "subtipo": "artilharia_antiaerea",
+    "peso_kg": 6700,
+    "tripulacao": 3,
+    "comprimento_m": 7.8,
+    "largura_m": 2.26,
+    "altura_m": 2.6,
+    "armamento_principal": {
+      "calibre_mm": 35,
+      "modelo": "2 canhões KD, cartucho 35×228 mm, cano de 3,15 m"
+    }
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-oerlikon-gdf",
+      "tipo": "SITE",
+      "titulo": "Oerlikon GDF — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oerlikon_GDF",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "peso 6.700 kg com munição; comprimento em transporte",
+    "alcance omitido: teto efetivo ~4.000 m",
+    "operadores: ~30 países, incluindo o Brasil, ausentes do cadastro",
+    "imagem: foto enviada pelo usuário (canhão de 35 mm de dois canos; modelo exato não confirmado); origem a confirmar"
+  ]
+}

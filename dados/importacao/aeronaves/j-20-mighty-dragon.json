@@ -18,13 +18,13 @@
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "2011-01-11",
-    "comprimento_m": 20.4,
-    "envergadura_m": 12.9,
+    "comprimento_m": 21.2,
+    "envergadura_m": 13.01,
     "motores": {
       "quantidade": 2,
       "modelo": "WS-10C / WS-15"
     },
-    "velocidade_max_kmh": 2470,
+    "velocidade_max_kmh": 2130,
     "alcance_km": 5500,
     "teto_m": 20000,
     "armamento": [
@@ -32,19 +32,24 @@
         "tipo": "armamento",
         "descricao": "1x canhão + PL-15, PL-10, bombas"
       }
-    ]
+    ],
+    "altura_m": 4.69,
+    "peso_vazio_kg": 17000,
+    "peso_max_decolagem_kg": 37000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-j-20-mighty-dragon",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Chengdu J-20 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chengdu_J-20",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "unidades '300-500 estimados' é uma faixa; omitido",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "alcance_km = 5.500 km com 2 tanques externos; raio de combate 2.000 km.",
+    "Produção disputada: ~300 (set/2025) a ~500 (estimativa de meados de 2026, fonte única); omitido.",
+    "Especificações são estimativas (a China não divulga dados oficiais).",
+    "operadores não informados"
   ]
 }

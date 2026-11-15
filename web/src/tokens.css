@@ -1,0 +1,18 @@
+/* Tokens do sistema visual (openspec: frontend-poder-belico). */
+:root {
+  --fundo: #080b0e;
+  --superficie: #11161b;
+  --superficie-2: #171e25;
+  --borda: #2a343d;
+  --texto: #f4f6f8;
+  --texto-suave: #aab4be;
+  --destaque: #eee3bd;
+  --marinha: #4aa3df;
+  --aerea: #8fb8de;
+  --exercito: #9bb37a;
+  --raio: 8px;
+  --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px; --e7: 48px;
+  --fonte-titulo: Stencil, 'Stencil Std', Impact, 'Arial Black', sans-serif;
+  --fonte-texto: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --largura: 1200px;
+}

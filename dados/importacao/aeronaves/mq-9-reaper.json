@@ -17,34 +17,38 @@
   "especificacoes": {
     "subtipo": "nao_tripulada",
     "data_primeiro_voo": "2001-02-02",
-    "comprimento_m": 11,
-    "envergadura_m": 20.1,
+    "comprimento_m": 11.0,
+    "envergadura_m": 20.0,
     "motores": {
       "quantidade": 1,
-      "modelo": "Honeywell TPE331 turboprop",
+      "modelo": "Honeywell TPE331-10",
       "potencia_hp": 900
     },
-    "velocidade_max_kmh": 445,
-    "alcance_km": 1850,
+    "velocidade_max_kmh": 482,
+    "alcance_km": 1900,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "4x Hellfire + 2x bombas 500 lb"
+        "descricao": "Até 8 Hellfire, ou 4 Hellfire + 2 bombas GBU-12 de 500 lb"
       }
-    ]
+    ],
+    "altura_m": 3.81,
+    "peso_vazio_kg": 2223,
+    "peso_max_decolagem_kg": 4760,
+    "teto_m": 15420
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-mq-9-reaper",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "General Atomics MQ-9 Reaper — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "Autonomia ('27 h') sem campo no schema",
-    "operadores não informados",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
-    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
-  ]
+    "Valores do MQ-9A. Produção: 575 (2026). Autonomia 27 h sem campo no schema.",
+    "operadores não informados"
+  ],
+  "unidades_produzidas": 575
 }

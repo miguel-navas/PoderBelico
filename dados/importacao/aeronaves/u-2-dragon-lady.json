@@ -23,22 +23,29 @@
     "envergadura_m": 31.4,
     "motores": {
       "quantidade": 1,
-      "modelo": "GE F118-101",
+      "modelo": "General Electric F118-101",
       "empuxo_lbf": 17000
     },
-    "velocidade_max_kmh": 805,
-    "alcance_km": 11000,
-    "teto_m": 21300
+    "velocidade_max_kmh": 760,
+    "alcance_km": 11280,
+    "teto_m": 24000,
+    "altura_m": 4.88,
+    "peso_vazio_kg": 7257,
+    "peso_max_decolagem_kg": 18144
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-u-2-dragon-lady",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Lockheed U-2 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
+      "provisoria": false
     }
   ],
   "_pendencias": [
+    "Valores do U-2S. velocidade_max_kmh = velocidade de cruzeiro (760 km/h, Mach 0,715); a Wikipedia não lista máxima.",
+    "Envergadura 103 ft (≈31,4 m; a página arredonda para 31 m). Autonomia 12 h sem campo no schema.",
+    "Produção (104) não conferida na Wikipedia.",
     "operadores não informados"
   ]
 }

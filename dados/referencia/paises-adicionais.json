@@ -58,5 +58,9 @@
   {
     "codigo_iso": "ARG",
     "nome": "Argentina"
+  },
+  {
+    "codigo_iso": "CHE",
+    "nome": "Suíça"
   }
 ]

@@ -7,7 +7,7 @@
   "fabricante": "Dassault",
   "ano_primeiro_uso": 1986,
   "ano_entrada_servico": 2001,
-  "unidades_produzidas": 300,
+  "unidades_produzidas": 316,
   "status": "ATIVO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Multimissão 4.5ª Geração",
@@ -23,30 +23,35 @@
     "envergadura_m": 10.9,
     "motores": {
       "quantidade": 2,
-      "modelo": "SNECMA M88",
-      "empuxo_lbf": 17000
+      "modelo": "Snecma M88-4e",
+      "empuxo_lbf": 16860
     },
     "velocidade_max_kmh": 1912,
-    "alcance_km": 3700,
-    "teto_m": 15240,
+    "alcance_km": 1056,
+    "teto_m": 15835,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "1x canhão GIAT 30mm + até 9.500 kg: Meteor, Mica, SCALP, Exocet, bombas"
       }
-    ]
+    ],
+    "altura_m": 5.34,
+    "peso_vazio_kg": 9850,
+    "peso_max_decolagem_kg": 24500
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-rafale",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Dassault Rafale — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dassault_Rafale",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "unidades '300+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "Valores do Rafale C. alcance_km = raio de combate hi-lo-hi (1.056 km); alcance de traslado 3.700 km com 3 tanques.",
+    "Produção: 316 entregues (de 647 encomendados, Wikipedia).",
+    "Armamento não conferido (mantido da fonte anterior).",
+    "operadores não informados"
   ]
 }

@@ -21,33 +21,38 @@
     "subtipo": "caca",
     "tripulacao": 1,
     "data_primeiro_voo": "1935-11-06",
-    "comprimento_m": 9.84,
+    "comprimento_m": 9.83,
     "envergadura_m": 12.19,
     "motores": {
       "quantidade": 1,
-      "modelo": "Rolls-Royce Merlin",
-      "potencia_hp": 1030
+      "modelo": "Rolls-Royce Merlin XX",
+      "potencia_hp": 1185
     },
-    "velocidade_max_kmh": 547,
-    "alcance_km": 965,
-    "teto_m": 10970,
+    "velocidade_max_kmh": 550,
+    "alcance_km": 970,
+    "teto_m": 11000,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "8x metralhadoras .303 + 12x canhão 20mm (variantes)"
+        "descricao": "4x canhão 20 mm Hispano Mk II (Mk IIC) + 2 bombas de 110 ou 230 kg"
       }
-    ]
+    ],
+    "altura_m": 4.001,
+    "peso_vazio_kg": 2606,
+    "peso_max_decolagem_kg": 3951
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-hawker-hurricane",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Hawker Hurricane — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hawker_Hurricane",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores adicionais não listados ('Reino Unido e 20+ países')",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do bloco geral da Wikipedia (compatível com o Mk IIC: 4 canhões de 20 mm). O Mk I usava 8 metralhadoras .303 e Merlin II/III de 1.030 hp (~507 km/h).",
+    "Produção de 14.487 inclui Sea Hurricane (Reino Unido e Canadá).",
+    "operadores adicionais não listados"
   ]
 }

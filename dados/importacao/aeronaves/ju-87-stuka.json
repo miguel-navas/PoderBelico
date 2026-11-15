@@ -6,7 +6,7 @@
   "categoria": "AERONAVE",
   "fabricante": "Junkers",
   "ano_primeiro_uso": 1935,
-  "ano_entrada_servico": 1937,
+  "ano_entrada_servico": 1936,
   "unidades_produzidas": 6000,
   "status": "APOSENTADO",
   "confiabilidade": "ESTIMADO",
@@ -21,33 +21,38 @@
     "subtipo": "bombardeiro",
     "tripulacao": 2,
     "data_primeiro_voo": "1935-09-17",
-    "comprimento_m": 11.1,
+    "comprimento_m": 11.5,
     "envergadura_m": 13.8,
     "motores": {
       "quantidade": 1,
-      "modelo": "Junkers Jumo 211",
-      "potencia_hp": 1200
+      "modelo": "Junkers Jumo 211J",
+      "potencia_hp": 1400
     },
     "velocidade_max_kmh": 410,
-    "alcance_km": 790,
-    "teto_m": 8200,
+    "alcance_km": 1535,
+    "teto_m": 7300,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "2x metralhadoras + 1x bomba 500 kg + 4x bombas 50 kg"
+        "descricao": "2x MG 17 7,92 mm + MG 81Z duplo traseiro; 500–1.200 kg de bombas"
       }
-    ]
+    ],
+    "altura_m": 3.9,
+    "peso_vazio_kg": 3900,
+    "peso_max_decolagem_kg": 6600
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-ju-87-stuka",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Junkers Ju 87 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Junkers_Ju_87",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "unidades '6.000+' é valor aproximado/parcial; usado o número base",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Bloco geral da Wikipedia (série D); alcance 1.535 km é o máximo com tanques.",
+    "Produção: 6.000 (infobox) vs 6.500 (texto).",
+    "operadores não informados"
   ]
 }

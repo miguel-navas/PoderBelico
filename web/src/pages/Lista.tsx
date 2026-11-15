@@ -1,3 +1,4 @@
+import { ImagemCartao } from '../ImagemCartao'
 import { useQuery } from '@tanstack/react-query'
 import { useSearchParams } from 'react-router-dom'
 import { buscarEquipamentos, buscarFiltros } from '../api'
@@ -5,7 +6,7 @@ import type { ParametrosLista } from '../api'
 import { LinkF } from '../navegacao'
 import { rotuloConfiabilidade, rotuloForca, rotuloStatus } from '../rotulos'
 
-const CHAVES = ['forca', 'categoria', 'pais', 'status', 'de', 'ate', 'pagina'] as const
+const CHAVES = ['forca', 'subtipo', 'pais', 'status', 'de', 'ate', 'pagina'] as const
 
 export default function Lista() {
   const [busca, setBusca] = useSearchParams()
@@ -15,6 +16,8 @@ export default function Lista() {
     const valor = busca.get(chave)
     if (valor) parametros[chave] = valor
   }
+  const abertoInicial = typeof window.matchMedia !== 'function' || !window.matchMedia('(max-width: 600px)').matches
+  const nAtivos = CHAVES.filter((c) => c !== 'pagina' && busca.get(c)).length
   const temFiltro = CHAVES.some((c) => c !== 'pagina' && busca.get(c))
 
   const filtros = useQuery({ queryKey: ['filtros'], queryFn: buscarFiltros })
@@ -29,18 +32,38 @@ export default function Lista() {
     if (valor) novo.set(chave, valor)
     else novo.delete(chave)
     if (chave !== 'pagina') novo.delete('pagina')
-    if (chave === 'forca') novo.delete('categoria')
+    if (chave === 'forca') novo.delete('subtipo')
     setBusca(novo)
   }
 
-  const categorias = (filtros.data?.categorias ?? []).filter(
+  const subtipos = (filtros.data?.subtipos ?? []).filter(
     (c) => !parametros.forca || c.forca === parametros.forca,
   )
+  const IMAGEM_FORCA: Record<string, string> = {
+    AEREA: 'caca',
+    MARINHA: 'porta_avioes',
+    EXERCITO: 'tanque_de_batalha',
+  }
+  const imagemBanner = parametros.subtipo
+    ? `/img/categorias/${parametros.subtipo}.jpg`
+    : parametros.forca && IMAGEM_FORCA[parametros.forca]
+      ? `/img/categorias/${IMAGEM_FORCA[parametros.forca]}.jpg`
+      : '/img/fundo-moderno.png'
+  const subtipoAtual = filtros.data?.subtipos?.find((c) => c.codigo === parametros.subtipo)
 
   return (
     <section>
       <h2>Equipamentos</h2>
 
+      <div
+        className="banner-categoria"
+        style={{ backgroundImage: `linear-gradient(90deg, #080b0ecc, #080b0e33), url(${imagemBanner})` }}
+      >
+        <h3>{subtipoAtual?.nome ?? (parametros.forca ? rotuloForca(parametros.forca) : 'Todos os equipamentos')}</h3>
+      </div>
+
+      <details className="painel-filtros" open={abertoInicial}>
+        <summary>Filtros{nAtivos > 0 ? ` (${nAtivos} ativos)` : ''}</summary>
       <form className="filtros" onSubmit={(e) => e.preventDefault()} aria-label="Filtros">
         <label>
           Força
@@ -55,9 +78,9 @@ export default function Lista() {
         </label>
         <label>
           Categoria
-          <select value={parametros.categoria ?? ''} onChange={(e) => alterar('categoria', e.target.value)}>
+          <select value={parametros.subtipo ?? ''} onChange={(e) => alterar('subtipo', e.target.value)}>
             <option value="">Todas</option>
-            {categorias.map((c) => (
+            {subtipos.map((c) => (
               <option key={c.codigo} value={c.codigo}>
                 {c.nome}
               </option>
@@ -107,6 +130,7 @@ export default function Lista() {
           />
         </label>
       </form>
+      </details>
 
       {lista.isPending && <p>Carregando equipamentos...</p>}
       {lista.isError && <p role="alert">Não foi possível carregar os equipamentos.</p>}
@@ -129,13 +153,14 @@ export default function Lista() {
           </p>
           <ul className="cartoes">
             {lista.data.itens.map((e) => (
-              <li key={e.slug}>
+              <li key={e.slug} className={`forca-${e.forca.toLowerCase()}`}>
+                <ImagemCartao e={e} />
                 <LinkF to={`/equipamentos/${e.slug}`}>
                   <strong>{e.nome}</strong>
                   {e.variante && <span> {e.variante}</span>}
                 </LinkF>
                 <div className="meta">
-                  {e.pais.nome} · {rotuloForca(e.forca)} · {e.categoria.nome}
+                  {e.pais.nome} · {rotuloForca(e.forca)} · {e.subtipo?.nome ?? e.categoria.nome}
                   {e.anoEntradaServico !== null && <> · em serviço desde {e.anoEntradaServico}</>}
                 </div>
                 <div className="meta">

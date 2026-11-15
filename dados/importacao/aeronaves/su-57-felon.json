@@ -7,7 +7,7 @@
   "fabricante": "Sukhoi",
   "ano_primeiro_uso": 2010,
   "ano_entrada_servico": 2020,
-  "unidades_produzidas": 30,
+  "unidades_produzidas": 44,
   "status": "ATIVO",
   "confiabilidade": "ESTIMADO",
   "descricao_curta": "Caça Furtivo 5ª Geração",
@@ -24,29 +24,34 @@
     "motores": {
       "quantidade": 2,
       "modelo": "Saturn AL-41F1",
-      "empuxo_lbf": 33000
+      "empuxo_lbf": 32000
     },
-    "velocidade_max_kmh": 2600,
-    "alcance_km": 3500,
-    "teto_m": 20000,
+    "velocidade_max_kmh": 2135,
+    "alcance_km": 2800,
+    "teto_m": 18800,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "1x canhão GSh-30-1 30mm + R-77, R-73, Kh-59"
       }
-    ]
+    ],
+    "altura_m": 4.6,
+    "peso_vazio_kg": 18500,
+    "peso_max_decolagem_kg": 34000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-su-57-felon",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Sukhoi Su-57 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-57",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "unidades '30+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "Valores do Su-57E. alcance_km = subsônico (2.800 km); traslado 4.000 km com tanques.",
+    "Produção: 44+ em 2026, incluindo 10 aeronaves de teste.",
+    "Motor: AL-41F1 (empuxo 142,2 kN com pós-combustão ≈ 32.000 lbf); versões futuras usarão o izdeliye 30.",
+    "operadores não informados"
   ]
 }

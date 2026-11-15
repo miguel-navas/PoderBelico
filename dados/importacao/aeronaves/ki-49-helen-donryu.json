@@ -33,19 +33,22 @@
         "tipo": "armamento",
         "descricao": "1x canhão 20mm + 5x metralhadoras 7,7mm + até 1.000 kg"
       }
-    ]
+    ],
+    "altura_m": 4.25,
+    "peso_vazio_kg": 6530,
+    "peso_max_decolagem_kg": 11400
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-ki-49-helen-donryu",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Nakajima Ki-49 Donryū — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-49",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "primeiro voo 'Ago 1939' sem dia completo; só o ano foi usado",
-    "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do Ki-49-IIa. Alcance, teto, potência dos motores e total produzido não conferidos na Wikipedia (mantidos da fonte anterior).",
+    "operadores não informados"
   ]
 }

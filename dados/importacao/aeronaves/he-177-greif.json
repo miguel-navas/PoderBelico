@@ -19,33 +19,38 @@
     "subtipo": "bombardeiro",
     "tripulacao": 6,
     "data_primeiro_voo": "1939-11-19",
-    "comprimento_m": 22,
+    "comprimento_m": 22.0,
     "envergadura_m": 31.44,
     "motores": {
       "quantidade": 2,
-      "modelo": "Daimler-Benz DB 606 (4 motores acoplados em pares)",
-      "potencia_hp": 2700
+      "modelo": "Daimler-Benz DB 610 (2 motores acoplados por nacela)",
+      "potencia_hp": 2975
     },
     "velocidade_max_kmh": 488,
-    "alcance_km": 5500,
+    "alcance_km": 6000,
     "teto_m": 8000,
     "armamento": [
       {
         "tipo": "armamento",
-        "descricao": "6x metralhadoras/canhões + até 7.000 kg"
+        "descricao": "MG 81, MG 131 e canhões MG 151 (A-5/R2) + até 7.000 kg de bombas internas"
       }
-    ]
+    ],
+    "altura_m": 6.67,
+    "peso_vazio_kg": 16800,
+    "peso_max_decolagem_kg": 32000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-he-177-greif",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Heinkel He 177 Greif — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heinkel_He_177_Greif",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores da variante A-5/R2. potencia_hp = 2.975 hp por conjunto (2 nacelas, cada uma com 2 motores acoplados).",
+    "unidades_produzidas (1.169) não conferido; a Wikipedia lista 826 do A-5 e 350 até nov/1944 — conferir o total.",
+    "operadores não informados"
   ]
 }

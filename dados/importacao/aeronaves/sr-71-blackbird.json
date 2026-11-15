@@ -23,22 +23,28 @@
     "envergadura_m": 16.94,
     "motores": {
       "quantidade": 2,
-      "modelo": "Pratt & Whitney J58",
+      "modelo": "Pratt & Whitney J58 (JT11D-20)",
       "empuxo_lbf": 32500
     },
     "velocidade_max_kmh": 3540,
     "alcance_km": 5230,
-    "teto_m": 25900
+    "teto_m": 26000,
+    "altura_m": 5.64,
+    "peso_vazio_kg": 30617,
+    "peso_max_decolagem_kg": 78018
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-sr-71-blackbird",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Lockheed SR-71 Blackbird — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird",
+      "provisoria": false
     }
   ],
   "_pendencias": [
+    "alcance_km = alcance de traslado (5.230 km), único alcance listado.",
+    "Empuxo 32.500 lbf (JT11D-20J, com pós-combustão); JT11D-20K: 34.000 lbf.",
     "operadores não informados"
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "slug": "m142-himars",
+  "nome": "M142 HIMARS",
+  "pais": "USA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Lockheed Martin",
+  "ano_entrada_servico": 2005,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Lançador de foguetes leve sobre caminhão 6x6, dispara GMLRS e ATACMS",
+  "curiosidade": "Pesa muito menos que o M270 e cabe em um C-130, o que permite deslocamento aéreo rápido.",
+  "imagem_url": "/img/blindados/m142-himars.jpg",
+  "imagem_credito": "Imagem gerada por IA",
+  "operadores": [
+    "USA"
+  ],
+  "especificacoes": {
+    "subtipo": "lanca_foguetes",
+    "peso_kg": 16250,
+    "tripulacao": 3,
+    "armamento_principal": {
+      "calibre_mm": 227,
+      "modelo": "6 foguetes GMLRS ou 1 míssil ATACMS"
+    }
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-m142-himars",
+      "tipo": "SITE",
+      "titulo": "M142 HIMARS — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M142_HIMARS",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "peso (16.250 kg) e tripulação (3) de fonte secundária com base na Wikipedia; entrada em serviço 2005 (IOC) ou 2010 conforme a versão do artigo",
+    "velocidade e alcance omitidos: variam conforme munição/fonte",
+    "operadores: também Austrália, Polônia, Romênia, Ucrânia e outros, ausentes do cadastro"
+  ],
+  "unidades_produzidas": 750
+}

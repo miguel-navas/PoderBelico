@@ -1,0 +1,45 @@
+{
+  "slug": "schwerer-gustav",
+  "nome": "Schwerer Gustav",
+  "pais": "DEU",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Krupp",
+  "ano_entrada_servico": 1941,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Canhão ferroviário alemão de 80 cm, a maior arma de calibre já usada em combate",
+  "curiosidade": "Disparava projéteis de cerca de 7 toneladas a até 47 km; só se movia sobre dois trilhos paralelos.",
+  "operadores": [
+    "DEU"
+  ],
+  "especificacoes": {
+    "subtipo": "canhao_ferroviario",
+    "peso_kg": 1350000,
+    "comprimento_m": 47.3,
+    "armamento_principal": {
+      "calibre_mm": 800,
+      "modelo": "80 cm Kanone (E), cano de 32,5 m"
+    },
+    "alcance_km": 47
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-schwerer-gustav",
+      "tipo": "SITE",
+      "titulo": "Schwerer Gustav — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Schwerer_Gustav",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "alcance_km: 47 km com granada explosiva (38 km perfurante)",
+    "tripulação não obtida na Wikipedia; omitida",
+    "segunda unidade, Dora, também construída (2 no total); destruído pelos alemães em 1945",
+    "comprimento_m é o total do canhão (47,3 m)",
+    "imagem: arte enviada pelo usuário, resolução baixa (640x360); confirmar autor/licença antes de publicar"
+  ],
+  "unidades_produzidas": 2,
+  "imagem_url": "/img/blindados/schwerer-gustav.jpg",
+  "imagem_credito": "Ilustração enviada pelo usuário (autor e licença a confirmar)"
+}

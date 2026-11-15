@@ -17,29 +17,32 @@
   "operadores": [],
   "especificacoes": {
     "subtipo": "helicoptero_utilitario",
-    "tripulacao": 2,
+    "tripulacao": 4,
     "data_primeiro_voo": "1974-10-17",
     "comprimento_m": 19.76,
     "motores": {
       "quantidade": 2,
-      "modelo": "GE T700"
+      "modelo": "General Electric T700-GE-701C/D",
+      "potencia_hp": 1902
     },
     "velocidade_max_kmh": 294,
-    "alcance_km": 590
+    "alcance_km": 590,
+    "peso_max_decolagem_kg": 9979,
+    "teto_m": 5800
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-uh-60-black-hawk",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Sikorsky UH-60 Black Hawk — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "Diâmetro rotor (16,36 m) sem campo no schema",
-    "potência '1.940 shp cada' não convertida (shp/outra unidade sem campo no schema)",
-    "operadores não informados",
-    "unidades '5.000+' é valor aproximado/parcial; usado o número base",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço"
+    "Valores do UH-60M. Tripulação: 2 pilotos + 2 chefes de equipe/atiradores. Comprimento inclui rotores.",
+    "potencia_hp = 1.902 shp por motor. alcance_km = alcance de combate (590 km); traslado 2.221 km.",
+    "Produção: 5.000 até janeiro de 2023.",
+    "operadores não informados"
   ]
 }

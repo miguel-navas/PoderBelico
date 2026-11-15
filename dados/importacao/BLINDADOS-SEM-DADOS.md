@@ -1,7 +1,7 @@
 # Blindados citados no arquivo, sem ficha técnica
 
 > Atualizado: já têm ficha (fontes Wikipedia) Leclerc, Type 10, C1 Ariete, Altay, TAM, Challenger 3, Leopard 1, AMX-30, Centurion, Type 99A, M2 Bradley, CV90, BMP-3, Guarani, Puma e Boxer.
-> Artilharia/MLRS (M109, PzH 2000, K9, CAESAR, HIMARS, M270, Astros II) não têm subtipo no schema de tanque; IFV/APC (BMP-2, Cascavel, M113, BTR-80) são os próximos candidatos.
+> Já cadastrados como lança-foguetes: HIMARS, M270, Astros II, BM-21 Grad, BM-13 Katyusha. Artilharia autopropulsada (M109, PzH 2000, K9, CAESAR) ainda sem ficha (subtipo artilharia_autopropulsada criado no schema); IFV/APC (BMP-2, Cascavel, M113, BTR-80) são os próximos candidatos.
 
 O Blindado.md traz dados técnicos só dos lotes 7 a 11. Estes (lotes 1 a 6) aparecem apenas pelo nome:
 

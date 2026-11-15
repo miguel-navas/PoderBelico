@@ -23,30 +23,34 @@
     "envergadura_m": 50.1,
     "motores": {
       "quantidade": 4,
-      "modelo": "Kuznetsov NK-12 turboprop"
+      "modelo": "Kuznetsov NK-12",
+      "potencia_hp": 15000
     },
     "velocidade_max_kmh": 925,
     "alcance_km": 15000,
-    "teto_m": 13700,
+    "teto_m": 13716,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "2x canhão 23mm + até 15.000 kg: Kh-101, bombas"
       }
-    ]
+    ],
+    "altura_m": 12.12,
+    "peso_vazio_kg": 90000,
+    "peso_max_decolagem_kg": 188000
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-tu-95-bear",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Tupolev Tu-95 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-95",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "país de origem 'URSS/Rússia' resolvido como SUN (pelo ano do primeiro voo); conferir",
-    "potência '15.000 shp cada' não convertida (shp/outra unidade sem campo no schema)",
-    "operadores não informados",
-    "unidades '500+' é valor aproximado/parcial; usado o número base"
+    "Valores do Tu-95MS. Produção: mais de 500 (1952-1993). Potência 15.000 hp por motor.",
+    "Velocidade máxima de 925 km/h é contestada: o museu da USAF cita 840 km/h.",
+    "operadores não informados"
   ]
 }

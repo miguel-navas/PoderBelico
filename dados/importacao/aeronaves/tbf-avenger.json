@@ -19,33 +19,36 @@
     "subtipo": "bombardeiro",
     "tripulacao": 3,
     "data_primeiro_voo": "1941-08-01",
-    "comprimento_m": 12.19,
+    "comprimento_m": 12.2,
     "envergadura_m": 16.51,
     "motores": {
       "quantidade": 1,
-      "modelo": "Wright R-2600",
+      "modelo": "Wright R-2600-8 Twin Cyclone",
       "potencia_hp": 1700
     },
-    "velocidade_max_kmh": 444,
-    "alcance_km": 1610,
-    "teto_m": 7000,
+    "velocidade_max_kmh": 447,
+    "alcance_km": 1456,
+    "teto_m": 6900,
     "armamento": [
       {
         "tipo": "armamento",
         "descricao": "2x .50 + 1x .30 traseira + 1x torpedo 907 kg ou 907 kg de bombas"
       }
-    ]
+    ],
+    "altura_m": 5.0
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-tbf-avenger",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Grumman TBF Avenger — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grumman_TBF_Avenger",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "operadores não informados",
-    "status APOSENTADO inferido pelo ano de entrada em serviço (< 1960); a fonte não diz"
+    "Valores do TBF-1. Produção: 9.839 (Grumman + GM Eastern Aircraft como TBM).",
+    "Alcance 1.456 km em cruzeiro; outro trecho da página cita 1.600 km carregado e teto de 9.000 m (fontes divergem).",
+    "operadores não informados"
   ]
 }

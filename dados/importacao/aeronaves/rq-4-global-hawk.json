@@ -21,25 +21,29 @@
     "envergadura_m": 39.9,
     "motores": {
       "quantidade": 1,
-      "modelo": "Rolls-Royce AE 3007",
+      "modelo": "Rolls-Royce F137-RR-100",
       "empuxo_lbf": 7600
     },
     "velocidade_max_kmh": 629,
-    "alcance_km": 22780,
-    "teto_m": 18300
+    "alcance_km": 22800,
+    "teto_m": 18000,
+    "altura_m": 4.7,
+    "peso_vazio_kg": 6781,
+    "peso_max_decolagem_kg": 14628
   },
   "fontes": [
     {
-      "slug": "meta-ai-avioes",
+      "slug": "wikipedia-rq-4-global-hawk",
       "tipo": "SITE",
-      "provisoria": true,
-      "titulo": "Catálogo Aviões de Combate (gerado por IA, Meta AI) — fonte provisória"
+      "titulo": "Northrop Grumman RQ-4 Global Hawk — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk",
+      "provisoria": false
     }
   ],
   "_pendencias": [
-    "Autonomia ('34 h') sem campo no schema",
-    "operadores não informados",
-    "status ATIVO assumido; a fonte só traz o ano de entrada em serviço",
-    "aeronave não tripulada: tripulação não se aplica (esquema aceita sem esse campo)"
+    "Valores do RQ-4B Block 30/40. peso_max_decolagem_kg = peso bruto (14.628 kg).",
+    "Autonomia 34+ h sem campo no schema.",
+    "Produção não padronizada: 16 RQ-4A + 42 RQ-4B (FY2013); omitida.",
+    "operadores não informados"
   ]
 }

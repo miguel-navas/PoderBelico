@@ -3,7 +3,9 @@
   "title": "Especificações de TANQUE (unidades padrão: km/h, kg, m, km)",
   "type": "object",
   "additionalProperties": false,
-  "required": ["subtipo", "peso_kg", "tripulacao"],
+  "required": [
+    "subtipo"
+  ],
   "properties": {
     "subtipo": {
       "type": "string",
@@ -13,32 +15,103 @@
         "tanque_medio",
         "tanque_pesado",
         "destruidor_de_tanques",
-        "veiculo_blindado_de_combate"
+        "veiculo_blindado_de_combate",
+        "lanca_foguetes",
+        "artilharia_autopropulsada",
+        "canhao_ferroviario",
+        "artilharia_antiaerea"
       ]
     },
-    "motor_modelo": { "type": "string", "minLength": 1 },
-    "potencia_hp": { "type": "number", "exclusiveMinimum": 0 },
-    "velocidade_max_kmh": { "type": "number", "exclusiveMinimum": 0 },
-    "peso_kg": { "type": "number", "exclusiveMinimum": 0 },
-    "tripulacao": { "type": "integer", "minimum": 1 },
-    "comprimento_m": { "type": "number", "exclusiveMinimum": 0 },
-    "largura_m": { "type": "number", "exclusiveMinimum": 0 },
-    "altura_m": { "type": "number", "exclusiveMinimum": 0 },
+    "motor_modelo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "potencia_hp": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "velocidade_max_kmh": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "peso_kg": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "tripulacao": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "comprimento_m": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "largura_m": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "altura_m": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
     "armamento_principal": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["calibre_mm"],
+      "required": [
+        "calibre_mm"
+      ],
       "properties": {
-        "calibre_mm": { "type": "number", "exclusiveMinimum": 0 },
-        "modelo": { "type": "string", "minLength": 1 }
+        "calibre_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "modelo": {
+          "type": "string",
+          "minLength": 1
+        }
       }
     },
     "armamento_secundario": {
       "type": "array",
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
-    "blindagem": { "type": "string", "minLength": 1 },
-    "alcance_km": { "type": "number", "exclusiveMinimum": 0 },
-    "torre_tripulada": { "type": "boolean" }
-  }
+    "blindagem": {
+      "type": "string",
+      "minLength": 1
+    },
+    "alcance_km": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "torre_tripulada": {
+      "type": "boolean"
+    }
+  },
+  "allOf": [
+    {
+      "anyOf": [
+        {
+          "properties": {
+            "subtipo": {
+              "enum": [
+                "lanca_foguetes",
+                "artilharia_autopropulsada",
+                "canhao_ferroviario",
+                "artilharia_antiaerea"
+              ]
+            }
+          }
+        },
+        {
+          "required": [
+            "peso_kg",
+            "tripulacao"
+          ]
+        }
+      ]
+    }
+  ]
 }
