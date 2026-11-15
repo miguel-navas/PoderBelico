@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 import { Link, useParams } from 'react-router-dom'
-import { ErroHttp, buscarFicha } from '../api'
+import { ErroHttp, buscarFicha, urlPublica } from '../api'
 import type { Medida } from '../api'
 import {
   formatarNumero,
@@ -72,7 +72,7 @@ export default function Ficha() {
 
       {data.imagem ? (
         <figure>
-          <img src={data.imagem.url} alt={data.nome} />
+          <img src={urlPublica(data.imagem.url)} alt={data.nome} />
           <figcaption>{data.imagem.credito}</figcaption>
         </figure>
       ) : (
