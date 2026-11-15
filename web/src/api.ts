@@ -238,3 +238,9 @@ export function buscarLinhaDoTempo(p: ParametrosLinhaDoTempo): Promise<{ raizes:
   const texto = q.toString()
   return obter(`/api/linha-do-tempo${texto ? `?${texto}` : ''}`)
 }
+
+/** Prefixa caminhos públicos (ex.: /img/x.jpg) com a base do site (ex.: /poderbelico/). */
+export function urlPublica(url: string): string {
+  if (!url.startsWith('/') || url.startsWith('//')) return url
+  return `${import.meta.env.BASE_URL}${url.slice(1)}`
+}

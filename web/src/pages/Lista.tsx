@@ -1,7 +1,7 @@
 import { ImagemCartao } from '../ImagemCartao'
 import { useQuery } from '@tanstack/react-query'
 import { useSearchParams } from 'react-router-dom'
-import { buscarEquipamentos, buscarFiltros } from '../api'
+import { buscarEquipamentos, buscarFiltros, urlPublica } from '../api'
 import type { ParametrosLista } from '../api'
 import { LinkF } from '../navegacao'
 import { rotuloConfiabilidade, rotuloForca, rotuloStatus } from '../rotulos'
@@ -57,7 +57,7 @@ export default function Lista() {
 
       <div
         className="banner-categoria"
-        style={{ backgroundImage: `linear-gradient(90deg, #080b0ecc, #080b0e33), url(${imagemBanner})` }}
+        style={{ backgroundImage: `linear-gradient(90deg, #080b0ecc, #080b0e33), url(${urlPublica(imagemBanner)})` }}
       >
         <h3>{subtipoAtual?.nome ?? (parametros.forca ? rotuloForca(parametros.forca) : 'Todos os equipamentos')}</h3>
       </div>

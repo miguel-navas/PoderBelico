@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { buscarEquipamentos, buscarFiltros } from '../api'
+import { buscarEquipamentos, buscarFiltros, urlPublica } from '../api'
 import { LinkF } from '../navegacao'
 
 function CartaoPais({ codigo, nome }: { codigo: string; nome: string }) {
@@ -10,7 +10,7 @@ function CartaoPais({ codigo, nome }: { codigo: string; nome: string }) {
   })
   const itens = capa.data?.itens ?? []
   const e = itens.find((i) => i.imagem) ?? null
-  const url = e?.imagem?.url ?? (itens[0]?.subtipo ? `/img/categorias/${itens[0].subtipo.codigo}.jpg` : null)
+  const url = urlPublica(e?.imagem?.url ?? (itens[0]?.subtipo ? `/img/categorias/${itens[0].subtipo.codigo}.jpg` : ''))
   return (
     <li>
       <div className="cartao-img">
