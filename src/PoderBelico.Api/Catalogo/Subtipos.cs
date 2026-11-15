@@ -22,7 +22,7 @@ public static class Subtipos
         ["tanque_medio"] = "Tanque médio",
         ["tanque_leve"] = "Tanque leve",
         ["veiculo_blindado_de_combate"] = "Veículo blindado de combate",
-        ["lanca_foguetes"] = "Lança-foguetes",
+        ["canhao_ferroviario"] = "Canhão ferroviário", ["artilharia_antiaerea"] = "Artilharia antiaérea", ["lanca_foguetes"] = "Lança-foguetes",
         ["artilharia_autopropulsada"] = "Artilharia autopropulsada",
         ["porta_avioes"] = "Porta-aviões",
         ["destroier"] = "Destróier",

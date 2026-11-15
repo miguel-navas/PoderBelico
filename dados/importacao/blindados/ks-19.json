@@ -1,0 +1,47 @@
+{
+  "slug": "ks-19",
+  "nome": "KS-19",
+  "pais": "SUN",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Fábricas soviéticas (projeto de L. V. Lyuliev)",
+  "ano_entrada_servico": 1948,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Canhão antiaéreo soviético rebocado de 100 mm, também usado contra alvos terrestres",
+  "curiosidade": "Derivou do B-34 naval e, décadas depois, voltou a ser usado como artilharia na Ucrânia.",
+  "imagem_url": "/img/blindados/ks-19.jpg",
+  "imagem_credito": "Foto enviada pelo usuário (origem a confirmar)",
+  "operadores": [
+    "SUN",
+    "RUS"
+  ],
+  "especificacoes": {
+    "subtipo": "artilharia_antiaerea",
+    "peso_kg": 9550,
+    "tripulacao": 15,
+    "comprimento_m": 9.45,
+    "largura_m": 2.35,
+    "altura_m": 1.6,
+    "armamento_principal": {
+      "calibre_mm": 100,
+      "modelo": "cano de 5,7 m, cartucho 100×695 mm"
+    },
+    "alcance_km": 21
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-ks-19",
+      "tipo": "SITE",
+      "titulo": "KS-19 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/KS-19",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "alcance_km: 21 km horizontal; vertical ~12,7–15 km",
+    "a Wikipedia indica serviço de 1948 até hoje (outras fontes: 1947)",
+    "operadores: Vietnã, Irã, Coreia do Norte e outros, ausentes do cadastro",
+    "imagem: foto enviada pelo usuário; origem e licença a confirmar"
+  ]
+}
