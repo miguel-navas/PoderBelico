@@ -1,0 +1,54 @@
+{
+  "slug": "m270-mlrs",
+  "nome": "M270 MLRS",
+  "pais": "USA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Vought / Lockheed Martin",
+  "ano_entrada_servico": 1983,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Lançador de foguetes múltiplo sobre chassi de esteiras derivado do Bradley",
+  "curiosidade": "Uma salva de 12 foguetes M26 espalha mais de 7 mil submunições, daí o apelido britânico de “removedor de quadrículas”.",
+  "imagem_url": "/img/blindados/m270-mlrs.jpg",
+  "imagem_credito": "Imagem gerada por IA",
+  "operadores": [
+    "USA",
+    "GBR",
+    "DEU",
+    "FRA",
+    "ITA"
+  ],
+  "especificacoes": {
+    "subtipo": "lanca_foguetes",
+    "motor_modelo": "Cummins VTA-903",
+    "potencia_hp": 500,
+    "velocidade_max_kmh": 64,
+    "peso_kg": 24040,
+    "tripulacao": 3,
+    "comprimento_m": 6.97,
+    "largura_m": 3.0,
+    "altura_m": 2.59,
+    "armamento_principal": {
+      "calibre_mm": 227,
+      "modelo": "12 foguetes em 2 contêineres ou 2 mísseis ATACMS"
+    },
+    "alcance_km": 483
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-m270-mlrs",
+      "tipo": "SITE",
+      "titulo": "M270 Multiple Launch Rocket System — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M270_Multiple_Launch_Rocket_System",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "alcance_km é autonomia rodoviária (483 km), não alcance do foguete",
+    "potência: 500 hp (M270); M270A1 tem 600 hp",
+    "produção encerrada em 2003; cerca de 1.300 unidades segundo a Wikipedia",
+    "operadores: também outros países da OTAN, ausentes do cadastro"
+  ],
+  "unidades_produzidas": 1300
+}

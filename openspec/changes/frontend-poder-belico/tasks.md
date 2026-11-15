@@ -26,7 +26,10 @@
 - [x] 4b.1 API: filtro `subtipo`, lista de `subtipos` em `/api/filtros` e `subtipo` no resumo (sem migration)
 - [x] 4b.2 Front: filtro "Categoria" por subtipo, banner e imagem de categoria nos cartões sem foto
 - [x] 4b.3 Imagens por categoria em `web/public/img/categorias/` e imagens dos 4 navios
-- [ ] 4b.4 Imagens próprias para categorias ainda sem ficha (fragata, lança-foguetes, etc.)
+- [ ] 4b.4 Imagens próprias para categorias ainda sem ficha (fragata, artilharia, lança-mísseis; lança-foguetes já feito)
+- [x] 4b.5 Banner da lista também com Categoria = Todas (imagem por força; fundo genérico sem filtro)
+- [x] 4b.6 Página de país exibe imagem nos cards (componente ImagemCartao compartilhado)
+- [x] 4b.7 Subtipo lanca_foguetes: fichas HIMARS, M270, ASTROS II, BM-21 Grad, BM-13 Katyusha
 
 ## 5. Demais páginas
 - [ ] 5.1 Eventos, Evento, Linha do tempo no mesmo padrão

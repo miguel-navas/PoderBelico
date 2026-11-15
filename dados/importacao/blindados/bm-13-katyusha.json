@@ -1,0 +1,42 @@
+{
+  "slug": "bm-13-katyusha",
+  "nome": "BM-13 Katyusha",
+  "pais": "SUN",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Voronezh Komintern",
+  "ano_entrada_servico": 1941,
+  "status": "APOSENTADO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Lançador soviético de 16 foguetes de 132 mm usado na Segunda Guerra",
+  "curiosidade": "Os alemães o apelidaram de “órgão de Stalin” pelo som dos motores dos foguetes.",
+  "imagem_url": "/img/blindados/bm-13-katyusha.jpg",
+  "imagem_credito": "Imagem gerada por IA",
+  "operadores": [
+    "SUN"
+  ],
+  "especificacoes": {
+    "subtipo": "lanca_foguetes",
+    "tripulacao": 6,
+    "armamento_principal": {
+      "calibre_mm": 132,
+      "modelo": "16 foguetes M-13 em trilhos (BM-13-16)"
+    },
+    "alcance_km": 8.5
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-bm-13-katyusha",
+      "tipo": "SITE",
+      "titulo": "Katyusha rocket launcher — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Katyusha_rocket_launcher",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "alcance_km é o do foguete M-13 (~8,5 km)",
+    "tripulação: 6 por veículo de tiro (bateria BM-13-16)",
+    "chassis variados: ZIS-6, Studebaker US6, ZIS-151; peso omitido",
+    "serviço 1941 até a década de 1970"
+  ]
+}

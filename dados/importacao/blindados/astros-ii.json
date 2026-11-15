@@ -1,0 +1,40 @@
+{
+  "slug": "astros-ii",
+  "nome": "ASTROS II",
+  "pais": "BRA",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Avibras",
+  "ano_entrada_servico": 1983,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Sistema brasileiro modular de foguetes de saturação sobre caminhão 6x6",
+  "curiosidade": "Aceita foguetes de 127 a 450 mm trocando apenas os contêineres; foi o maior sucesso comercial da Avibras.",
+  "imagem_url": "/img/blindados/astros-ii.jpg",
+  "imagem_credito": "Imagem gerada por IA",
+  "operadores": [
+    "BRA"
+  ],
+  "especificacoes": {
+    "subtipo": "lanca_foguetes",
+    "velocidade_max_kmh": 90,
+    "armamento_principal": {
+      "calibre_mm": 127,
+      "modelo": "foguetes de 127 a 450 mm (SS-09 a SS-80 e AV-TM 300)"
+    }
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-astros-ii",
+      "tipo": "SITE",
+      "titulo": "ASTROS II — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ASTROS_II",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "peso e tripulação não obtidos; omitidos",
+    "calibre_mm indica o menor (127 mm); o sistema usa até 450 mm",
+    "operadores: também Arábia Saudita, Iraque, Malásia, Indonésia, Catar, Bahrein, Angola, ausentes do cadastro"
+  ]
+}

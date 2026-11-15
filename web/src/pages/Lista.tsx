@@ -1,3 +1,4 @@
+import { ImagemCartao } from '../ImagemCartao'
 import { useQuery } from '@tanstack/react-query'
 import { useSearchParams } from 'react-router-dom'
 import { buscarEquipamentos, buscarFiltros } from '../api'
@@ -38,20 +39,28 @@ export default function Lista() {
   const subtipos = (filtros.data?.subtipos ?? []).filter(
     (c) => !parametros.forca || c.forca === parametros.forca,
   )
+  const IMAGEM_FORCA: Record<string, string> = {
+    AEREA: 'caca',
+    MARINHA: 'porta_avioes',
+    EXERCITO: 'tanque_de_batalha',
+  }
+  const imagemBanner = parametros.subtipo
+    ? `/img/categorias/${parametros.subtipo}.jpg`
+    : parametros.forca && IMAGEM_FORCA[parametros.forca]
+      ? `/img/categorias/${IMAGEM_FORCA[parametros.forca]}.jpg`
+      : '/img/fundo-moderno.png'
   const subtipoAtual = filtros.data?.subtipos?.find((c) => c.codigo === parametros.subtipo)
 
   return (
     <section>
       <h2>Equipamentos</h2>
 
-      {parametros.subtipo && (
-        <div
-          className="banner-categoria"
-          style={{ backgroundImage: `linear-gradient(90deg, #080b0ecc, #080b0e33), url(/img/categorias/${parametros.subtipo}.jpg)` }}
-        >
-          <h3>{subtipoAtual?.nome ?? parametros.subtipo}</h3>
-        </div>
-      )}
+      <div
+        className="banner-categoria"
+        style={{ backgroundImage: `linear-gradient(90deg, #080b0ecc, #080b0e33), url(${imagemBanner})` }}
+      >
+        <h3>{subtipoAtual?.nome ?? (parametros.forca ? rotuloForca(parametros.forca) : 'Todos os equipamentos')}</h3>
+      </div>
 
       <details className="painel-filtros" open={abertoInicial}>
         <summary>Filtros{nAtivos > 0 ? ` (${nAtivos} ativos)` : ''}</summary>
@@ -145,21 +154,7 @@ export default function Lista() {
           <ul className="cartoes">
             {lista.data.itens.map((e) => (
               <li key={e.slug} className={`forca-${e.forca.toLowerCase()}`}>
-                <div className="cartao-img">
-                  {e.imagem ? (
-                    <>
-                      <img src={e.imagem.url} alt="" loading="lazy" decoding="async" />
-                      <span className="credito">{e.imagem.credito}</span>
-                    </>
-                  ) : e.subtipo ? (
-                    <>
-                      <img className="generica" src={`/img/categorias/${e.subtipo.codigo}.jpg`} alt="" loading="lazy" decoding="async" />
-                      <span className="credito">Ilustração da categoria · IA</span>
-                    </>
-                  ) : (
-                    <div className="inicial" aria-hidden="true">{e.categoria.nome.charAt(0)}</div>
-                  )}
-                </div>
+                <ImagemCartao e={e} />
                 <LinkF to={`/equipamentos/${e.slug}`}>
                   <strong>{e.nome}</strong>
                   {e.variante && <span> {e.variante}</span>}

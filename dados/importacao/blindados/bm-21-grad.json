@@ -1,0 +1,44 @@
+{
+  "slug": "bm-21-grad",
+  "nome": "BM-21 Grad",
+  "pais": "SUN",
+  "forca": "EXERCITO",
+  "categoria": "TANQUE",
+  "fabricante": "Motovilikha Plants",
+  "ano_entrada_servico": 1963,
+  "status": "ATIVO",
+  "confiabilidade": "ESTIMADO",
+  "descricao_curta": "Lançador soviético de 40 tubos de 122 mm sobre caminhão Ural",
+  "curiosidade": "Seu nome significa “granizo”; é um dos lançadores de foguetes mais difundidos do mundo.",
+  "imagem_url": "/img/blindados/bm-21-grad.jpg",
+  "imagem_credito": "Imagem gerada por IA",
+  "operadores": [
+    "SUN",
+    "RUS"
+  ],
+  "especificacoes": {
+    "subtipo": "lanca_foguetes",
+    "velocidade_max_kmh": 75,
+    "peso_kg": 13700,
+    "tripulacao": 3,
+    "comprimento_m": 7.35,
+    "armamento_principal": {
+      "calibre_mm": 122,
+      "modelo": "40 tubos, foguete M-21OF"
+    }
+  },
+  "fontes": [
+    {
+      "slug": "wikipedia-bm-21-grad",
+      "tipo": "SITE",
+      "titulo": "BM-21 Grad — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BM-21_Grad",
+      "provisoria": false
+    }
+  ],
+  "_pendencias": [
+    "peso e comprimento de fonte secundária (Wikidata/Wikipedia)",
+    "autonomia rodoviária não incluída",
+    "operadores: dezenas de países, ausentes do cadastro"
+  ]
+}

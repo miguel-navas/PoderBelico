@@ -1,3 +1,4 @@
+import { ImagemCartao } from '../ImagemCartao'
 import { useQuery } from '@tanstack/react-query'
 import { buscarEquipamentos, buscarEventos, buscarFiltros } from '../api'
 import { LinkF, SeletorForca } from '../navegacao'
@@ -30,7 +31,8 @@ function SecaoForca({ codigo, pais }: { codigo: string; pais: string }) {
           <h4>Equipamentos ({equipamentos.data.total})</h4>
           <ul className="cartoes">
             {equipamentos.data.itens.map((e) => (
-              <li key={e.slug}>
+              <li key={e.slug} className={`forca-${e.forca.toLowerCase()}`}>
+                <ImagemCartao e={e} />
                 <LinkF to={`/equipamentos/${e.slug}`}>
                   <strong>{e.nome}</strong>
                   {e.variante ? ` ${e.variante}` : ''}
